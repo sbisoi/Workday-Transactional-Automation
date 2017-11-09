@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?><wd:Report_Data xmlns:wd="urn:com.workday.report/IntuitIntegrationAdmin/IntuitGetWorker">
+   <wd:Report_Entry>
+      <wd:EMPLOYEE_ID>53850</wd:EMPLOYEE_ID>
+      <wd:CORP_ID>10000105893</wd:CORP_ID>
+      <wd:APPLICANT_ID>A53850</wd:APPLICANT_ID>
+      <wd:LEGAL_NAME>Velu, Malika C.</wd:LEGAL_NAME>
+      <wd:LEGAL_FIRST_NAME>Malika</wd:LEGAL_FIRST_NAME>
+      <wd:LEGAL_MIDDLE_NAME>C.</wd:LEGAL_MIDDLE_NAME>
+      <wd:LEGAL_LAST_NAME>Velu</wd:LEGAL_LAST_NAME>
+      <wd:PREFERRED_NAME>Velu, Malika</wd:PREFERRED_NAME>
+      <wd:PREFERRED_NAME_FIRST>Malika</wd:PREFERRED_NAME_FIRST>
+      <wd:PREFERRED_NAME_LAST>Velu</wd:PREFERRED_NAME_LAST>
+      <wd:BIRTHDATE>08/26</wd:BIRTHDATE>
+      <wd:HIRE_DT>2001-04-23</wd:HIRE_DT>
+      <wd:REHIRE_DT>2001-04-23</wd:REHIRE_DT>
+      <wd:COMPANY_ID>100</wd:COMPANY_ID>
+      <wd:COMPANY_DESC>Intuit Corp</wd:COMPANY_DESC>
+      <wd:ORG_ID>921</wd:ORG_ID>
+      <wd:ORG_NAME>Prod and Technology III</wd:ORG_NAME>
+      <wd:DEPT_ID>7836</wd:DEPT_ID>
+      <wd:DEPT_NAME>Ent Ops-DC/Ent Storage</wd:DEPT_NAME>
+      <wd:BusinessSite_G>
+         <wd:WD_LOCATION>USACA19</wd:WD_LOCATION>
+      </wd:BusinessSite_G>
+      <wd:SUPERVISOR_ID>72330</wd:SUPERVISOR_ID>
+      <wd:EMP_TYPE>E</wd:EMP_TYPE>
+      <wd:EMP_CLASS_DES>Employee</wd:EMP_CLASS_DES>
+      <wd:EMP_STATUS_CODE>T</wd:EMP_STATUS_CODE>
+      <wd:JOBCODE>ASWX23</wd:JOBCODE>
+      <wd:JOBCODE_DESC>Staff SW Engineer</wd:JOBCODE_DESC>
+      <wd:JOB_FAMILY>SWX - Software Engineering</wd:JOB_FAMILY>
+      <wd:JOB_FUNCTION>A - Software Engineering</wd:JOB_FUNCTION>
+      <wd:GRADE>LEC</wd:GRADE>
+      <wd:FULL_PART_TIME>F</wd:FULL_PART_TIME>
+      <wd:BUSINESS_TITLE>Staff SW Engineer</wd:BUSINESS_TITLE>
+      <wd:FLSA_STATUS>T</wd:FLSA_STATUS>
+      <wd:STD_HOURS>40</wd:STD_HOURS>
+      <wd:CURRENCY_CODE>USD</wd:CURRENCY_CODE>
+      <wd:Bonus_G>
+         <wd:BONUS_PLAN_CODE>IPI</wd:BONUS_PLAN_CODE>
+      </wd:Bonus_G>
+      <wd:BONUS_TARGET_PCT>0.2</wd:BONUS_TARGET_PCT>
+      <wd:HOME_PHONE>+</wd:HOME_PHONE>
+      <wd:HOME_ADDRESS1>43411 Olivos Court</wd:HOME_ADDRESS1>
+      <wd:HOME_CITY>Fremont</wd:HOME_CITY>
+      <wd:HOME_STATE>CA</wd:HOME_STATE>
+      <wd:HOME_POSTAL>94539</wd:HOME_POSTAL>
+      <wd:HOME_COUNTRY>USA</wd:HOME_COUNTRY>
+      <wd:IS_MGR_OF_EMP>0</wd:IS_MGR_OF_EMP>
+      <wd:IS_MGR_OF_CWF>0</wd:IS_MGR_OF_CWF>
+      <wd:IS_MGR_OF_EMP_OR_CWF>0</wd:IS_MGR_OF_EMP_OR_CWF>
+      <wd:WID>549b00f09fa646b88b50c3212e985ede</wd:WID>
+      <wd:POSITION_ID>P53850</wd:POSITION_ID>
+      <wd:IS_WORKER_TYPE_CWF>0</wd:IS_WORKER_TYPE_CWF>
+      <wd:MGR_CORP_ID>10000137331</wd:MGR_CORP_ID>
+      <wd:WORK_EMAIL>Mallika_Velu@intuit.com</wd:WORK_EMAIL>
+      <wd:WORK_PHONE>+1  6509445081 x45081</wd:WORK_PHONE>
+      <wd:WORK_CELL>+1  650 743 1527</wd:WORK_CELL>
+      <wd:TERM_DATE>2016-07-14</wd:TERM_DATE>
+      <wd:TERM_REASON>Mutual Consent</wd:TERM_REASON>
+      <wd:DIRECTORY_LOGIN_ID>mvelu</wd:DIRECTORY_LOGIN_ID>
+      <wd:MAIL_STOP>MPK-01-03</wd:MAIL_STOP>
+      <wd:IS_TALEO_ADMIN>1</wd:IS_TALEO_ADMIN>
+      <wd:IS_PRIMETIME_ADMIN>1</wd:IS_PRIMETIME_ADMIN>
+      <wd:SUPERVISORY_ORG_REF_ID>SUP-72330</wd:SUPERVISORY_ORG_REF_ID>
+      <wd:IS_HRBP>0</wd:IS_HRBP>
+      <wd:IS_WORKER_RECRUITER>0</wd:IS_WORKER_RECRUITER>
+      <wd:IS_PAYROLL_COUNTRY_USA>1</wd:IS_PAYROLL_COUNTRY_USA>
+      <wd:NOT_ELIGIBLE_FOR_HIRE>0</wd:NOT_ELIGIBLE_FOR_HIRE>
+   </wd:Report_Entry>
+</wd:Report_Data>

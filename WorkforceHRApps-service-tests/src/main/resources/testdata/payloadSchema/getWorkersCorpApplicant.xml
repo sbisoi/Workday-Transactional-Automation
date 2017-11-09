@@ -1,0 +1,9 @@
+<bm:GetWorkerAndQueryWorkers bm:xmlnsxsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bm="http://www.boomi.com">
+  <bm:Search_Type>GetWorker</bm:Search_Type>
+  <bm:GetWorkerBy>
+    <bm:Filter>Corp_ID</bm:Filter>
+    <bm:ID>10000105893</bm:ID>
+  </bm:GetWorkerBy>
+  <bm:PartnerName>SFB2C</bm:PartnerName>
+  <bm:Version>1.1</bm:Version>
+</bm:GetWorkerAndQueryWorkers>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WorkforceHRApps-production-tests">
+    <test name="WorkforceHRApps production tests">
+        <packages>
+            <package name="com.intuit.ebs.wft.WorkforceHRApps.tests.production.*"/>
+        </packages>
+    </test>
+</suite>

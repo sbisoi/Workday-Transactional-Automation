@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?><element>
+  <Applicant_ID>A4100726</Applicant_ID>
+  <Employee_ID>193092</Employee_ID>
+  <Corp_ID>50000653163</Corp_ID>
+  <Legal_Name>Salu, John</Legal_Name>
+  <Legal_First_Name>John</Legal_First_Name>
+  <Legal_Last_Name>Salu</Legal_Last_Name>
+  <Preferred_Name>Salu, John</Preferred_Name>
+  <Preferred_Name_First>Salu</Preferred_Name_First>
+  <Preferred_Name_Last>Salujohn</Preferred_Name_Last>
+  <Hire_Dt>20171026</Hire_Dt>
+  <Rehire_Dt>20171026</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>057</Org_Id>
+  <Org_Name>SBG Center</Org_Name>
+  <Dept_Id>1404</Dept_Id>
+  <Dept_Name>Implementation Services/Terminal Support</Dept_Name>
+  <Supervisor_Id>94128</Supervisor_Id>
+  <WORKER_TYPE>Contingent Worker</WORKER_TYPE>
+  <Emp_Type>N</Emp_Type>
+  <Emp_Status_Code>A</Emp_Status_Code>
+  <CWF_Type>Outsource</CWF_Type>
+  <Bufg>1BU020</Bufg>
+  <Jobcode>XYTSU91</Jobcode>
+  <Jobcode_Desc>CW Technical Support 1</Jobcode_Desc>
+  <Job_Family>YTSU - CW Technical Support</Job_Family>
+  <Job_Function>X - Contingent Workers</Job_Function>
+  <Business_Title>CW Technical Support 1</Business_Title>
+  <FLSA_Status>N</FLSA_Status>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>0</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>0</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Target_Pct>0</Bonus_Target_Pct>
+  <BONUS_TGT_PERCENT_WDP_EVNT_VAL>0</BONUS_TGT_PERCENT_WDP_EVNT_VAL>
+  <Legal_Work_Location>PHLCB01</Legal_Work_Location>
+  <WD_Location_Country_Code>PHL</WD_Location_Country_Code>
+  <Effective_Date>20171026</Effective_Date>
+  <Supplier>ARISE</Supplier>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <NID_Count>0</NID_Count>
+  <BP_Event>Contract Contingent Worker</BP_Event>
+  <BP_Completion_Date>2017-10-14 13:35:44</BP_Completion_Date>
+  <BP_Status>Successfully Completed</BP_Status>
+  <BP_REASON>Contract Contingent Worker > Contract Contingent Worker > Outsourcer</BP_REASON>
+  <BP_Reason_Text>Outsourcer</BP_Reason_Text>
+  <BP_Effective_Dt>2017-10-26</BP_Effective_Dt>
+  <BP_Process_WID>1472194fc8880190c1067626db421a09</BP_Process_WID>
+  <TRANSACTION_TYPE>Regular</TRANSACTION_TYPE>
+  <Work_Email>JohnRey.Solijon@agent.cvgs.net</Work_Email>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <MANAGER_AS_OF_DATE1>94128</MANAGER_AS_OF_DATE1>
+  <JOBCODE_AS_OF_DATE1>XYTSU91</JOBCODE_AS_OF_DATE1>
+  <TOP_SUPERVISORY_ORG>Intuit (Brad Smith)</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>js1480</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Supervisory_Org_Ref_Id>SP00101</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>96b3560cffe9101dde9c892db8a418d6</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>0</Is_Payroll_Country_USA>
+  <Eventless_Manager_Change_Flag>0</Eventless_Manager_Change_Flag>
+  <WID>1472194fc888011f83be5637db429109</WID>
+  <Jobcode_Change_Flag>0</Jobcode_Change_Flag>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>8th, 9th, 10th and 11th Floor TGU Tower</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_ADDRESS2>Jose Maria del Mar St,</PRIM_WORK_ADDRESS2>
+  <PRIM_WORK_CITY>Cebu City</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>Cebu</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>CEB</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>Philippines</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>PHL</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>6000</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>6</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>X - Contingent Workers</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>66043</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>G - General Management</L2_JOB_FAMILY_GROUP>
+  <MANAGERS_MGR_ID>157546</MANAGERS_MGR_ID>
+  <PERSONAL_EMAIL>JohnRey.Solijon@agent.cvgs.net</PERSONAL_EMAIL>
+  <MANAGER_NAME>Amy Deacon</MANAGER_NAME>
+  <MANAGER_EMAIL>Amy_Deacon@intuit.com</MANAGER_EMAIL>
+  <MANAGER_BUSINESS_TITLE>Mgr 2 Service and Support</MANAGER_BUSINESS_TITLE>
+  <DID_EE_MOVE_IC_2_MGR>0</DID_EE_MOVE_IC_2_MGR>
+  <BP_REASON_CATG>Contract Contingent Worker</BP_REASON_CATG>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <IS_EXTERNAL_LOAD>1</IS_EXTERNAL_LOAD>
+  <SUP_ORG_EFF_DT>2016-08-26</SUP_ORG_EFF_DT>
+  <HR_BUS_PARTNER>Sibel Poore | Kristin Vines</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS>No Entry</EIACA_STATUS>
+  <LOCATION_EFFT_DATE>2017-10-26</LOCATION_EFFT_DATE>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>0</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <BONUS_TARGET_AMT>0</BONUS_TARGET_AMT>
+  <BONUS_TGT_AMT_WDP_EVENT_VALUE>0</BONUS_TGT_AMT_WDP_EVENT_VALUE>
+  <BONUS_PLANNED_PCT>0</BONUS_PLANNED_PCT>
+  <LEVEL2_MGR_NAME>Sasan Goodarzi</LEVEL2_MGR_NAME>
+  <BU_NAME>SBG</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Jennifer Hall</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>0</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>SBG (Sasan Goodarzi)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>SBG-Care (Jennifer Hall (On Leave))</LEVEL3_ORG_NAME>
+  <SUPERVISORY_ORGANIZATION>Organization (Amy Deacon)</SUPERVISORY_ORGANIZATION>
+  <LOCATION>Remote Cebu</LOCATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2017-10-26</TIME_IN_JOB_PROFILE_START_DATE>
+  <EMP_COUNT_WORKER_ORG>0</EMP_COUNT_WORKER_ORG>
+  <DETAILED_WORKER_STATUS>Active</DETAILED_WORKER_STATUS>
+  <LEVEL04_MGR_NAME>Balakarthik Venkataramanan</LEVEL04_MGR_NAME>
+  <LEVEL05_MGR_NAME>Amy Deacon</LEVEL05_MGR_NAME>
+  <TIME_IN_JOB_PROFILE>0</TIME_IN_JOB_PROFILE>
+  <LOCATION_HIERARCHY_LEVEL_05_AWAY>APAC</LOCATION_HIERARCHY_LEVEL_05_AWAY>
+  <Trans_Type>Bulk_Future_Txn</Trans_Type>
+  <System_List>Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;IMTQB;SFB2B;SFB2C</System_List>
+  <Sales_Care_Level_1_Assignment>SBG Global Online IN Tier 1-INT-BNG Jkaur</Sales_Care_Level_1_Assignment>
+  <SC_Level1_Mgr_Corp>50002003190</SC_Level1_Mgr_Corp>
+</element>

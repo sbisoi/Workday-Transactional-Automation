@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WorkforceHRApps-qa-tests">
+    <test name="WorkforceHRApps service tests" preserve-order="true">
+        <classes>
+            <class name="com.intuit.ebs.wft.WorkforceHRApps.tests.service.WDLaunchIntegrationTest" >
+                <methods>
+                    <include name="testGloboforceOutboundLaunch"/>
+                   
+                </methods>
+              
+           </class>
+        </classes>
+    </test>
+</suite>

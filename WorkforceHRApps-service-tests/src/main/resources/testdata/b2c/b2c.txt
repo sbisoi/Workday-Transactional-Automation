@@ -1,0 +1,1 @@
+client_id=3MVG9_7ddP9KqTzczFLEEN8NDHGLQ3R1Ozj1o.QlRBJZ3e5vAZiExPB3HTajuaGqTGxq9K3rCyxszPhansBeO&client_secret=7311146000612413618&username=boomi_integration@intuit.com.b2c.dev&password=bib2cdevaug7&grant_type=password

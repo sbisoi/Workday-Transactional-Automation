@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wd:Report_Data xmlns:wd="urn:com.workday.report/IntuitIntegrationAdmin/IntuitGetWorker">
+   <wd:Report_Entry>
+      <wd:EMPLOYEE_ID>192830</wd:EMPLOYEE_ID>
+      <wd:CORP_ID>70000035537</wd:CORP_ID>
+      <wd:APPLICANT_ID>A4100437</wd:APPLICANT_ID>
+      <wd:LEGAL_NAME>Kapur, Anil</wd:LEGAL_NAME>
+      <wd:LEGAL_FIRST_NAME>Anil</wd:LEGAL_FIRST_NAME>
+      <wd:LEGAL_LAST_NAME>Kapur</wd:LEGAL_LAST_NAME>
+      <wd:PREFERRED_NAME>Kapur, Anil</wd:PREFERRED_NAME>
+      <wd:PREFERRED_NAME_FIRST>Anil</wd:PREFERRED_NAME_FIRST>
+      <wd:PREFERRED_NAME_LAST>Kapur</wd:PREFERRED_NAME_LAST>
+      <wd:HIRE_DT>2017-07-11</wd:HIRE_DT>
+      <wd:REHIRE_DT>2017-07-11</wd:REHIRE_DT>
+      <wd:COMPANY_ID>100</wd:COMPANY_ID>
+      <wd:COMPANY_DESC>Intuit Corp</wd:COMPANY_DESC>
+      <wd:ORG_ID>150</wd:ORG_ID>
+      <wd:ORG_NAME>ProTax - ProSeries</wd:ORG_NAME>
+      <wd:DEPT_ID>2202</wd:DEPT_ID>
+      <wd:DEPT_NAME>TS-Admin/Consulting/PCS</wd:DEPT_NAME>
+      <wd:BusinessSite_G>
+         <wd:WD_LOCATION>USAINRM</wd:WD_LOCATION>
+      </wd:BusinessSite_G>
+      <wd:SUPERVISOR_ID>91628</wd:SUPERVISOR_ID>
+      <wd:EMP_TYPE>N</wd:EMP_TYPE>
+      <wd:CWF_TYPE>Outsource</wd:CWF_TYPE>
+      <wd:EMP_STATUS_CODE>A</wd:EMP_STATUS_CODE>
+      <wd:BUFG>1BU025</wd:BUFG>
+      <wd:JOBCODE>XYTSU91</wd:JOBCODE>
+      <wd:JOBCODE_DESC>CW Technical Support 1</wd:JOBCODE_DESC>
+      <wd:JOB_FAMILY>YTSU - CW Technical Support</wd:JOB_FAMILY>
+      <wd:JOB_FUNCTION>X - Contingent Workers</wd:JOB_FUNCTION>
+      <wd:FULL_PART_TIME>F</wd:FULL_PART_TIME>
+      <wd:BUSINESS_TITLE>CW Technical Support 1</wd:BUSINESS_TITLE>
+      <wd:FLSA_STATUS>N</wd:FLSA_STATUS>
+      <wd:STD_HOURS>40</wd:STD_HOURS>
+      <wd:BONUS_TARGET_PCT>0</wd:BONUS_TARGET_PCT>
+      <wd:IS_MGR_OF_EMP>0</wd:IS_MGR_OF_EMP>
+      <wd:IS_MGR_OF_CWF>0</wd:IS_MGR_OF_CWF>
+      <wd:IS_MGR_OF_EMP_OR_CWF>0</wd:IS_MGR_OF_EMP_OR_CWF>
+      <wd:WID>dceff7c85b91015f0fdda20ea72c1eb3</wd:WID>
+      <wd:POSITION_ID>Job-6-164946</wd:POSITION_ID>
+      <wd:IS_WORKER_TYPE_CWF>1</wd:IS_WORKER_TYPE_CWF>
+      <wd:MGR_CORP_ID>10000000192</wd:MGR_CORP_ID>
+      <wd:WORK_PHONE>+1  67654178911111 x14461</wd:WORK_PHONE>
+      <wd:DIRECTORY_LOGIN_ID>ak18671</wd:DIRECTORY_LOGIN_ID>
+      <wd:IS_TALEO_ADMIN>0</wd:IS_TALEO_ADMIN>
+      <wd:SUPERVISORY_ORG_REF_ID>S4570</wd:SUPERVISORY_ORG_REF_ID>
+      <wd:IS_HRBP>0</wd:IS_HRBP>
+      <wd:IS_WORKER_RECRUITER>0</wd:IS_WORKER_RECRUITER>
+      <wd:IS_PAYROLL_COUNTRY_USA>0</wd:IS_PAYROLL_COUNTRY_USA>
+      <wd:CW_SUPPLIER>ARISE</wd:CW_SUPPLIER>
+      <wd:NOT_ELIGIBLE_FOR_HIRE>0</wd:NOT_ELIGIBLE_FOR_HIRE>
+      <wd:FUTURE_CONTACT_CHANGE_DT>2017-09-11</wd:FUTURE_CONTACT_CHANGE_DT>
+   </wd:Report_Entry>
+</wd:Report_Data>

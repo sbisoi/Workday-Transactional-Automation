@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 		
+<bm:termContingentWorkers bm:xmlnsxsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bm="http://www.intuit.com" >		
+<bm:globalHeader>	
+<bm:LookupAttribute>Corp_ID</bm:LookupAttribute>		
+<bm:workerType>Outsource</bm:workerType>		
+<bm:notificationEmail>rose_richardson@intuit.com</bm:notificationEmail>		
+<bm:requestDate>10/2/17</bm:requestDate>		
+<bm:Version>1.0</bm:Version>		
+</bm:globalHeader><bm:termContingentWorker>
+<bm:Action_Type>EndContract</bm:Action_Type>
+<bm:Change_Date>2017-10-02</bm:Change_Date>
+<bm:FirstName>Amy</bm:FirstName>
+<bm:LastName>Keaton</bm:LastName>
+<bm:TermReason></bm:TermReason>
+<bm:RegionID></bm:RegionID>
+<bm:CorpID>50002053198</bm:CorpID>
+<bm:EmployeeID></bm:EmployeeID>
+<bm:ApplicantID>A4078826</bm:ApplicantID>
+<bm:ContractEndDate>2017-10-02</bm:ContractEndDate>
+<bm:EligibleToReturn>Yes</bm:EligibleToReturn>
+</bm:termContingentWorker>
+<bm:PartnerName>CONVERGYS</bm:PartnerName>
+</bm:termContingentWorkers>

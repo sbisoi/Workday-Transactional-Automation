@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<idm:Report_Data xmlns:wd="urn:com.workday.report/IntuitIntegrationAdmin/IntuitIdMOutbound-HireOnly"
+                 xmlns:idm="urn:com.workday.report/IntuitIntegration/Phase2IntuitIdMOutbound">
+   <idm:Report_Entry>
+      <idm:APPLICANT_ID>A4102414</idm:APPLICANT_ID>
+      <idm:EMPLOYEE_ID>195382</idm:EMPLOYEE_ID>
+      <idm:CORP_ID>50002101950</idm:CORP_ID>
+      <idm:LEGAL_NAME>Jaganmohan Varma Pinnamaraju</idm:LEGAL_NAME>
+      <idm:LEGAL_FIRST_NAME>Jaganmohan Varma</idm:LEGAL_FIRST_NAME>
+      <idm:LEGAL_MIDDLE_NAME/>
+      <idm:LEGAL_LAST_NAME>Pinnamaraju</idm:LEGAL_LAST_NAME>
+      <idm:LEGAL_NAME_PREFIX/>
+      <idm:LEGAL_NAME_SUFFIX/>
+      <idm:PREFERRED_NAME>Jaganmohan Pinnamaraju</idm:PREFERRED_NAME>
+      <idm:PREFERRED_NAME_FIRST>Jaganmohan</idm:PREFERRED_NAME_FIRST>
+      <idm:PREFERRED_NAME_MIDDLE/>
+      <idm:PREFERRED_NAME_LAST>Pinnamaraju</idm:PREFERRED_NAME_LAST>
+      <idm:PREFERRED_NAME_PREFIX/>
+      <idm:PREFERRED_NAME_SUFFIX/>
+      <idm:BIRTHDATE/>
+      <idm:HIRE_DT>06/07/2017</idm:HIRE_DT>
+      <idm:REHIRE_DT>06/07/2017</idm:REHIRE_DT>
+      <idm:COMPANY_ID>256</idm:COMPANY_ID>
+      <idm:COMPANY_DESC>Intuit India Product Devp Centre Pvt Ltd – Unit 1</idm:COMPANY_DESC>
+      <idm:COMPANY_DISPLAY>256 - Intuit India Product Devp Centre Pvt Ltd – Unit 1</idm:COMPANY_DISPLAY>
+      <idm:ORG_ID>933</idm:ORG_ID>
+      <idm:ORG_NAME>CTO 1</idm:ORG_NAME>
+      <idm:ORG_DISPLAY>933 - CTO 1</idm:ORG_DISPLAY>
+      <idm:DEPT_ID>5827</idm:DEPT_ID>
+      <idm:DEPT_NAME>Enterprise Architecture</idm:DEPT_NAME>
+      <idm:DEPT_DISPLAY>5827 - Enterprise Architecture</idm:DEPT_DISPLAY>
+      <idm:SUPERVISOR_ID>87033</idm:SUPERVISOR_ID>
+      <idm:EMP_TYPE>OSP</idm:EMP_TYPE>
+      <idm:EMP_CLASS_DES>OSP</idm:EMP_CLASS_DES>
+      <idm:EMP_STATUS_CODE>A</idm:EMP_STATUS_CODE>
+      <idm:EMP_STATUS_DESC>Active</idm:EMP_STATUS_DESC>
+      <idm:REFERRAL_SOURCE/>
+      <idm:BUFG>1FG008</idm:BUFG>
+      <idm:JOBCODE>XYSWX90</idm:JOBCODE>
+      <idm:JOBCODE_DESC>CW Software Engineering</idm:JOBCODE_DESC>
+      <idm:JOB_FAMILY>YSWX</idm:JOB_FAMILY>
+      <idm:JOB_FUNCTION>X</idm:JOB_FUNCTION>
+      <idm:GRADE/>
+      <idm:BUSINESS_TITLE>CW Software Engineering</idm:BUSINESS_TITLE>
+      <idm:FLSA_STATUS>N</idm:FLSA_STATUS>
+      <idm:STD_HOURS>40</idm:STD_HOURS>
+      <idm:FULL_PART_TIME>F</idm:FULL_PART_TIME>
+      <idm:ANNUAL_RT>0</idm:ANNUAL_RT>
+      <idm:HOURLY_RT>0</idm:HOURLY_RT>
+      <idm:CURRENCY_CODE/>
+      <idm:BONUS_PLAN_CODE/>
+      <idm:BONUS_TARGET_PCT>0</idm:BONUS_TARGET_PCT>
+      <idm:HOME_PHONE/>
+      <idm:TERM_DATE/>
+      <idm:TERM_REASON/>
+      <idm:HOME_ADDRESS1/>
+      <idm:HOME_ADDRESS2/>
+      <idm:HOME_CITY/>
+      <idm:HOME_STATE/>
+      <idm:HOME_POSTAL/>
+      <idm:HOME_COUNTRY/>
+      <idm:WD_LOCATION/>
+      <idm:EFFECTIVE_DATE>11/05/2017</idm:EFFECTIVE_DATE>
+      <idm:EVENT_TYPE>Hire</idm:EVENT_TYPE>
+      <idm:NID_4DIGIT/>
+      <idm:SUPPLIER>PERSISTENT SYSTEMS LTD</idm:SUPPLIER>
+      <idm:IS_MANAGER>N</idm:IS_MANAGER>
+      <idm:WORK_PHONE_COUNTRY_CD>1</idm:WORK_PHONE_COUNTRY_CD>
+      <idm:WORK_PHONE_NUMBER>6509446000</idm:WORK_PHONE_NUMBER>
+      <idm:WORK_PHONE_EXTENSION/>
+      <idm:WORK_CELL_COUNTRY_CD/>
+      <idm:WORK_CELL_NUMBER/>
+      <idm:WORK_FAX_COUNTRY_CD/>
+      <idm:WORK_FAX_NUMBER/>
+      <idm:PHOTO_WID/>
+      <idm:ADMIN_ASST_ID/>
+      <idm:COMMUNITY>PD</idm:COMMUNITY>
+   </idm:Report_Entry>
+</idm:Report_Data>

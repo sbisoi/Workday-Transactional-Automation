@@ -1,0 +1,1990 @@
+2017-10-30 12:23:19 CreateEMP (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 12:23:19 CreateEMP (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 12:23:19 CreateEMP (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 12:23:19 CreateEMP (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 12:23:19 CreateEMP (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 12:23:19 CreateEMP (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 12:23:19 CreateEMP (CreateEmp) [INFO] ====================Verification on Taleo Started==================
+2017-10-30 12:23:19 CreateEMP (PostSetRestAssuredConfig) [INFO] ------- setRestAssuredConfig---------
+2017-10-30 12:23:19 CreateEMP (PostSetRestAssuredConfig) [INFO] ----Building Request Specification for Post Call -----
+2017-10-30 12:23:19 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic Ym9vbWk6THFIPzlCNGc=, contentType=application/json}
+2017-10-30 12:24:17 CreateEMP (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 12:24:17 CreateEMP (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 12:24:17 CreateEMP (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 12:24:17 CreateEMP (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 12:24:17 CreateEMP (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 12:24:17 CreateEMP (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 12:24:17 CreateEMP (CreateEmp) [INFO] ==============Validate Smashfly===============================
+2017-10-30 12:25:08 CreateEMP (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 12:25:08 CreateEMP (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 12:25:08 CreateEMP (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 12:25:08 CreateEMP (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 12:25:08 CreateEMP (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 12:25:08 CreateEMP (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 12:25:08 CreateEMP (CreateEmp) [INFO] ==============Validate Smashfly===============================
+2017-10-30 12:25:08 CreateEMP (CreateEmp) [INFO] ==============Create the Connection================================
+2017-10-30 12:26:29 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 12:26:29 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 12:26:29 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 12:26:29 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 12:26:29 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 12:26:29 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 12:26:29 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 12:26:29 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 12:26:29 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 12:26:29 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 12:26:29 BoomiTest (upsertOIMTest) [INFO] ==================Info OIM Upsert========================
+2017-10-30 12:26:29 BoomiTest (upsertOIMTest) [INFO] =====Call Restassured confsig method=========
+2017-10-30 12:26:29 BoomiTest (PostSetRestAssuredConfig) [INFO] ------- setRestAssuredConfig---------
+2017-10-30 12:26:29 BoomiTest (PostSetRestAssuredConfig) [INFO] ----Building Request Specification for Post Call -----
+2017-10-30 12:26:29 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/json}
+2017-10-30 12:26:29 BoomiTest (upsertOIMTest) [INFO] VPCE2E URL :  = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 12:26:29 BoomiTest (upsertOIMTest) [INFO]                                                                     
+2017-10-30 12:26:29 BoomiTest (upsertOIMTest) [INFO] VPCE2E Auth Token : = Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-30 12:26:29 BoomiTest (upsertOIMTest) [INFO]                                                                     
+2017-10-30 12:26:29 BoomiTest (upsertOIMTest) [INFO] ====================Starting upsertOIM Call==========================
+2017-10-30 12:26:29 Utility (parseXmlPayload) [INFO] Headers :[﻿element/Applicant_ID, element/Employee_ID, element/Corp_ID, element/Legal_Name, element/Legal_First_Name, element/Legal_Last_Name, element/Preferred_Name, element/Preferred_Name_First, element/Preferred_Name_Last, element/Hire_Dt, element/Rehire_Dt, element/Company_Id, element/Company_Desc, element/Org_Id, element/Org_Name, element/Dept_Id, element/Dept_Name, element/Supervisor_Id, element/WORKER_TYPE, element/Emp_Type, element/Emp_Status_Code, element/CWF_Type, element/Bufg, element/Jobcode, element/Jobcode_Desc, element/Job_Family, element/Job_Function, element/Business_Title, element/FLSA_Status, element/Std_Hours, element/Full_Part_Time, element/Annual_Rt, element/Hourly_Rt, element/ANNUAL_RT_WDP_EVENT_VALUE, element/HOURLY_RT_WDP_EVENT_VALUE, element/Bonus_Target_Pct, element/BONUS_TGT_PERCENT_WDP_EVNT_VAL, element/Legal_Work_Location, element/WD_Location_Country_Code, element/Effective_Date, element/Supplier, element/Is_Manager, element/Is_Manager_Of_Cwf, element/Is_Manager_Of_Emp_Or_Cwf, element/NID_Count, element/BP_Event, element/BP_Completion_Date, element/BP_Status, element/BP_REASON, element/BP_Reason_Text, element/BP_Effective_Dt, element/BP_Process_WID, element/TRANSACTION_TYPE, element/Work_Email, element/IS_ADMIN_ASST, element/MANAGER_AS_OF_DATE1, element/JOBCODE_AS_OF_DATE1, element/TOP_SUPERVISORY_ORG, element/Directory_Login_Id, element/Is_Taleo_Admin, element/Supervisory_Org_Ref_Id, element/SUPERVISORY_ORGANIZATION_WID, element/Is_Recruiter, element/Is_HRBP, element/Is_Payroll_Country_USA, element/Eventless_Manager_Change_Flag, element/WID, element/Jobcode_Change_Flag, element/IS_SOURCER, element/IS_TAM, element/IS_FINANCE_BP, element/IS_HR_ADVISOR, element/IS_HRBI, element/IS_TAC, element/PRIM_WORK_ADDRESS, element/PRIM_WORK_ADDRESS2, element/PRIM_WORK_CITY, element/PRIM_WORK_STATE, element/PRIM_WORK_STATE_ISO_CODE, element/PRIM_WORK_COUNTRY, element/PRIM_WORK_COUNTRY_ISO_CODE, element/PRIM_WORK_POSTAL_CODE, element/EE_ORG_LEVEL, element/EE_JOB_FAMILY_GROUP, element/L2_EMPLOYEE_ID, element/L2_JOB_FAMILY_GROUP, element/MANAGERS_MGR_ID, element/PERSONAL_EMAIL, element/MANAGER_NAME, element/MANAGER_EMAIL, element/MANAGER_BUSINESS_TITLE, element/DID_EE_MOVE_IC_2_MGR, element/BP_REASON_CATG, element/NOT_ELIGIBLE_FOR_REHIRE, element/IS_EXTERNAL_LOAD, element/SUP_ORG_EFF_DT, element/HR_BUS_PARTNER, element/SCH_WEEKLY_HOURS, element/POS_TIME_TYPE_FLASTATUS, element/EIACA_STATUS, element/LOCATION_EFFT_DATE, element/TTL_BASE_PERIOD_WDP_EVNT_VAL, element/BONUS_TARGET_AMT, element/BONUS_TGT_AMT_WDP_EVENT_VALUE, element/BONUS_PLANNED_PCT, element/LEVEL2_MGR_NAME, element/BU_NAME, element/GENDER_SHORT, element/CONTRACT_PAY_RATE, element/LEVEL3_MGR_NAME, element/TOTAL_BASE_PAY_AMOUNT, element/LEVEL2_ORG_NAME, element/LEVEL3_ORG_NAME, element/SUPERVISORY_ORGANIZATION, element/LOCATION, element/TIME_IN_JOB_PROFILE_START_DATE, element/EMP_COUNT_WORKER_ORG, element/DETAILED_WORKER_STATUS, element/LEVEL04_MGR_NAME, element/LEVEL05_MGR_NAME, element/TIME_IN_JOB_PROFILE, element/LOCATION_HIERARCHY_LEVEL_05_AWAY, element/Trans_Type, element/System_List, element/Sales_Care_Level_1_Assignment, element/SC_Level1_Mgr_Corp]
+Values: [A4100726, 193092, 50000653163, Solijon, John Rey, John Rey, Solijon, Solijon, John Rey, John Rey, Solijon, 20171026, 20171026, 100, Intuit Corp, 057, SBG Center, 1404, Implementation Services/Terminal Support, 94128, Contingent Worker, N, A, Outsource, 1BU020, XYTSU91, CW Technical Support 1, YTSU - CW Technical Support, X - Contingent Workers, CW Technical Support 1, N, 40, F, 0, 0, 0, 0, 0, 0, PHLCB01, PHL, 20171026, ARISE, 0, 0, 0, 0, Contract Contingent Worker, 2017-10-14 13:35:44, Successfully Completed, Contract Contingent Worker > Contract Contingent Worker > Outsourcer, Outsourcer, 2017-10-26, 1472194fc8880190c1067626db421a09, Regular, JohnRey.Solijon@agent.cvgs.net, 0, 94128, XYTSU91, Intuit (Brad Smith), js1480, 0, SP00101, 96b3560cffe9101dde9c892db8a418d6, 0, 0, 0, 0, 1472194fc888011f83be5637db429109, 0, 0, 0, 0, 0, 0, 0, 8th, 9th, 10th and 11th Floor TGU Tower, Jose Maria del Mar St,, Cebu City, Cebu, CEB, Philippines, PHL, 6000, 6, X - Contingent Workers, 66043, G - General Management, 157546, JohnRey.Solijon@agent.cvgs.net, Amy Deacon, Amy_Deacon@intuit.com, Mgr 2 Service and Support, 0, Contract Contingent Worker, 0, 1, 2016-08-26, Sibel Poore | Kristin Vines, 40, Full time, No Entry, 2017-10-26, 0, 0, 0, 0, Sasan Goodarzi, SBG, M, 0, Jennifer Hall, 0, SBG (Sasan Goodarzi), SBG-Care (Jennifer Hall (On Leave)), Organization (Amy Deacon), Remote Cebu, 2017-10-26, 0, Active, Balakarthik Venkataramanan, Amy Deacon, 0, APAC, Bulk_Future_Txn, Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;IMTQB;SFB2B;SFB2C, SBG Global Online IN Tier 1-INT-BNG Jkaur, 50002003190]
+2017-10-30 12:26:29 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-30 12:26:29 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><element>
+  <Applicant_ID>A4100726</Applicant_ID>
+  <Employee_ID>193092</Employee_ID>
+  <Corp_ID>50000653163</Corp_ID>
+  <Legal_Name>Solijon, John Rey</Legal_Name>
+  <Legal_First_Name>John Rey</Legal_First_Name>
+  <Legal_Last_Name>Solijon</Legal_Last_Name>
+  <Preferred_Name>Solijon, John Rey</Preferred_Name>
+  <Preferred_Name_First>John Rey</Preferred_Name_First>
+  <Preferred_Name_Last>Solijon</Preferred_Name_Last>
+  <Hire_Dt>20171026</Hire_Dt>
+  <Rehire_Dt>20171026</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>057</Org_Id>
+  <Org_Name>SBG Center</Org_Name>
+  <Dept_Id>1404</Dept_Id>
+  <Dept_Name>Implementation Services/Terminal Support</Dept_Name>
+  <Supervisor_Id>94128</Supervisor_Id>
+  <WORKER_TYPE>Contingent Worker</WORKER_TYPE>
+  <Emp_Type>N</Emp_Type>
+  <Emp_Status_Code>A</Emp_Status_Code>
+  <CWF_Type>Outsource</CWF_Type>
+  <Bufg>1BU020</Bufg>
+  <Jobcode>XYTSU91</Jobcode>
+  <Jobcode_Desc>CW Technical Support 1</Jobcode_Desc>
+  <Job_Family>YTSU - CW Technical Support</Job_Family>
+  <Job_Function>X - Contingent Workers</Job_Function>
+  <Business_Title>CW Technical Support 1</Business_Title>
+  <FLSA_Status>N</FLSA_Status>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>0</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>0</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Target_Pct>0</Bonus_Target_Pct>
+  <BONUS_TGT_PERCENT_WDP_EVNT_VAL>0</BONUS_TGT_PERCENT_WDP_EVNT_VAL>
+  <Legal_Work_Location>PHLCB01</Legal_Work_Location>
+  <WD_Location_Country_Code>PHL</WD_Location_Country_Code>
+  <Effective_Date>20171026</Effective_Date>
+  <Supplier>ARISE</Supplier>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <NID_Count>0</NID_Count>
+  <BP_Event>Contract Contingent Worker</BP_Event>
+  <BP_Completion_Date>2017-10-14 13:35:44</BP_Completion_Date>
+  <BP_Status>Successfully Completed</BP_Status>
+  <BP_REASON>Contract Contingent Worker &gt; Contract Contingent Worker &gt; Outsourcer</BP_REASON>
+  <BP_Reason_Text>Outsourcer</BP_Reason_Text>
+  <BP_Effective_Dt>2017-10-26</BP_Effective_Dt>
+  <BP_Process_WID>1472194fc8880190c1067626db421a09</BP_Process_WID>
+  <TRANSACTION_TYPE>Regular</TRANSACTION_TYPE>
+  <Work_Email>JohnRey.Solijon@agent.cvgs.net</Work_Email>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <MANAGER_AS_OF_DATE1>94128</MANAGER_AS_OF_DATE1>
+  <JOBCODE_AS_OF_DATE1>XYTSU91</JOBCODE_AS_OF_DATE1>
+  <TOP_SUPERVISORY_ORG>Intuit (Brad Smith)</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>js1480</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Supervisory_Org_Ref_Id>SP00101</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>96b3560cffe9101dde9c892db8a418d6</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>0</Is_Payroll_Country_USA>
+  <Eventless_Manager_Change_Flag>0</Eventless_Manager_Change_Flag>
+  <WID>1472194fc888011f83be5637db429109</WID>
+  <Jobcode_Change_Flag>0</Jobcode_Change_Flag>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>8th, 9th, 10th and 11th Floor TGU Tower</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_ADDRESS2>Jose Maria del Mar St,</PRIM_WORK_ADDRESS2>
+  <PRIM_WORK_CITY>Cebu City</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>Cebu</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>CEB</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>Philippines</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>PHL</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>6000</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>6</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>X - Contingent Workers</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>66043</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>G - General Management</L2_JOB_FAMILY_GROUP>
+  <MANAGERS_MGR_ID>157546</MANAGERS_MGR_ID>
+  <PERSONAL_EMAIL>JohnRey.Solijon@agent.cvgs.net</PERSONAL_EMAIL>
+  <MANAGER_NAME>Amy Deacon</MANAGER_NAME>
+  <MANAGER_EMAIL>Amy_Deacon@intuit.com</MANAGER_EMAIL>
+  <MANAGER_BUSINESS_TITLE>Mgr 2 Service and Support</MANAGER_BUSINESS_TITLE>
+  <DID_EE_MOVE_IC_2_MGR>0</DID_EE_MOVE_IC_2_MGR>
+  <BP_REASON_CATG>Contract Contingent Worker</BP_REASON_CATG>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <IS_EXTERNAL_LOAD>1</IS_EXTERNAL_LOAD>
+  <SUP_ORG_EFF_DT>2016-08-26</SUP_ORG_EFF_DT>
+  <HR_BUS_PARTNER>Sibel Poore | Kristin Vines</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS>No Entry</EIACA_STATUS>
+  <LOCATION_EFFT_DATE>2017-10-26</LOCATION_EFFT_DATE>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>0</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <BONUS_TARGET_AMT>0</BONUS_TARGET_AMT>
+  <BONUS_TGT_AMT_WDP_EVENT_VALUE>0</BONUS_TGT_AMT_WDP_EVENT_VALUE>
+  <BONUS_PLANNED_PCT>0</BONUS_PLANNED_PCT>
+  <LEVEL2_MGR_NAME>Sasan Goodarzi</LEVEL2_MGR_NAME>
+  <BU_NAME>SBG</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Jennifer Hall</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>0</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>SBG (Sasan Goodarzi)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>SBG-Care (Jennifer Hall (On Leave))</LEVEL3_ORG_NAME>
+  <SUPERVISORY_ORGANIZATION>Organization (Amy Deacon)</SUPERVISORY_ORGANIZATION>
+  <LOCATION>Remote Cebu</LOCATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2017-10-26</TIME_IN_JOB_PROFILE_START_DATE>
+  <EMP_COUNT_WORKER_ORG>0</EMP_COUNT_WORKER_ORG>
+  <DETAILED_WORKER_STATUS>Active</DETAILED_WORKER_STATUS>
+  <LEVEL04_MGR_NAME>Balakarthik Venkataramanan</LEVEL04_MGR_NAME>
+  <LEVEL05_MGR_NAME>Amy Deacon</LEVEL05_MGR_NAME>
+  <TIME_IN_JOB_PROFILE>0</TIME_IN_JOB_PROFILE>
+  <LOCATION_HIERARCHY_LEVEL_05_AWAY>APAC</LOCATION_HIERARCHY_LEVEL_05_AWAY>
+  <Trans_Type>Bulk_Future_Txn</Trans_Type>
+  <System_List>Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;IMTQB;SFB2B;SFB2C</System_List>
+  <Sales_Care_Level_1_Assignment>SBG Global Online IN Tier 1-INT-BNG Jkaur</Sales_Care_Level_1_Assignment>
+  <SC_Level1_Mgr_Corp>50002003190</SC_Level1_Mgr_Corp>
+</element>
+
+2017-10-30 12:27:41 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 12:27:41 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 12:27:41 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 12:27:41 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 12:27:41 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 12:27:41 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 12:27:41 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 12:27:41 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 12:27:41 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 12:27:41 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 12:27:41 BoomiTest (WDPBaseWorker) [INFO] ==================Info WDP Base Worker========================
+2017-10-30 12:27:41 BoomiTest (WDPBaseWorker) [INFO] =====Call Restassured config method=========
+2017-10-30 12:27:41 BoomiTest (PostSetRestAssuredConfig) [INFO] ------- setRestAssuredConfig---------
+2017-10-30 12:27:41 BoomiTest (PostSetRestAssuredConfig) [INFO] ----Building Request Specification for Post Call -----
+2017-10-30 12:27:41 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=, contentType=application/json}
+2017-10-30 12:27:41 BoomiTest (WDPBaseWorker) [INFO] Local_perf_URL : https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 12:27:41 BoomiTest (WDPBaseWorker) [INFO] Auth_Token_perf : Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=
+2017-10-30 12:27:41 Utility (parseXmlPayload) [INFO] Headers :[﻿element/CandidateID, element/Applicant_ID, element/Employee_ID, element/Corp_ID, element/Legal_Name, element/Legal_First_Name, element/Legal_Last_Name, element/Preferred_Name, element/Preferred_Name_First, element/Preferred_Name_Last, element/Hire_Dt, element/Rehire_Dt, element/Company_Id, element/Company_Desc, element/Org_Id, element/Org_Name, element/Dept_Id, element/Dept_Name, element/Supervisor_Id, element/WORKER_TYPE, element/Emp_Type, element/Emp_Class_Desc, element/Emp_Status_Code, element/Emp_Status_Desc, element/Bufg, element/Jobcode, element/Jobcode_Desc, element/Job_Family, element/Job_Function, element/Grade, element/Business_Title, element/Std_Hours, element/Full_Part_Time, element/Annual_Rt, element/Hourly_Rt, element/ANNUAL_RT_WDP_EVENT_VALUE, element/HOURLY_RT_WDP_EVENT_VALUE, element/Bonus_Plan_Code, element/Bonus_Target_Pct, element/Currency_Code, element/Legal_Work_Location, element/WD_Location_Country_Code, element/Is_Manager, element/Is_Manager_Of_Cwf, element/Is_Manager_Of_Emp_Or_Cwf, element/NID_Count, element/TACoordinator_Employee_ID, element/BP_Event, element/BP_Comments, element/BP_Rescind_Date, element/BP_Status, element/BP_REASON, element/BP_Reason_Text, element/BP_Effective_Dt, element/BP_Process_WID, element/TRANSACTION_TYPE, element/Supervisor_Corp_Id, element/Work_Email, element/IS_ADMIN_ASST, element/TOP_SUPERVISORY_ORG, element/Directory_Login_Id, element/Is_Taleo_Admin, element/Is_Primetime_Admin, element/Supervisory_Org_Ref_Id, element/SUPERVISORY_ORGANIZATION_WID, element/Is_Recruiter, element/Is_HRBP, element/Is_Payroll_Country_USA, element/WID, element/Jobcode_Change_Flag, element/IS_SOURCER, element/IS_TAM, element/IS_FINANCE_BP, element/IS_HR_ADVISOR, element/IS_HRBI, element/IS_TAC, element/PRIM_WORK_ADDRESS, element/PRIM_WORK_ADDRESS3, element/PRIM_WORK_CITY, element/PRIM_WORK_STATE, element/PRIM_WORK_STATE_ISO_CODE, element/PRIM_WORK_COUNTRY, element/PRIM_WORK_COUNTRY_ISO_CODE, element/PRIM_WORK_POSTAL_CODE, element/EE_ORG_LEVEL, element/EE_JOB_FAMILY_GROUP, element/L2_EMPLOYEE_ID, element/L2_JOB_FAMILY_GROUP, element/TOP_SUP_ORG_MANAGED, element/PERSONAL_EMAIL, element/MANAGER_NAME, element/BP_REASON_CATG, element/RESCINDED_DATE, element/RESCINDED_BY, element/NOT_ELIGIBLE_FOR_REHIRE, element/BP_INITIATOR, element/BP_INITIATOR_EMP_ID, element/IS_EXTERNAL_LOAD, element/HR_BUS_PARTNER, element/SCH_WEEKLY_HOURS, element/POS_TIME_TYPE_FLASTATUS, element/EIACA_STATUS, element/WORKER_COMMUNITY_REF_ID, element/LOCATION_EFFT_DATE, element/COMP_EFFT_DATE, element/COMP_PLAN_START_DT, element/TTL_BASE_PERIOD_WDP_EVNT_VAL, element/COMP_PLAN, element/COMP_GRADE, element/COMP_GRADE_PROFILE, element/ASSIGNED_BONUS_PLAN_DETAILS, element/BONUS_TARGET_AMT, element/BONUS_PLANNED_PCT, element/PAY_GROUP_ID, element/CONTINUOUS_SERVICE_DATE, element/LEVEL2_MGR_NAME, element/COMMUNITY, element/WORKER_COMMUNITY, element/BU_NAME, element/GENDER_SHORT, element/CONTRACT_PAY_RATE, element/LEVEL3_MGR_NAME, element/TOTAL_BASE_PAY_AMOUNT, element/LEVEL2_ORG_NAME, element/LEVEL3_ORG_NAME, element/MANAGER_ID_PROPOSED, element/MANAGER_CORPID_PROPOSED, element/SUPERVISORY_ORGANIZATION, element/TIME_IN_JOB_PROFILE_START_DATE, element/Trans_Type, element/System_List]
+Values: [A4100357, A4100357, 192766, 70000034781, Skywalker, Luke, Luke, Skywalker, Skywalker, Luke, Luke, Skywalker, 20170612, 20170612, 100, Intuit Corp, 000, No Group, Unspecified, 1000, BU/DC Prod Cogs, 85095, Employee, E, Employee, T, Terminated, UNK, APDM21, Product Mgr 1, PDM - Product Mgmt, T - Product Management, SRP, Product Mgr 1, 40, F, 75000, 0, 70000, 0, IPI, 0.1, USD, USACA01, USA, 0, 0, 0, 0, 192766, Hire, Albert Lee: rollback, 2017-06-12, Rescinded, Hire Employee > Hire Employee > New Hire, New Hire, 2017-06-12, c68a0c6e44d801611863ceece1141600, Rescind, 10000175078, Luke_Skywalker@intuit.com, 0, brad smith (), lskywalker1, 0, 0, S3726, c1d0b1adbcd5104f7f36adadb2655833, 0, 0, 1, c68a0c6e44d801deda2a3110e2142a00, 1, 0, 0, 0, 0, 0, 0, 2535 Garcia Avenue, Mountain View, CA 94043, Mountain View, California, CA, United States of America, USA, 94043, 4, T - Product Management, 71691, G - General Management, 192766, aplee13@gmail.com, Kevin Kirn, Hire Employee, 2017-06-12, 189607, 0, Albert Lee, 189607, 0, Ben Serio | Yael Shalev Barkai, 40, Full time, No Entry, CP-PM+ConvertedTeam, 2017-06-12, 06122017, 2017-06-12, 70000, General Salary Plan, General Grade, General - USD, IPI - Intuit Performance Incentive Plan (%), 7500, 0.1, 1 - Exempt, 2017-06-12, Albert Ko, PM, PM, Unknown Business Unit, M, 0, Kevin Kirn, 75000, CEG (Albert Ko), CEG - PM (Kevin Kirn), 85095, 10000175078, CEG - PM (Kevin Kirn), 2017-06-12, Rescind, Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker]
+2017-10-30 12:27:41 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-30 12:27:41 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><element>
+  <CandidateID>A4100357</CandidateID>
+  <Applicant_ID>A4100357</Applicant_ID>
+  <Employee_ID>192766</Employee_ID>
+  <Corp_ID>70000034781</Corp_ID>
+  <Legal_Name>Skywalker, Luke</Legal_Name>
+  <Legal_First_Name>Luke</Legal_First_Name>
+  <Legal_Last_Name>Skywalker</Legal_Last_Name>
+  <Preferred_Name>Skywalker, Luke</Preferred_Name>
+  <Preferred_Name_First>Luke</Preferred_Name_First>
+  <Preferred_Name_Last>Skywalker</Preferred_Name_Last>
+  <Hire_Dt>20170612</Hire_Dt>
+  <Rehire_Dt>20170612</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>000</Org_Id>
+  <Org_Name>No Group, Unspecified</Org_Name>
+  <Dept_Id>1000</Dept_Id>
+  <Dept_Name>BU/DC Prod Cogs</Dept_Name>
+  <Supervisor_Id>85095</Supervisor_Id>
+  <WORKER_TYPE>Employee</WORKER_TYPE>
+  <Emp_Type>E</Emp_Type>
+  <Emp_Class_Desc>Employee</Emp_Class_Desc>
+  <Emp_Status_Code>T</Emp_Status_Code>
+  <Emp_Status_Desc>Terminated</Emp_Status_Desc>
+  <Bufg>UNK</Bufg>
+  <Jobcode>APDM21</Jobcode>
+  <Jobcode_Desc>Product Mgr 1</Jobcode_Desc>
+  <Job_Family>PDM - Product Mgmt</Job_Family>
+  <Job_Function>T - Product Management</Job_Function>
+  <Grade>SRP</Grade>
+  <Business_Title>Product Mgr 1</Business_Title>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>75000</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>70000</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Plan_Code>IPI</Bonus_Plan_Code>
+  <Bonus_Target_Pct>0.1</Bonus_Target_Pct>
+  <Currency_Code>USD</Currency_Code>
+  <Legal_Work_Location>USACA01</Legal_Work_Location>
+  <WD_Location_Country_Code>USA</WD_Location_Country_Code>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <NID_Count>0</NID_Count>
+  <TACoordinator_Employee_ID>192766</TACoordinator_Employee_ID>
+  <BP_Event>Hire</BP_Event>
+  <BP_Comments>Albert Lee: rollback</BP_Comments>
+  <BP_Rescind_Date>2017-06-12</BP_Rescind_Date>
+  <BP_Status>Rescinded</BP_Status>
+  <BP_REASON>Hire Employee &gt; Hire Employee &gt; New Hire</BP_REASON>
+  <BP_Reason_Text>New Hire</BP_Reason_Text>
+  <BP_Effective_Dt>2017-06-12</BP_Effective_Dt>
+  <BP_Process_WID>c68a0c6e44d801611863ceece1141600</BP_Process_WID>
+  <TRANSACTION_TYPE>Rescind</TRANSACTION_TYPE>
+  <Supervisor_Corp_Id>10000175078</Supervisor_Corp_Id>
+  <Work_Email>Luke_Skywalker@intuit.com</Work_Email>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <TOP_SUPERVISORY_ORG>brad smith ()</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>lskywalker1</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Is_Primetime_Admin>0</Is_Primetime_Admin>
+  <Supervisory_Org_Ref_Id>S3726</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>c1d0b1adbcd5104f7f36adadb2655833</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>1</Is_Payroll_Country_USA>
+  <WID>c68a0c6e44d801deda2a3110e2142a00</WID>
+  <Jobcode_Change_Flag>1</Jobcode_Change_Flag>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>2535 Garcia Avenue</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_ADDRESS3>Mountain View, CA 94043</PRIM_WORK_ADDRESS3>
+  <PRIM_WORK_CITY>Mountain View</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>California</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>CA</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>United States of America</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>USA</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>94043</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>4</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>T - Product Management</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>71691</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>G - General Management</L2_JOB_FAMILY_GROUP>
+  <TOP_SUP_ORG_MANAGED>192766</TOP_SUP_ORG_MANAGED>
+  <PERSONAL_EMAIL>aplee13@gmail.com</PERSONAL_EMAIL>
+  <MANAGER_NAME>Kevin Kirn</MANAGER_NAME>
+  <BP_REASON_CATG>Hire Employee</BP_REASON_CATG>
+  <RESCINDED_DATE>2017-06-12</RESCINDED_DATE>
+  <RESCINDED_BY>189607</RESCINDED_BY>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <BP_INITIATOR>Albert Lee</BP_INITIATOR>
+  <BP_INITIATOR_EMP_ID>189607</BP_INITIATOR_EMP_ID>
+  <IS_EXTERNAL_LOAD>0</IS_EXTERNAL_LOAD>
+  <HR_BUS_PARTNER>Ben Serio | Yael Shalev Barkai</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS>No Entry</EIACA_STATUS>
+  <WORKER_COMMUNITY_REF_ID>CP-PM+ConvertedTeam</WORKER_COMMUNITY_REF_ID>
+  <LOCATION_EFFT_DATE>2017-06-12</LOCATION_EFFT_DATE>
+  <COMP_EFFT_DATE>06122017</COMP_EFFT_DATE>
+  <COMP_PLAN_START_DT>2017-06-12</COMP_PLAN_START_DT>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>70000</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <COMP_PLAN>General Salary Plan</COMP_PLAN>
+  <COMP_GRADE>General Grade</COMP_GRADE>
+  <COMP_GRADE_PROFILE>General - USD</COMP_GRADE_PROFILE>
+  <ASSIGNED_BONUS_PLAN_DETAILS>IPI - Intuit Performance Incentive Plan (%)</ASSIGNED_BONUS_PLAN_DETAILS>
+  <BONUS_TARGET_AMT>7500</BONUS_TARGET_AMT>
+  <BONUS_PLANNED_PCT>0.1</BONUS_PLANNED_PCT>
+  <PAY_GROUP_ID>1 - Exempt</PAY_GROUP_ID>
+  <CONTINUOUS_SERVICE_DATE>2017-06-12</CONTINUOUS_SERVICE_DATE>
+  <LEVEL2_MGR_NAME>Albert Ko</LEVEL2_MGR_NAME>
+  <COMMUNITY>PM</COMMUNITY>
+  <WORKER_COMMUNITY>PM</WORKER_COMMUNITY>
+  <BU_NAME>Unknown Business Unit</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Kevin Kirn</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>75000</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>CEG (Albert Ko)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>CEG - PM (Kevin Kirn)</LEVEL3_ORG_NAME>
+  <MANAGER_ID_PROPOSED>85095</MANAGER_ID_PROPOSED>
+  <MANAGER_CORPID_PROPOSED>10000175078</MANAGER_CORPID_PROPOSED>
+  <SUPERVISORY_ORGANIZATION>CEG - PM (Kevin Kirn)</SUPERVISORY_ORGANIZATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2017-06-12</TIME_IN_JOB_PROFILE_START_DATE>
+  <Trans_Type>Rescind</Trans_Type>
+  <System_List>Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker</System_List>
+</element>
+
+2017-10-30 12:27:44 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 12:27:44 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 12:27:44 BoomiTest (WDPBaseWorker) [INFO] ==================completed WDP Base Worker========================
+2017-10-30 12:27:44 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 12:27:44 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 14:02:24 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 14:02:24 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 14:02:24 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 14:02:24 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 14:02:24 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 14:02:24 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:02:24 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 14:02:24 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 14:02:24 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 14:02:24 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:02:24 BoomiTest (WDPBaseWorker) [INFO] ==================Info WDP Base Worker========================
+2017-10-30 14:02:24 BoomiTest (WDPBaseWorker) [INFO] =====Call Restassured config method=========
+2017-10-30 14:02:24 BoomiTest (PostSetRestAssuredConfig) [INFO] ------- setRestAssuredConfig---------
+2017-10-30 14:02:24 BoomiTest (PostSetRestAssuredConfig) [INFO] ----Building Request Specification for Post Call -----
+2017-10-30 14:02:24 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=, contentType=application/json}
+2017-10-30 14:02:24 BoomiTest (WDPBaseWorker) [INFO] Local_perf_URL : https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 14:02:24 BoomiTest (WDPBaseWorker) [INFO] Auth_Token_perf : Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=
+2017-10-30 14:02:25 Utility (parseXmlPayload) [INFO] Headers :[﻿element/CandidateID, element/Applicant_ID, element/Employee_ID, element/Corp_ID, element/Legal_Name, element/Legal_First_Name, element/Legal_Last_Name, element/Preferred_Name, element/Preferred_Name_First, element/Preferred_Name_Last, element/Hire_Dt, element/Rehire_Dt, element/Company_Id, element/Company_Desc, element/Org_Id, element/Org_Name, element/Dept_Id, element/Dept_Name, element/Supervisor_Id, element/WORKER_TYPE, element/Emp_Type, element/Emp_Class_Desc, element/Emp_Status_Code, element/Emp_Status_Desc, element/Bufg, element/Jobcode, element/Jobcode_Desc, element/Job_Family, element/Job_Function, element/Grade, element/Business_Title, element/Std_Hours, element/Full_Part_Time, element/Annual_Rt, element/Hourly_Rt, element/ANNUAL_RT_WDP_EVENT_VALUE, element/HOURLY_RT_WDP_EVENT_VALUE, element/Bonus_Plan_Code, element/Bonus_Target_Pct, element/Currency_Code, element/Legal_Work_Location, element/WD_Location_Country_Code, element/Is_Manager, element/Is_Manager_Of_Cwf, element/Is_Manager_Of_Emp_Or_Cwf, element/NID_Count, element/TACoordinator_Employee_ID, element/BP_Event, element/BP_Comments, element/BP_Rescind_Date, element/BP_Status, element/BP_REASON, element/BP_Reason_Text, element/BP_Effective_Dt, element/BP_Process_WID, element/TRANSACTION_TYPE, element/Supervisor_Corp_Id, element/Work_Email, element/IS_ADMIN_ASST, element/TOP_SUPERVISORY_ORG, element/Directory_Login_Id, element/Is_Taleo_Admin, element/Is_Primetime_Admin, element/Supervisory_Org_Ref_Id, element/SUPERVISORY_ORGANIZATION_WID, element/Is_Recruiter, element/Is_HRBP, element/Is_Payroll_Country_USA, element/WID, element/Jobcode_Change_Flag, element/IS_SOURCER, element/IS_TAM, element/IS_FINANCE_BP, element/IS_HR_ADVISOR, element/IS_HRBI, element/IS_TAC, element/PRIM_WORK_ADDRESS, element/PRIM_WORK_ADDRESS3, element/PRIM_WORK_CITY, element/PRIM_WORK_STATE, element/PRIM_WORK_STATE_ISO_CODE, element/PRIM_WORK_COUNTRY, element/PRIM_WORK_COUNTRY_ISO_CODE, element/PRIM_WORK_POSTAL_CODE, element/EE_ORG_LEVEL, element/EE_JOB_FAMILY_GROUP, element/L2_EMPLOYEE_ID, element/L2_JOB_FAMILY_GROUP, element/TOP_SUP_ORG_MANAGED, element/PERSONAL_EMAIL, element/MANAGER_NAME, element/BP_REASON_CATG, element/RESCINDED_DATE, element/RESCINDED_BY, element/NOT_ELIGIBLE_FOR_REHIRE, element/BP_INITIATOR, element/BP_INITIATOR_EMP_ID, element/IS_EXTERNAL_LOAD, element/HR_BUS_PARTNER, element/SCH_WEEKLY_HOURS, element/POS_TIME_TYPE_FLASTATUS, element/EIACA_STATUS, element/WORKER_COMMUNITY_REF_ID, element/LOCATION_EFFT_DATE, element/COMP_EFFT_DATE, element/COMP_PLAN_START_DT, element/TTL_BASE_PERIOD_WDP_EVNT_VAL, element/COMP_PLAN, element/COMP_GRADE, element/COMP_GRADE_PROFILE, element/ASSIGNED_BONUS_PLAN_DETAILS, element/BONUS_TARGET_AMT, element/BONUS_PLANNED_PCT, element/PAY_GROUP_ID, element/CONTINUOUS_SERVICE_DATE, element/LEVEL2_MGR_NAME, element/COMMUNITY, element/WORKER_COMMUNITY, element/BU_NAME, element/GENDER_SHORT, element/CONTRACT_PAY_RATE, element/LEVEL3_MGR_NAME, element/TOTAL_BASE_PAY_AMOUNT, element/LEVEL2_ORG_NAME, element/LEVEL3_ORG_NAME, element/MANAGER_ID_PROPOSED, element/MANAGER_CORPID_PROPOSED, element/SUPERVISORY_ORGANIZATION, element/TIME_IN_JOB_PROFILE_START_DATE, element/Trans_Type, element/System_List]
+Values: [A4100357, A4100357, 192766, 70000034781, Skywalker, Luke, Luke, Skywalker, Skywalker, Luke, Luke, Skywalker, 20170612, 20170612, 100, Intuit Corp, 000, No Group, Unspecified, 1000, BU/DC Prod Cogs, 85095, Employee, E, Employee, T, Terminated, UNK, APDM21, Product Mgr 1, PDM - Product Mgmt, T - Product Management, SRP, Product Mgr 1, 40, F, 75000, 0, 70000, 0, IPI, 0.1, USD, USACA01, USA, 0, 0, 0, 0, 192766, Hire, Albert Lee: rollback, 2017-06-12, Rescinded, Hire Employee > Hire Employee > New Hire, New Hire, 2017-06-12, c68a0c6e44d801611863ceece1141600, Rescind, 10000175078, Luke_Skywalker@intuit.com, 0, brad smith (), lskywalker1, 0, 0, S3726, c1d0b1adbcd5104f7f36adadb2655833, 0, 0, 1, c68a0c6e44d801deda2a3110e2142a00, 1, 0, 0, 0, 0, 0, 0, 2535 Garcia Avenue, Mountain View, CA 94043, Mountain View, California, CA, United States of America, USA, 94043, 4, T - Product Management, 71691, G - General Management, 192766, aplee13@gmail.com, Kevin Kirn, Hire Employee, 2017-06-12, 189607, 0, Albert Lee, 189607, 0, Ben Serio | Yael Shalev Barkai, 40, Full time, No Entry, CP-PM+ConvertedTeam, 2017-06-12, 06122017, 2017-06-12, 70000, General Salary Plan, General Grade, General - USD, IPI - Intuit Performance Incentive Plan (%), 7500, 0.1, 1 - Exempt, 2017-06-12, Albert Ko, PM, PM, Unknown Business Unit, M, 0, Kevin Kirn, 75000, CEG (Albert Ko), CEG - PM (Kevin Kirn), 85095, 10000175078, CEG - PM (Kevin Kirn), 2017-06-12, Rescind, Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker]
+2017-10-30 14:02:25 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-30 14:02:25 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><element>
+  <CandidateID>A4100357</CandidateID>
+  <Applicant_ID>A4100357</Applicant_ID>
+  <Employee_ID>192766</Employee_ID>
+  <Corp_ID>70000034781</Corp_ID>
+  <Legal_Name>Skywalker, Luke</Legal_Name>
+  <Legal_First_Name>Luke</Legal_First_Name>
+  <Legal_Last_Name>Skywalker</Legal_Last_Name>
+  <Preferred_Name>Skywalker, Luke</Preferred_Name>
+  <Preferred_Name_First>Luke</Preferred_Name_First>
+  <Preferred_Name_Last>Skywalker</Preferred_Name_Last>
+  <Hire_Dt>20170612</Hire_Dt>
+  <Rehire_Dt>20170612</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>000</Org_Id>
+  <Org_Name>No Group, Unspecified</Org_Name>
+  <Dept_Id>1000</Dept_Id>
+  <Dept_Name>BU/DC Prod Cogs</Dept_Name>
+  <Supervisor_Id>85095</Supervisor_Id>
+  <WORKER_TYPE>Employee</WORKER_TYPE>
+  <Emp_Type>E</Emp_Type>
+  <Emp_Class_Desc>Employee</Emp_Class_Desc>
+  <Emp_Status_Code>T</Emp_Status_Code>
+  <Emp_Status_Desc>Terminated</Emp_Status_Desc>
+  <Bufg>UNK</Bufg>
+  <Jobcode>APDM21</Jobcode>
+  <Jobcode_Desc>Product Mgr 1</Jobcode_Desc>
+  <Job_Family>PDM - Product Mgmt</Job_Family>
+  <Job_Function>T - Product Management</Job_Function>
+  <Grade>SRP</Grade>
+  <Business_Title>Product Mgr 1</Business_Title>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>75000</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>70000</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Plan_Code>IPI</Bonus_Plan_Code>
+  <Bonus_Target_Pct>0.1</Bonus_Target_Pct>
+  <Currency_Code>USD</Currency_Code>
+  <Legal_Work_Location>USACA01</Legal_Work_Location>
+  <WD_Location_Country_Code>USA</WD_Location_Country_Code>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <NID_Count>0</NID_Count>
+  <TACoordinator_Employee_ID>192766</TACoordinator_Employee_ID>
+  <BP_Event>Hire</BP_Event>
+  <BP_Comments>Albert Lee: rollback</BP_Comments>
+  <BP_Rescind_Date>2017-06-12</BP_Rescind_Date>
+  <BP_Status>Rescinded</BP_Status>
+  <BP_REASON>Hire Employee &gt; Hire Employee &gt; New Hire</BP_REASON>
+  <BP_Reason_Text>New Hire</BP_Reason_Text>
+  <BP_Effective_Dt>2017-06-12</BP_Effective_Dt>
+  <BP_Process_WID>c68a0c6e44d801611863ceece1141600</BP_Process_WID>
+  <TRANSACTION_TYPE>Rescind</TRANSACTION_TYPE>
+  <Supervisor_Corp_Id>10000175078</Supervisor_Corp_Id>
+  <Work_Email>Luke_Skywalker@intuit.com</Work_Email>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <TOP_SUPERVISORY_ORG>brad smith ()</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>lskywalker1</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Is_Primetime_Admin>0</Is_Primetime_Admin>
+  <Supervisory_Org_Ref_Id>S3726</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>c1d0b1adbcd5104f7f36adadb2655833</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>1</Is_Payroll_Country_USA>
+  <WID>c68a0c6e44d801deda2a3110e2142a00</WID>
+  <Jobcode_Change_Flag>1</Jobcode_Change_Flag>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>2535 Garcia Avenue</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_ADDRESS3>Mountain View, CA 94043</PRIM_WORK_ADDRESS3>
+  <PRIM_WORK_CITY>Mountain View</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>California</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>CA</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>United States of America</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>USA</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>94043</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>4</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>T - Product Management</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>71691</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>G - General Management</L2_JOB_FAMILY_GROUP>
+  <TOP_SUP_ORG_MANAGED>192766</TOP_SUP_ORG_MANAGED>
+  <PERSONAL_EMAIL>aplee13@gmail.com</PERSONAL_EMAIL>
+  <MANAGER_NAME>Kevin Kirn</MANAGER_NAME>
+  <BP_REASON_CATG>Hire Employee</BP_REASON_CATG>
+  <RESCINDED_DATE>2017-06-12</RESCINDED_DATE>
+  <RESCINDED_BY>189607</RESCINDED_BY>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <BP_INITIATOR>Albert Lee</BP_INITIATOR>
+  <BP_INITIATOR_EMP_ID>189607</BP_INITIATOR_EMP_ID>
+  <IS_EXTERNAL_LOAD>0</IS_EXTERNAL_LOAD>
+  <HR_BUS_PARTNER>Ben Serio | Yael Shalev Barkai</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS>No Entry</EIACA_STATUS>
+  <WORKER_COMMUNITY_REF_ID>CP-PM+ConvertedTeam</WORKER_COMMUNITY_REF_ID>
+  <LOCATION_EFFT_DATE>2017-06-12</LOCATION_EFFT_DATE>
+  <COMP_EFFT_DATE>06122017</COMP_EFFT_DATE>
+  <COMP_PLAN_START_DT>2017-06-12</COMP_PLAN_START_DT>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>70000</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <COMP_PLAN>General Salary Plan</COMP_PLAN>
+  <COMP_GRADE>General Grade</COMP_GRADE>
+  <COMP_GRADE_PROFILE>General - USD</COMP_GRADE_PROFILE>
+  <ASSIGNED_BONUS_PLAN_DETAILS>IPI - Intuit Performance Incentive Plan (%)</ASSIGNED_BONUS_PLAN_DETAILS>
+  <BONUS_TARGET_AMT>7500</BONUS_TARGET_AMT>
+  <BONUS_PLANNED_PCT>0.1</BONUS_PLANNED_PCT>
+  <PAY_GROUP_ID>1 - Exempt</PAY_GROUP_ID>
+  <CONTINUOUS_SERVICE_DATE>2017-06-12</CONTINUOUS_SERVICE_DATE>
+  <LEVEL2_MGR_NAME>Albert Ko</LEVEL2_MGR_NAME>
+  <COMMUNITY>PM</COMMUNITY>
+  <WORKER_COMMUNITY>PM</WORKER_COMMUNITY>
+  <BU_NAME>Unknown Business Unit</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Kevin Kirn</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>75000</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>CEG (Albert Ko)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>CEG - PM (Kevin Kirn)</LEVEL3_ORG_NAME>
+  <MANAGER_ID_PROPOSED>85095</MANAGER_ID_PROPOSED>
+  <MANAGER_CORPID_PROPOSED>10000175078</MANAGER_CORPID_PROPOSED>
+  <SUPERVISORY_ORGANIZATION>CEG - PM (Kevin Kirn)</SUPERVISORY_ORGANIZATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2017-06-12</TIME_IN_JOB_PROFILE_START_DATE>
+  <Trans_Type>Rescind</Trans_Type>
+  <System_List>Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker</System_List>
+</element>
+
+2017-10-30 14:02:28 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 14:02:28 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 14:02:28 BoomiTest (WDPBaseWorker) [INFO] ==================completed WDP Base Worker========================
+2017-10-30 14:02:28 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 14:02:28 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 14:02:28 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 14:02:33 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 14:05:55 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 14:05:55 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 14:05:55 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 14:05:55 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 14:05:55 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 14:05:55 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:05:55 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 14:05:55 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 14:05:55 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 14:05:55 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:05:55 BoomiTest (WDPBaseWorker) [INFO] ==================Info WDP Base Worker========================
+2017-10-30 14:05:55 BoomiTest (WDPBaseWorker) [INFO] =====Call Restassured config method=========
+2017-10-30 14:05:55 BoomiTest (PostSetRestAssuredConfig) [INFO] ------- setRestAssuredConfig---------
+2017-10-30 14:05:55 BoomiTest (PostSetRestAssuredConfig) [INFO] ----Building Request Specification for Post Call -----
+2017-10-30 14:05:55 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=, contentType=application/json}
+2017-10-30 14:05:55 BoomiTest (WDPBaseWorker) [INFO] Local_perf_URL : https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 14:05:55 BoomiTest (WDPBaseWorker) [INFO] Auth_Token_perf : Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=
+2017-10-30 14:05:55 Utility (parseXmlPayload) [INFO] Headers :[﻿element/CandidateID, element/Applicant_ID, element/Employee_ID, element/Corp_ID, element/Legal_Name, element/Legal_First_Name, element/Legal_Last_Name, element/Preferred_Name, element/Preferred_Name_First, element/Preferred_Name_Last, element/Hire_Dt, element/Rehire_Dt, element/Company_Id, element/Company_Desc, element/Org_Id, element/Org_Name, element/Dept_Id, element/Dept_Name, element/Supervisor_Id, element/WORKER_TYPE, element/Emp_Type, element/Emp_Class_Desc, element/Emp_Status_Code, element/Emp_Status_Desc, element/Bufg, element/Jobcode, element/Jobcode_Desc, element/Job_Family, element/Job_Function, element/Grade, element/Business_Title, element/Std_Hours, element/Full_Part_Time, element/Annual_Rt, element/Hourly_Rt, element/ANNUAL_RT_WDP_EVENT_VALUE, element/HOURLY_RT_WDP_EVENT_VALUE, element/Bonus_Plan_Code, element/Bonus_Target_Pct, element/Currency_Code, element/Legal_Work_Location, element/WD_Location_Country_Code, element/Is_Manager, element/Is_Manager_Of_Cwf, element/Is_Manager_Of_Emp_Or_Cwf, element/NID_Count, element/TACoordinator_Employee_ID, element/BP_Event, element/BP_Comments, element/BP_Rescind_Date, element/BP_Status, element/BP_REASON, element/BP_Reason_Text, element/BP_Effective_Dt, element/BP_Process_WID, element/TRANSACTION_TYPE, element/Supervisor_Corp_Id, element/Work_Email, element/IS_ADMIN_ASST, element/TOP_SUPERVISORY_ORG, element/Directory_Login_Id, element/Is_Taleo_Admin, element/Is_Primetime_Admin, element/Supervisory_Org_Ref_Id, element/SUPERVISORY_ORGANIZATION_WID, element/Is_Recruiter, element/Is_HRBP, element/Is_Payroll_Country_USA, element/WID, element/Jobcode_Change_Flag, element/IS_SOURCER, element/IS_TAM, element/IS_FINANCE_BP, element/IS_HR_ADVISOR, element/IS_HRBI, element/IS_TAC, element/PRIM_WORK_ADDRESS, element/PRIM_WORK_ADDRESS3, element/PRIM_WORK_CITY, element/PRIM_WORK_STATE, element/PRIM_WORK_STATE_ISO_CODE, element/PRIM_WORK_COUNTRY, element/PRIM_WORK_COUNTRY_ISO_CODE, element/PRIM_WORK_POSTAL_CODE, element/EE_ORG_LEVEL, element/EE_JOB_FAMILY_GROUP, element/L2_EMPLOYEE_ID, element/L2_JOB_FAMILY_GROUP, element/TOP_SUP_ORG_MANAGED, element/PERSONAL_EMAIL, element/MANAGER_NAME, element/BP_REASON_CATG, element/RESCINDED_DATE, element/RESCINDED_BY, element/NOT_ELIGIBLE_FOR_REHIRE, element/BP_INITIATOR, element/BP_INITIATOR_EMP_ID, element/IS_EXTERNAL_LOAD, element/HR_BUS_PARTNER, element/SCH_WEEKLY_HOURS, element/POS_TIME_TYPE_FLASTATUS, element/EIACA_STATUS, element/WORKER_COMMUNITY_REF_ID, element/LOCATION_EFFT_DATE, element/COMP_EFFT_DATE, element/COMP_PLAN_START_DT, element/TTL_BASE_PERIOD_WDP_EVNT_VAL, element/COMP_PLAN, element/COMP_GRADE, element/COMP_GRADE_PROFILE, element/ASSIGNED_BONUS_PLAN_DETAILS, element/BONUS_TARGET_AMT, element/BONUS_PLANNED_PCT, element/PAY_GROUP_ID, element/CONTINUOUS_SERVICE_DATE, element/LEVEL2_MGR_NAME, element/COMMUNITY, element/WORKER_COMMUNITY, element/BU_NAME, element/GENDER_SHORT, element/CONTRACT_PAY_RATE, element/LEVEL3_MGR_NAME, element/TOTAL_BASE_PAY_AMOUNT, element/LEVEL2_ORG_NAME, element/LEVEL3_ORG_NAME, element/MANAGER_ID_PROPOSED, element/MANAGER_CORPID_PROPOSED, element/SUPERVISORY_ORGANIZATION, element/TIME_IN_JOB_PROFILE_START_DATE, element/Trans_Type, element/System_List]
+Values: [A4100357, A4100357, 192766, 70000034781, Skywalker, Luke, Luke, Skywalker, Skywalker, Luke, Luke, Skywalker, 20170612, 20170612, 100, Intuit Corp, 000, No Group, Unspecified, 1000, BU/DC Prod Cogs, 85095, Employee, E, Employee, T, Terminated, UNK, APDM21, Product Mgr 1, PDM - Product Mgmt, T - Product Management, SRP, Product Mgr 1, 40, F, 75000, 0, 70000, 0, IPI, 0.1, USD, USACA01, USA, 0, 0, 0, 0, 192766, Hire, Albert Lee: rollback, 2017-06-12, Rescinded, Hire Employee > Hire Employee > New Hire, New Hire, 2017-06-12, c68a0c6e44d801611863ceece1141600, Rescind, 10000175078, Luke_Skywalker@intuit.com, 0, brad smith (), lskywalker1, 0, 0, S3726, c1d0b1adbcd5104f7f36adadb2655833, 0, 0, 1, c68a0c6e44d801deda2a3110e2142a00, 1, 0, 0, 0, 0, 0, 0, 2535 Garcia Avenue, Mountain View, CA 94043, Mountain View, California, CA, United States of America, USA, 94043, 4, T - Product Management, 71691, G - General Management, 192766, aplee13@gmail.com, Kevin Kirn, Hire Employee, 2017-06-12, 189607, 0, Albert Lee, 189607, 0, Ben Serio | Yael Shalev Barkai, 40, Full time, No Entry, CP-PM+ConvertedTeam, 2017-06-12, 06122017, 2017-06-12, 70000, General Salary Plan, General Grade, General - USD, IPI - Intuit Performance Incentive Plan (%), 7500, 0.1, 1 - Exempt, 2017-06-12, Albert Ko, PM, PM, Unknown Business Unit, M, 0, Kevin Kirn, 75000, CEG (Albert Ko), CEG - PM (Kevin Kirn), 85095, 10000175078, CEG - PM (Kevin Kirn), 2017-06-12, Rescind, Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker]
+2017-10-30 14:05:55 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-30 14:05:55 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><element>
+  <CandidateID>A4100357</CandidateID>
+  <Applicant_ID>A4100357</Applicant_ID>
+  <Employee_ID>192766</Employee_ID>
+  <Corp_ID>70000034781</Corp_ID>
+  <Legal_Name>Skywalker, Luke</Legal_Name>
+  <Legal_First_Name>Luke</Legal_First_Name>
+  <Legal_Last_Name>Skywalker</Legal_Last_Name>
+  <Preferred_Name>Skywalker, Luke</Preferred_Name>
+  <Preferred_Name_First>Luke</Preferred_Name_First>
+  <Preferred_Name_Last>Skywalker</Preferred_Name_Last>
+  <Hire_Dt>20170612</Hire_Dt>
+  <Rehire_Dt>20170612</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>000</Org_Id>
+  <Org_Name>No Group, Unspecified</Org_Name>
+  <Dept_Id>1000</Dept_Id>
+  <Dept_Name>BU/DC Prod Cogs</Dept_Name>
+  <Supervisor_Id>85095</Supervisor_Id>
+  <WORKER_TYPE>Employee</WORKER_TYPE>
+  <Emp_Type>E</Emp_Type>
+  <Emp_Class_Desc>Employee</Emp_Class_Desc>
+  <Emp_Status_Code>T</Emp_Status_Code>
+  <Emp_Status_Desc>Terminated</Emp_Status_Desc>
+  <Bufg>UNK</Bufg>
+  <Jobcode>APDM21</Jobcode>
+  <Jobcode_Desc>Product Mgr 1</Jobcode_Desc>
+  <Job_Family>PDM - Product Mgmt</Job_Family>
+  <Job_Function>T - Product Management</Job_Function>
+  <Grade>SRP</Grade>
+  <Business_Title>Product Mgr 1</Business_Title>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>75000</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>70000</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Plan_Code>IPI</Bonus_Plan_Code>
+  <Bonus_Target_Pct>0.1</Bonus_Target_Pct>
+  <Currency_Code>USD</Currency_Code>
+  <Legal_Work_Location>USACA01</Legal_Work_Location>
+  <WD_Location_Country_Code>USA</WD_Location_Country_Code>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <NID_Count>0</NID_Count>
+  <TACoordinator_Employee_ID>192766</TACoordinator_Employee_ID>
+  <BP_Event>Hire</BP_Event>
+  <BP_Comments>Albert Lee: rollback</BP_Comments>
+  <BP_Rescind_Date>2017-06-12</BP_Rescind_Date>
+  <BP_Status>Rescinded</BP_Status>
+  <BP_REASON>Hire Employee &gt; Hire Employee &gt; New Hire</BP_REASON>
+  <BP_Reason_Text>New Hire</BP_Reason_Text>
+  <BP_Effective_Dt>2017-06-12</BP_Effective_Dt>
+  <BP_Process_WID>c68a0c6e44d801611863ceece1141600</BP_Process_WID>
+  <TRANSACTION_TYPE>Rescind</TRANSACTION_TYPE>
+  <Supervisor_Corp_Id>10000175078</Supervisor_Corp_Id>
+  <Work_Email>Luke_Skywalker@intuit.com</Work_Email>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <TOP_SUPERVISORY_ORG>brad smith ()</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>lskywalker1</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Is_Primetime_Admin>0</Is_Primetime_Admin>
+  <Supervisory_Org_Ref_Id>S3726</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>c1d0b1adbcd5104f7f36adadb2655833</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>1</Is_Payroll_Country_USA>
+  <WID>c68a0c6e44d801deda2a3110e2142a00</WID>
+  <Jobcode_Change_Flag>1</Jobcode_Change_Flag>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>2535 Garcia Avenue</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_ADDRESS3>Mountain View, CA 94043</PRIM_WORK_ADDRESS3>
+  <PRIM_WORK_CITY>Mountain View</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>California</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>CA</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>United States of America</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>USA</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>94043</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>4</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>T - Product Management</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>71691</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>G - General Management</L2_JOB_FAMILY_GROUP>
+  <TOP_SUP_ORG_MANAGED>192766</TOP_SUP_ORG_MANAGED>
+  <PERSONAL_EMAIL>aplee13@gmail.com</PERSONAL_EMAIL>
+  <MANAGER_NAME>Kevin Kirn</MANAGER_NAME>
+  <BP_REASON_CATG>Hire Employee</BP_REASON_CATG>
+  <RESCINDED_DATE>2017-06-12</RESCINDED_DATE>
+  <RESCINDED_BY>189607</RESCINDED_BY>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <BP_INITIATOR>Albert Lee</BP_INITIATOR>
+  <BP_INITIATOR_EMP_ID>189607</BP_INITIATOR_EMP_ID>
+  <IS_EXTERNAL_LOAD>0</IS_EXTERNAL_LOAD>
+  <HR_BUS_PARTNER>Ben Serio | Yael Shalev Barkai</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS>No Entry</EIACA_STATUS>
+  <WORKER_COMMUNITY_REF_ID>CP-PM+ConvertedTeam</WORKER_COMMUNITY_REF_ID>
+  <LOCATION_EFFT_DATE>2017-06-12</LOCATION_EFFT_DATE>
+  <COMP_EFFT_DATE>06122017</COMP_EFFT_DATE>
+  <COMP_PLAN_START_DT>2017-06-12</COMP_PLAN_START_DT>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>70000</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <COMP_PLAN>General Salary Plan</COMP_PLAN>
+  <COMP_GRADE>General Grade</COMP_GRADE>
+  <COMP_GRADE_PROFILE>General - USD</COMP_GRADE_PROFILE>
+  <ASSIGNED_BONUS_PLAN_DETAILS>IPI - Intuit Performance Incentive Plan (%)</ASSIGNED_BONUS_PLAN_DETAILS>
+  <BONUS_TARGET_AMT>7500</BONUS_TARGET_AMT>
+  <BONUS_PLANNED_PCT>0.1</BONUS_PLANNED_PCT>
+  <PAY_GROUP_ID>1 - Exempt</PAY_GROUP_ID>
+  <CONTINUOUS_SERVICE_DATE>2017-06-12</CONTINUOUS_SERVICE_DATE>
+  <LEVEL2_MGR_NAME>Albert Ko</LEVEL2_MGR_NAME>
+  <COMMUNITY>PM</COMMUNITY>
+  <WORKER_COMMUNITY>PM</WORKER_COMMUNITY>
+  <BU_NAME>Unknown Business Unit</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Kevin Kirn</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>75000</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>CEG (Albert Ko)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>CEG - PM (Kevin Kirn)</LEVEL3_ORG_NAME>
+  <MANAGER_ID_PROPOSED>85095</MANAGER_ID_PROPOSED>
+  <MANAGER_CORPID_PROPOSED>10000175078</MANAGER_CORPID_PROPOSED>
+  <SUPERVISORY_ORGANIZATION>CEG - PM (Kevin Kirn)</SUPERVISORY_ORGANIZATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2017-06-12</TIME_IN_JOB_PROFILE_START_DATE>
+  <Trans_Type>Rescind</Trans_Type>
+  <System_List>Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker</System_List>
+</element>
+
+2017-10-30 14:05:58 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 14:05:58 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 14:05:58 BoomiTest (WDPBaseWorker) [INFO] ==================completed WDP Base Worker========================
+2017-10-30 14:05:58 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 14:05:58 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 14:05:58 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 14:06:05 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 14:06:06 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 14:06:07 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 14:06:33 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 14:06:33 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 14:06:33 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 14:06:33 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 14:06:33 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 14:06:33 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:06:33 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 14:06:33 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 14:06:33 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 14:06:33 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:06:33 BoomiTest (WDPBaseWorker) [INFO] ==================Info WDP Base Worker========================
+2017-10-30 14:06:33 BoomiTest (WDPBaseWorker) [INFO] =====Call Restassured config method=========
+2017-10-30 14:06:33 BoomiTest (PostSetRestAssuredConfig) [INFO] ------- setRestAssuredConfig---------
+2017-10-30 14:06:33 BoomiTest (PostSetRestAssuredConfig) [INFO] ----Building Request Specification for Post Call -----
+2017-10-30 14:06:33 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=, contentType=application/json}
+2017-10-30 14:06:33 BoomiTest (WDPBaseWorker) [INFO] Local_perf_URL : https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 14:06:33 BoomiTest (WDPBaseWorker) [INFO] Auth_Token_perf : Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=
+2017-10-30 14:06:33 Utility (parseXmlPayload) [INFO] Headers :[﻿element/CandidateID, element/Applicant_ID, element/Employee_ID, element/Corp_ID, element/Legal_Name, element/Legal_First_Name, element/Legal_Last_Name, element/Preferred_Name, element/Preferred_Name_First, element/Preferred_Name_Last, element/Hire_Dt, element/Rehire_Dt, element/Company_Id, element/Company_Desc, element/Org_Id, element/Org_Name, element/Dept_Id, element/Dept_Name, element/Supervisor_Id, element/WORKER_TYPE, element/Emp_Type, element/Emp_Class_Desc, element/Emp_Status_Code, element/Emp_Status_Desc, element/Bufg, element/Jobcode, element/Jobcode_Desc, element/Job_Family, element/Job_Function, element/Grade, element/Business_Title, element/Std_Hours, element/Full_Part_Time, element/Annual_Rt, element/Hourly_Rt, element/ANNUAL_RT_WDP_EVENT_VALUE, element/HOURLY_RT_WDP_EVENT_VALUE, element/Bonus_Plan_Code, element/Bonus_Target_Pct, element/Currency_Code, element/Legal_Work_Location, element/WD_Location_Country_Code, element/Is_Manager, element/Is_Manager_Of_Cwf, element/Is_Manager_Of_Emp_Or_Cwf, element/NID_Count, element/TACoordinator_Employee_ID, element/BP_Event, element/BP_Comments, element/BP_Rescind_Date, element/BP_Status, element/BP_REASON, element/BP_Reason_Text, element/BP_Effective_Dt, element/BP_Process_WID, element/TRANSACTION_TYPE, element/Supervisor_Corp_Id, element/Work_Email, element/IS_ADMIN_ASST, element/TOP_SUPERVISORY_ORG, element/Directory_Login_Id, element/Is_Taleo_Admin, element/Is_Primetime_Admin, element/Supervisory_Org_Ref_Id, element/SUPERVISORY_ORGANIZATION_WID, element/Is_Recruiter, element/Is_HRBP, element/Is_Payroll_Country_USA, element/WID, element/Jobcode_Change_Flag, element/IS_SOURCER, element/IS_TAM, element/IS_FINANCE_BP, element/IS_HR_ADVISOR, element/IS_HRBI, element/IS_TAC, element/PRIM_WORK_ADDRESS, element/PRIM_WORK_ADDRESS3, element/PRIM_WORK_CITY, element/PRIM_WORK_STATE, element/PRIM_WORK_STATE_ISO_CODE, element/PRIM_WORK_COUNTRY, element/PRIM_WORK_COUNTRY_ISO_CODE, element/PRIM_WORK_POSTAL_CODE, element/EE_ORG_LEVEL, element/EE_JOB_FAMILY_GROUP, element/L2_EMPLOYEE_ID, element/L2_JOB_FAMILY_GROUP, element/TOP_SUP_ORG_MANAGED, element/PERSONAL_EMAIL, element/MANAGER_NAME, element/BP_REASON_CATG, element/RESCINDED_DATE, element/RESCINDED_BY, element/NOT_ELIGIBLE_FOR_REHIRE, element/BP_INITIATOR, element/BP_INITIATOR_EMP_ID, element/IS_EXTERNAL_LOAD, element/HR_BUS_PARTNER, element/SCH_WEEKLY_HOURS, element/POS_TIME_TYPE_FLASTATUS, element/EIACA_STATUS, element/WORKER_COMMUNITY_REF_ID, element/LOCATION_EFFT_DATE, element/COMP_EFFT_DATE, element/COMP_PLAN_START_DT, element/TTL_BASE_PERIOD_WDP_EVNT_VAL, element/COMP_PLAN, element/COMP_GRADE, element/COMP_GRADE_PROFILE, element/ASSIGNED_BONUS_PLAN_DETAILS, element/BONUS_TARGET_AMT, element/BONUS_PLANNED_PCT, element/PAY_GROUP_ID, element/CONTINUOUS_SERVICE_DATE, element/LEVEL2_MGR_NAME, element/COMMUNITY, element/WORKER_COMMUNITY, element/BU_NAME, element/GENDER_SHORT, element/CONTRACT_PAY_RATE, element/LEVEL3_MGR_NAME, element/TOTAL_BASE_PAY_AMOUNT, element/LEVEL2_ORG_NAME, element/LEVEL3_ORG_NAME, element/MANAGER_ID_PROPOSED, element/MANAGER_CORPID_PROPOSED, element/SUPERVISORY_ORGANIZATION, element/TIME_IN_JOB_PROFILE_START_DATE, element/Trans_Type, element/System_List]
+Values: [A4100357, A4100357, 192766, 70000034781, Skywalker, Luke, Luke, Skywalker, Skywalker, Luke, Luke, Skywalker, 20170612, 20170612, 100, Intuit Corp, 000, No Group, Unspecified, 1000, BU/DC Prod Cogs, 85095, Employee, E, Employee, T, Terminated, UNK, APDM21, Product Mgr 1, PDM - Product Mgmt, T - Product Management, SRP, Product Mgr 1, 40, F, 75000, 0, 70000, 0, IPI, 0.1, USD, USACA01, USA, 0, 0, 0, 0, 192766, Hire, Albert Lee: rollback, 2017-06-12, Rescinded, Hire Employee > Hire Employee > New Hire, New Hire, 2017-06-12, c68a0c6e44d801611863ceece1141600, Rescind, 10000175078, Luke_Skywalker@intuit.com, 0, brad smith (), lskywalker1, 0, 0, S3726, c1d0b1adbcd5104f7f36adadb2655833, 0, 0, 1, c68a0c6e44d801deda2a3110e2142a00, 1, 0, 0, 0, 0, 0, 0, 2535 Garcia Avenue, Mountain View, CA 94043, Mountain View, California, CA, United States of America, USA, 94043, 4, T - Product Management, 71691, G - General Management, 192766, aplee13@gmail.com, Kevin Kirn, Hire Employee, 2017-06-12, 189607, 0, Albert Lee, 189607, 0, Ben Serio | Yael Shalev Barkai, 40, Full time, No Entry, CP-PM+ConvertedTeam, 2017-06-12, 06122017, 2017-06-12, 70000, General Salary Plan, General Grade, General - USD, IPI - Intuit Performance Incentive Plan (%), 7500, 0.1, 1 - Exempt, 2017-06-12, Albert Ko, PM, PM, Unknown Business Unit, M, 0, Kevin Kirn, 75000, CEG (Albert Ko), CEG - PM (Kevin Kirn), 85095, 10000175078, CEG - PM (Kevin Kirn), 2017-06-12, Rescind, Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker]
+2017-10-30 14:06:33 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-30 14:06:33 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><element>
+  <CandidateID>A4100357</CandidateID>
+  <Applicant_ID>A4100357</Applicant_ID>
+  <Employee_ID>192766</Employee_ID>
+  <Corp_ID>70000034781</Corp_ID>
+  <Legal_Name>Skywalker, Luke</Legal_Name>
+  <Legal_First_Name>Luke</Legal_First_Name>
+  <Legal_Last_Name>Skywalker</Legal_Last_Name>
+  <Preferred_Name>Skywalker, Luke</Preferred_Name>
+  <Preferred_Name_First>Luke</Preferred_Name_First>
+  <Preferred_Name_Last>Skywalker</Preferred_Name_Last>
+  <Hire_Dt>20170612</Hire_Dt>
+  <Rehire_Dt>20170612</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>000</Org_Id>
+  <Org_Name>No Group, Unspecified</Org_Name>
+  <Dept_Id>1000</Dept_Id>
+  <Dept_Name>BU/DC Prod Cogs</Dept_Name>
+  <Supervisor_Id>85095</Supervisor_Id>
+  <WORKER_TYPE>Employee</WORKER_TYPE>
+  <Emp_Type>E</Emp_Type>
+  <Emp_Class_Desc>Employee</Emp_Class_Desc>
+  <Emp_Status_Code>T</Emp_Status_Code>
+  <Emp_Status_Desc>Terminated</Emp_Status_Desc>
+  <Bufg>UNK</Bufg>
+  <Jobcode>APDM21</Jobcode>
+  <Jobcode_Desc>Product Mgr 1</Jobcode_Desc>
+  <Job_Family>PDM - Product Mgmt</Job_Family>
+  <Job_Function>T - Product Management</Job_Function>
+  <Grade>SRP</Grade>
+  <Business_Title>Product Mgr 1</Business_Title>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>75000</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>70000</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Plan_Code>IPI</Bonus_Plan_Code>
+  <Bonus_Target_Pct>0.1</Bonus_Target_Pct>
+  <Currency_Code>USD</Currency_Code>
+  <Legal_Work_Location>USACA01</Legal_Work_Location>
+  <WD_Location_Country_Code>USA</WD_Location_Country_Code>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <NID_Count>0</NID_Count>
+  <TACoordinator_Employee_ID>192766</TACoordinator_Employee_ID>
+  <BP_Event>Hire</BP_Event>
+  <BP_Comments>Albert Lee: rollback</BP_Comments>
+  <BP_Rescind_Date>2017-06-12</BP_Rescind_Date>
+  <BP_Status>Rescinded</BP_Status>
+  <BP_REASON>Hire Employee &gt; Hire Employee &gt; New Hire</BP_REASON>
+  <BP_Reason_Text>New Hire</BP_Reason_Text>
+  <BP_Effective_Dt>2017-06-12</BP_Effective_Dt>
+  <BP_Process_WID>c68a0c6e44d801611863ceece1141600</BP_Process_WID>
+  <TRANSACTION_TYPE>Rescind</TRANSACTION_TYPE>
+  <Supervisor_Corp_Id>10000175078</Supervisor_Corp_Id>
+  <Work_Email>Luke_Skywalker@intuit.com</Work_Email>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <TOP_SUPERVISORY_ORG>brad smith ()</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>lskywalker1</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Is_Primetime_Admin>0</Is_Primetime_Admin>
+  <Supervisory_Org_Ref_Id>S3726</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>c1d0b1adbcd5104f7f36adadb2655833</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>1</Is_Payroll_Country_USA>
+  <WID>c68a0c6e44d801deda2a3110e2142a00</WID>
+  <Jobcode_Change_Flag>1</Jobcode_Change_Flag>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>2535 Garcia Avenue</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_ADDRESS3>Mountain View, CA 94043</PRIM_WORK_ADDRESS3>
+  <PRIM_WORK_CITY>Mountain View</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>California</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>CA</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>United States of America</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>USA</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>94043</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>4</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>T - Product Management</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>71691</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>G - General Management</L2_JOB_FAMILY_GROUP>
+  <TOP_SUP_ORG_MANAGED>192766</TOP_SUP_ORG_MANAGED>
+  <PERSONAL_EMAIL>aplee13@gmail.com</PERSONAL_EMAIL>
+  <MANAGER_NAME>Kevin Kirn</MANAGER_NAME>
+  <BP_REASON_CATG>Hire Employee</BP_REASON_CATG>
+  <RESCINDED_DATE>2017-06-12</RESCINDED_DATE>
+  <RESCINDED_BY>189607</RESCINDED_BY>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <BP_INITIATOR>Albert Lee</BP_INITIATOR>
+  <BP_INITIATOR_EMP_ID>189607</BP_INITIATOR_EMP_ID>
+  <IS_EXTERNAL_LOAD>0</IS_EXTERNAL_LOAD>
+  <HR_BUS_PARTNER>Ben Serio | Yael Shalev Barkai</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS>No Entry</EIACA_STATUS>
+  <WORKER_COMMUNITY_REF_ID>CP-PM+ConvertedTeam</WORKER_COMMUNITY_REF_ID>
+  <LOCATION_EFFT_DATE>2017-06-12</LOCATION_EFFT_DATE>
+  <COMP_EFFT_DATE>06122017</COMP_EFFT_DATE>
+  <COMP_PLAN_START_DT>2017-06-12</COMP_PLAN_START_DT>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>70000</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <COMP_PLAN>General Salary Plan</COMP_PLAN>
+  <COMP_GRADE>General Grade</COMP_GRADE>
+  <COMP_GRADE_PROFILE>General - USD</COMP_GRADE_PROFILE>
+  <ASSIGNED_BONUS_PLAN_DETAILS>IPI - Intuit Performance Incentive Plan (%)</ASSIGNED_BONUS_PLAN_DETAILS>
+  <BONUS_TARGET_AMT>7500</BONUS_TARGET_AMT>
+  <BONUS_PLANNED_PCT>0.1</BONUS_PLANNED_PCT>
+  <PAY_GROUP_ID>1 - Exempt</PAY_GROUP_ID>
+  <CONTINUOUS_SERVICE_DATE>2017-06-12</CONTINUOUS_SERVICE_DATE>
+  <LEVEL2_MGR_NAME>Albert Ko</LEVEL2_MGR_NAME>
+  <COMMUNITY>PM</COMMUNITY>
+  <WORKER_COMMUNITY>PM</WORKER_COMMUNITY>
+  <BU_NAME>Unknown Business Unit</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Kevin Kirn</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>75000</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>CEG (Albert Ko)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>CEG - PM (Kevin Kirn)</LEVEL3_ORG_NAME>
+  <MANAGER_ID_PROPOSED>85095</MANAGER_ID_PROPOSED>
+  <MANAGER_CORPID_PROPOSED>10000175078</MANAGER_CORPID_PROPOSED>
+  <SUPERVISORY_ORGANIZATION>CEG - PM (Kevin Kirn)</SUPERVISORY_ORGANIZATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2017-06-12</TIME_IN_JOB_PROFILE_START_DATE>
+  <Trans_Type>Rescind</Trans_Type>
+  <System_List>Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker</System_List>
+</element>
+
+2017-10-30 14:06:36 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 14:06:36 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 14:06:36 BoomiTest (WDPBaseWorker) [INFO] ==================completed WDP Base Worker========================
+2017-10-30 14:06:36 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 14:06:36 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 14:06:36 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 14:06:41 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 14:06:41 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 14:06:42 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 14:07:43 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 14:07:43 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 14:07:43 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 14:07:43 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 14:07:43 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 14:07:43 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:07:43 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 14:07:43 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 14:07:43 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 14:07:43 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:07:43 BoomiTest (WDPBaseWorker) [INFO] ==================Info WDP Base Worker========================
+2017-10-30 14:07:43 BoomiTest (WDPBaseWorker) [INFO] =====Call Restassured config method=========
+2017-10-30 14:07:43 BoomiTest (PostSetRestAssuredConfig) [INFO] ------- setRestAssuredConfig---------
+2017-10-30 14:07:43 BoomiTest (PostSetRestAssuredConfig) [INFO] ----Building Request Specification for Post Call -----
+2017-10-30 14:07:43 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=, contentType=application/json}
+2017-10-30 14:07:43 BoomiTest (WDPBaseWorker) [INFO] Local_perf_URL : https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 14:07:43 BoomiTest (WDPBaseWorker) [INFO] Auth_Token_perf : Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=
+2017-10-30 14:07:43 Utility (parseXmlPayload) [INFO] Headers :[﻿element/CandidateID, element/Applicant_ID, element/Employee_ID, element/Corp_ID, element/Legal_Name, element/Legal_First_Name, element/Legal_Last_Name, element/Preferred_Name, element/Preferred_Name_First, element/Preferred_Name_Last, element/Hire_Dt, element/Rehire_Dt, element/Company_Id, element/Company_Desc, element/Org_Id, element/Org_Name, element/Dept_Id, element/Dept_Name, element/Supervisor_Id, element/WORKER_TYPE, element/Emp_Type, element/Emp_Class_Desc, element/Emp_Status_Code, element/Emp_Status_Desc, element/Bufg, element/Jobcode, element/Jobcode_Desc, element/Job_Family, element/Job_Function, element/Grade, element/Business_Title, element/Std_Hours, element/Full_Part_Time, element/Annual_Rt, element/Hourly_Rt, element/ANNUAL_RT_WDP_EVENT_VALUE, element/HOURLY_RT_WDP_EVENT_VALUE, element/Bonus_Plan_Code, element/Bonus_Target_Pct, element/Currency_Code, element/Legal_Work_Location, element/WD_Location_Country_Code, element/Is_Manager, element/Is_Manager_Of_Cwf, element/Is_Manager_Of_Emp_Or_Cwf, element/NID_Count, element/TACoordinator_Employee_ID, element/BP_Event, element/BP_Comments, element/BP_Rescind_Date, element/BP_Status, element/BP_REASON, element/BP_Reason_Text, element/BP_Effective_Dt, element/BP_Process_WID, element/TRANSACTION_TYPE, element/Supervisor_Corp_Id, element/Work_Email, element/IS_ADMIN_ASST, element/TOP_SUPERVISORY_ORG, element/Directory_Login_Id, element/Is_Taleo_Admin, element/Is_Primetime_Admin, element/Supervisory_Org_Ref_Id, element/SUPERVISORY_ORGANIZATION_WID, element/Is_Recruiter, element/Is_HRBP, element/Is_Payroll_Country_USA, element/WID, element/Jobcode_Change_Flag, element/IS_SOURCER, element/IS_TAM, element/IS_FINANCE_BP, element/IS_HR_ADVISOR, element/IS_HRBI, element/IS_TAC, element/PRIM_WORK_ADDRESS, element/PRIM_WORK_ADDRESS3, element/PRIM_WORK_CITY, element/PRIM_WORK_STATE, element/PRIM_WORK_STATE_ISO_CODE, element/PRIM_WORK_COUNTRY, element/PRIM_WORK_COUNTRY_ISO_CODE, element/PRIM_WORK_POSTAL_CODE, element/EE_ORG_LEVEL, element/EE_JOB_FAMILY_GROUP, element/L2_EMPLOYEE_ID, element/L2_JOB_FAMILY_GROUP, element/TOP_SUP_ORG_MANAGED, element/PERSONAL_EMAIL, element/MANAGER_NAME, element/BP_REASON_CATG, element/RESCINDED_DATE, element/RESCINDED_BY, element/NOT_ELIGIBLE_FOR_REHIRE, element/BP_INITIATOR, element/BP_INITIATOR_EMP_ID, element/IS_EXTERNAL_LOAD, element/HR_BUS_PARTNER, element/SCH_WEEKLY_HOURS, element/POS_TIME_TYPE_FLASTATUS, element/EIACA_STATUS, element/WORKER_COMMUNITY_REF_ID, element/LOCATION_EFFT_DATE, element/COMP_EFFT_DATE, element/COMP_PLAN_START_DT, element/TTL_BASE_PERIOD_WDP_EVNT_VAL, element/COMP_PLAN, element/COMP_GRADE, element/COMP_GRADE_PROFILE, element/ASSIGNED_BONUS_PLAN_DETAILS, element/BONUS_TARGET_AMT, element/BONUS_PLANNED_PCT, element/PAY_GROUP_ID, element/CONTINUOUS_SERVICE_DATE, element/LEVEL2_MGR_NAME, element/COMMUNITY, element/WORKER_COMMUNITY, element/BU_NAME, element/GENDER_SHORT, element/CONTRACT_PAY_RATE, element/LEVEL3_MGR_NAME, element/TOTAL_BASE_PAY_AMOUNT, element/LEVEL2_ORG_NAME, element/LEVEL3_ORG_NAME, element/MANAGER_ID_PROPOSED, element/MANAGER_CORPID_PROPOSED, element/SUPERVISORY_ORGANIZATION, element/TIME_IN_JOB_PROFILE_START_DATE, element/Trans_Type, element/System_List]
+Values: [A4100357, A4100357, 192766, 70000034781, Skywalker, Luke, Luke, Skywalker, Skywalker, Luke, Luke, Skywalker, 20170612, 20170612, 100, Intuit Corp, 000, No Group, Unspecified, 1000, BU/DC Prod Cogs, 85095, Employee, E, Employee, T, Terminated, UNK, APDM21, Product Mgr 1, PDM - Product Mgmt, T - Product Management, SRP, Product Mgr 1, 40, F, 75000, 0, 70000, 0, IPI, 0.1, USD, USACA01, USA, 0, 0, 0, 0, 192766, Hire, Albert Lee: rollback, 2017-06-12, Rescinded, Hire Employee > Hire Employee > New Hire, New Hire, 2017-06-12, c68a0c6e44d801611863ceece1141600, Rescind, 10000175078, Luke_Skywalker@intuit.com, 0, brad smith (), lskywalker1, 0, 0, S3726, c1d0b1adbcd5104f7f36adadb2655833, 0, 0, 1, c68a0c6e44d801deda2a3110e2142a00, 1, 0, 0, 0, 0, 0, 0, 2535 Garcia Avenue, Mountain View, CA 94043, Mountain View, California, CA, United States of America, USA, 94043, 4, T - Product Management, 71691, G - General Management, 192766, aplee13@gmail.com, Kevin Kirn, Hire Employee, 2017-06-12, 189607, 0, Albert Lee, 189607, 0, Ben Serio | Yael Shalev Barkai, 40, Full time, No Entry, CP-PM+ConvertedTeam, 2017-06-12, 06122017, 2017-06-12, 70000, General Salary Plan, General Grade, General - USD, IPI - Intuit Performance Incentive Plan (%), 7500, 0.1, 1 - Exempt, 2017-06-12, Albert Ko, PM, PM, Unknown Business Unit, M, 0, Kevin Kirn, 75000, CEG (Albert Ko), CEG - PM (Kevin Kirn), 85095, 10000175078, CEG - PM (Kevin Kirn), 2017-06-12, Rescind, Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker]
+2017-10-30 14:07:43 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-30 14:07:43 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><element>
+  <CandidateID>A4100357</CandidateID>
+  <Applicant_ID>A4100357</Applicant_ID>
+  <Employee_ID>192766</Employee_ID>
+  <Corp_ID>70000034781</Corp_ID>
+  <Legal_Name>Skywalker, Luke</Legal_Name>
+  <Legal_First_Name>Luke</Legal_First_Name>
+  <Legal_Last_Name>Skywalker</Legal_Last_Name>
+  <Preferred_Name>Skywalker, Luke</Preferred_Name>
+  <Preferred_Name_First>Luke</Preferred_Name_First>
+  <Preferred_Name_Last>Skywalker</Preferred_Name_Last>
+  <Hire_Dt>20170612</Hire_Dt>
+  <Rehire_Dt>20170612</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>000</Org_Id>
+  <Org_Name>No Group, Unspecified</Org_Name>
+  <Dept_Id>1000</Dept_Id>
+  <Dept_Name>BU/DC Prod Cogs</Dept_Name>
+  <Supervisor_Id>85095</Supervisor_Id>
+  <WORKER_TYPE>Employee</WORKER_TYPE>
+  <Emp_Type>E</Emp_Type>
+  <Emp_Class_Desc>Employee</Emp_Class_Desc>
+  <Emp_Status_Code>T</Emp_Status_Code>
+  <Emp_Status_Desc>Terminated</Emp_Status_Desc>
+  <Bufg>UNK</Bufg>
+  <Jobcode>APDM21</Jobcode>
+  <Jobcode_Desc>Product Mgr 1</Jobcode_Desc>
+  <Job_Family>PDM - Product Mgmt</Job_Family>
+  <Job_Function>T - Product Management</Job_Function>
+  <Grade>SRP</Grade>
+  <Business_Title>Product Mgr 1</Business_Title>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>75000</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>70000</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Plan_Code>IPI</Bonus_Plan_Code>
+  <Bonus_Target_Pct>0.1</Bonus_Target_Pct>
+  <Currency_Code>USD</Currency_Code>
+  <Legal_Work_Location>USACA01</Legal_Work_Location>
+  <WD_Location_Country_Code>USA</WD_Location_Country_Code>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <NID_Count>0</NID_Count>
+  <TACoordinator_Employee_ID>192766</TACoordinator_Employee_ID>
+  <BP_Event>Hire</BP_Event>
+  <BP_Comments>Albert Lee: rollback</BP_Comments>
+  <BP_Rescind_Date>2017-06-12</BP_Rescind_Date>
+  <BP_Status>Rescinded</BP_Status>
+  <BP_REASON>Hire Employee &gt; Hire Employee &gt; New Hire</BP_REASON>
+  <BP_Reason_Text>New Hire</BP_Reason_Text>
+  <BP_Effective_Dt>2017-06-12</BP_Effective_Dt>
+  <BP_Process_WID>c68a0c6e44d801611863ceece1141600</BP_Process_WID>
+  <TRANSACTION_TYPE>Rescind</TRANSACTION_TYPE>
+  <Supervisor_Corp_Id>10000175078</Supervisor_Corp_Id>
+  <Work_Email>Luke_Skywalker@intuit.com</Work_Email>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <TOP_SUPERVISORY_ORG>brad smith ()</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>lskywalker1</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Is_Primetime_Admin>0</Is_Primetime_Admin>
+  <Supervisory_Org_Ref_Id>S3726</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>c1d0b1adbcd5104f7f36adadb2655833</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>1</Is_Payroll_Country_USA>
+  <WID>c68a0c6e44d801deda2a3110e2142a00</WID>
+  <Jobcode_Change_Flag>1</Jobcode_Change_Flag>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>2535 Garcia Avenue</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_ADDRESS3>Mountain View, CA 94043</PRIM_WORK_ADDRESS3>
+  <PRIM_WORK_CITY>Mountain View</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>California</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>CA</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>United States of America</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>USA</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>94043</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>4</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>T - Product Management</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>71691</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>G - General Management</L2_JOB_FAMILY_GROUP>
+  <TOP_SUP_ORG_MANAGED>192766</TOP_SUP_ORG_MANAGED>
+  <PERSONAL_EMAIL>aplee13@gmail.com</PERSONAL_EMAIL>
+  <MANAGER_NAME>Kevin Kirn</MANAGER_NAME>
+  <BP_REASON_CATG>Hire Employee</BP_REASON_CATG>
+  <RESCINDED_DATE>2017-06-12</RESCINDED_DATE>
+  <RESCINDED_BY>189607</RESCINDED_BY>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <BP_INITIATOR>Albert Lee</BP_INITIATOR>
+  <BP_INITIATOR_EMP_ID>189607</BP_INITIATOR_EMP_ID>
+  <IS_EXTERNAL_LOAD>0</IS_EXTERNAL_LOAD>
+  <HR_BUS_PARTNER>Ben Serio | Yael Shalev Barkai</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS>No Entry</EIACA_STATUS>
+  <WORKER_COMMUNITY_REF_ID>CP-PM+ConvertedTeam</WORKER_COMMUNITY_REF_ID>
+  <LOCATION_EFFT_DATE>2017-06-12</LOCATION_EFFT_DATE>
+  <COMP_EFFT_DATE>06122017</COMP_EFFT_DATE>
+  <COMP_PLAN_START_DT>2017-06-12</COMP_PLAN_START_DT>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>70000</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <COMP_PLAN>General Salary Plan</COMP_PLAN>
+  <COMP_GRADE>General Grade</COMP_GRADE>
+  <COMP_GRADE_PROFILE>General - USD</COMP_GRADE_PROFILE>
+  <ASSIGNED_BONUS_PLAN_DETAILS>IPI - Intuit Performance Incentive Plan (%)</ASSIGNED_BONUS_PLAN_DETAILS>
+  <BONUS_TARGET_AMT>7500</BONUS_TARGET_AMT>
+  <BONUS_PLANNED_PCT>0.1</BONUS_PLANNED_PCT>
+  <PAY_GROUP_ID>1 - Exempt</PAY_GROUP_ID>
+  <CONTINUOUS_SERVICE_DATE>2017-06-12</CONTINUOUS_SERVICE_DATE>
+  <LEVEL2_MGR_NAME>Albert Ko</LEVEL2_MGR_NAME>
+  <COMMUNITY>PM</COMMUNITY>
+  <WORKER_COMMUNITY>PM</WORKER_COMMUNITY>
+  <BU_NAME>Unknown Business Unit</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Kevin Kirn</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>75000</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>CEG (Albert Ko)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>CEG - PM (Kevin Kirn)</LEVEL3_ORG_NAME>
+  <MANAGER_ID_PROPOSED>85095</MANAGER_ID_PROPOSED>
+  <MANAGER_CORPID_PROPOSED>10000175078</MANAGER_CORPID_PROPOSED>
+  <SUPERVISORY_ORGANIZATION>CEG - PM (Kevin Kirn)</SUPERVISORY_ORGANIZATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2017-06-12</TIME_IN_JOB_PROFILE_START_DATE>
+  <Trans_Type>Rescind</Trans_Type>
+  <System_List>Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker</System_List>
+</element>
+
+2017-10-30 14:07:46 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 14:07:46 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 14:07:46 BoomiTest (WDPBaseWorker) [INFO] ==================completed WDP Base Worker========================
+2017-10-30 14:07:46 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 14:07:46 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 14:07:46 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 14:07:52 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 14:07:52 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 14:07:53 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 14:07:57 BoomiTest (WDPBaseWorker) [INFO] =====================SmashFly WDP Passed========================
+2017-10-30 14:10:21 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 14:10:21 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 14:10:21 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 14:10:21 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 14:10:21 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 14:10:21 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:10:21 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 14:10:21 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 14:10:21 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 14:10:21 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:10:21 BoomiTest (WDPBaseWorker) [INFO] ==================Info WDP Base Worker========================
+2017-10-30 14:10:21 BoomiTest (WDPBaseWorker) [INFO] =====Call Restassured config method=========
+2017-10-30 14:10:21 BoomiTest (PostSetRestAssuredConfig) [INFO] ------- setRestAssuredConfig---------
+2017-10-30 14:10:21 BoomiTest (PostSetRestAssuredConfig) [INFO] ----Building Request Specification for Post Call -----
+2017-10-30 14:10:21 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=, contentType=application/json}
+2017-10-30 14:10:21 BoomiTest (WDPBaseWorker) [INFO] Local_perf_URL : https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 14:10:21 BoomiTest (WDPBaseWorker) [INFO] Auth_Token_perf : Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=
+2017-10-30 14:10:21 Utility (parseXmlPayload) [INFO] Headers :[﻿element/CandidateID, element/Applicant_ID, element/Employee_ID, element/Corp_ID, element/Legal_Name, element/Legal_First_Name, element/Legal_Last_Name, element/Preferred_Name, element/Preferred_Name_First, element/Preferred_Name_Last, element/Hire_Dt, element/Rehire_Dt, element/Company_Id, element/Company_Desc, element/Org_Id, element/Org_Name, element/Dept_Id, element/Dept_Name, element/Supervisor_Id, element/WORKER_TYPE, element/Emp_Type, element/Emp_Class_Desc, element/Emp_Status_Code, element/Emp_Status_Desc, element/Bufg, element/Jobcode, element/Jobcode_Desc, element/Job_Family, element/Job_Function, element/Grade, element/Business_Title, element/Std_Hours, element/Full_Part_Time, element/Annual_Rt, element/Hourly_Rt, element/ANNUAL_RT_WDP_EVENT_VALUE, element/HOURLY_RT_WDP_EVENT_VALUE, element/Bonus_Plan_Code, element/Bonus_Target_Pct, element/Currency_Code, element/Legal_Work_Location, element/WD_Location_Country_Code, element/Is_Manager, element/Is_Manager_Of_Cwf, element/Is_Manager_Of_Emp_Or_Cwf, element/NID_Count, element/TACoordinator_Employee_ID, element/BP_Event, element/BP_Comments, element/BP_Rescind_Date, element/BP_Status, element/BP_REASON, element/BP_Reason_Text, element/BP_Effective_Dt, element/BP_Process_WID, element/TRANSACTION_TYPE, element/Supervisor_Corp_Id, element/Work_Email, element/IS_ADMIN_ASST, element/TOP_SUPERVISORY_ORG, element/Directory_Login_Id, element/Is_Taleo_Admin, element/Is_Primetime_Admin, element/Supervisory_Org_Ref_Id, element/SUPERVISORY_ORGANIZATION_WID, element/Is_Recruiter, element/Is_HRBP, element/Is_Payroll_Country_USA, element/WID, element/Jobcode_Change_Flag, element/IS_SOURCER, element/IS_TAM, element/IS_FINANCE_BP, element/IS_HR_ADVISOR, element/IS_HRBI, element/IS_TAC, element/PRIM_WORK_ADDRESS, element/PRIM_WORK_ADDRESS3, element/PRIM_WORK_CITY, element/PRIM_WORK_STATE, element/PRIM_WORK_STATE_ISO_CODE, element/PRIM_WORK_COUNTRY, element/PRIM_WORK_COUNTRY_ISO_CODE, element/PRIM_WORK_POSTAL_CODE, element/EE_ORG_LEVEL, element/EE_JOB_FAMILY_GROUP, element/L2_EMPLOYEE_ID, element/L2_JOB_FAMILY_GROUP, element/TOP_SUP_ORG_MANAGED, element/PERSONAL_EMAIL, element/MANAGER_NAME, element/BP_REASON_CATG, element/RESCINDED_DATE, element/RESCINDED_BY, element/NOT_ELIGIBLE_FOR_REHIRE, element/BP_INITIATOR, element/BP_INITIATOR_EMP_ID, element/IS_EXTERNAL_LOAD, element/HR_BUS_PARTNER, element/SCH_WEEKLY_HOURS, element/POS_TIME_TYPE_FLASTATUS, element/EIACA_STATUS, element/WORKER_COMMUNITY_REF_ID, element/LOCATION_EFFT_DATE, element/COMP_EFFT_DATE, element/COMP_PLAN_START_DT, element/TTL_BASE_PERIOD_WDP_EVNT_VAL, element/COMP_PLAN, element/COMP_GRADE, element/COMP_GRADE_PROFILE, element/ASSIGNED_BONUS_PLAN_DETAILS, element/BONUS_TARGET_AMT, element/BONUS_PLANNED_PCT, element/PAY_GROUP_ID, element/CONTINUOUS_SERVICE_DATE, element/LEVEL2_MGR_NAME, element/COMMUNITY, element/WORKER_COMMUNITY, element/BU_NAME, element/GENDER_SHORT, element/CONTRACT_PAY_RATE, element/LEVEL3_MGR_NAME, element/TOTAL_BASE_PAY_AMOUNT, element/LEVEL2_ORG_NAME, element/LEVEL3_ORG_NAME, element/MANAGER_ID_PROPOSED, element/MANAGER_CORPID_PROPOSED, element/SUPERVISORY_ORGANIZATION, element/TIME_IN_JOB_PROFILE_START_DATE, element/Trans_Type, element/System_List]
+Values: [A4100357, A4100357, 192766, 70000034781, Skywalker, Luke, Luke, Skywalker, Skywalker, Luke, Luke, Skywalker, 20170612, 20170612, 100, Intuit Corp, 000, No Group, Unspecified, 1000, BU/DC Prod Cogs, 85095, Employee, E, Employee, T, Terminated, UNK, APDM21, Product Mgr 1, PDM - Product Mgmt, T - Product Management, SRP, Product Mgr 1, 40, F, 75000, 0, 70000, 0, IPI, 0.1, USD, USACA01, USA, 0, 0, 0, 0, 192766, Hire, Albert Lee: rollback, 2017-06-12, Rescinded, Hire Employee > Hire Employee > New Hire, New Hire, 2017-06-12, c68a0c6e44d801611863ceece1141600, Rescind, 10000175078, Luke_Skywalker@intuit.com, 0, brad smith (), lskywalker1, 0, 0, S3726, c1d0b1adbcd5104f7f36adadb2655833, 0, 0, 1, c68a0c6e44d801deda2a3110e2142a00, 1, 0, 0, 0, 0, 0, 0, 2535 Garcia Avenue, Mountain View, CA 94043, Mountain View, California, CA, United States of America, USA, 94043, 4, T - Product Management, 71691, G - General Management, 192766, aplee13@gmail.com, Kevin Kirn, Hire Employee, 2017-06-12, 189607, 0, Albert Lee, 189607, 0, Ben Serio | Yael Shalev Barkai, 40, Full time, No Entry, CP-PM+ConvertedTeam, 2017-06-12, 06122017, 2017-06-12, 70000, General Salary Plan, General Grade, General - USD, IPI - Intuit Performance Incentive Plan (%), 7500, 0.1, 1 - Exempt, 2017-06-12, Albert Ko, PM, PM, Unknown Business Unit, M, 0, Kevin Kirn, 75000, CEG (Albert Ko), CEG - PM (Kevin Kirn), 85095, 10000175078, CEG - PM (Kevin Kirn), 2017-06-12, Rescind, Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker]
+2017-10-30 14:10:21 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-30 14:10:21 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><element>
+  <CandidateID>A4100357</CandidateID>
+  <Applicant_ID>A4100357</Applicant_ID>
+  <Employee_ID>192766</Employee_ID>
+  <Corp_ID>70000034781</Corp_ID>
+  <Legal_Name>Skywalker, Luke</Legal_Name>
+  <Legal_First_Name>Luke</Legal_First_Name>
+  <Legal_Last_Name>Skywalker</Legal_Last_Name>
+  <Preferred_Name>Skywalker, Luke</Preferred_Name>
+  <Preferred_Name_First>Luke</Preferred_Name_First>
+  <Preferred_Name_Last>Skywalker</Preferred_Name_Last>
+  <Hire_Dt>20170612</Hire_Dt>
+  <Rehire_Dt>20170612</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>000</Org_Id>
+  <Org_Name>No Group, Unspecified</Org_Name>
+  <Dept_Id>1000</Dept_Id>
+  <Dept_Name>BU/DC Prod Cogs</Dept_Name>
+  <Supervisor_Id>85095</Supervisor_Id>
+  <WORKER_TYPE>Employee</WORKER_TYPE>
+  <Emp_Type>E</Emp_Type>
+  <Emp_Class_Desc>Employee</Emp_Class_Desc>
+  <Emp_Status_Code>T</Emp_Status_Code>
+  <Emp_Status_Desc>Terminated</Emp_Status_Desc>
+  <Bufg>UNK</Bufg>
+  <Jobcode>APDM21</Jobcode>
+  <Jobcode_Desc>Product Mgr 1</Jobcode_Desc>
+  <Job_Family>PDM - Product Mgmt</Job_Family>
+  <Job_Function>T - Product Management</Job_Function>
+  <Grade>SRP</Grade>
+  <Business_Title>Product Mgr 1</Business_Title>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>75000</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>70000</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Plan_Code>IPI</Bonus_Plan_Code>
+  <Bonus_Target_Pct>0.1</Bonus_Target_Pct>
+  <Currency_Code>USD</Currency_Code>
+  <Legal_Work_Location>USACA01</Legal_Work_Location>
+  <WD_Location_Country_Code>USA</WD_Location_Country_Code>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <NID_Count>0</NID_Count>
+  <TACoordinator_Employee_ID>192766</TACoordinator_Employee_ID>
+  <BP_Event>Hire</BP_Event>
+  <BP_Comments>Albert Lee: rollback</BP_Comments>
+  <BP_Rescind_Date>2017-06-12</BP_Rescind_Date>
+  <BP_Status>Rescinded</BP_Status>
+  <BP_REASON>Hire Employee &gt; Hire Employee &gt; New Hire</BP_REASON>
+  <BP_Reason_Text>New Hire</BP_Reason_Text>
+  <BP_Effective_Dt>2017-06-12</BP_Effective_Dt>
+  <BP_Process_WID>c68a0c6e44d801611863ceece1141600</BP_Process_WID>
+  <TRANSACTION_TYPE>Rescind</TRANSACTION_TYPE>
+  <Supervisor_Corp_Id>10000175078</Supervisor_Corp_Id>
+  <Work_Email>Luke_Skywalker@intuit.com</Work_Email>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <TOP_SUPERVISORY_ORG>brad smith ()</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>lskywalker1</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Is_Primetime_Admin>0</Is_Primetime_Admin>
+  <Supervisory_Org_Ref_Id>S3726</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>c1d0b1adbcd5104f7f36adadb2655833</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>1</Is_Payroll_Country_USA>
+  <WID>c68a0c6e44d801deda2a3110e2142a00</WID>
+  <Jobcode_Change_Flag>1</Jobcode_Change_Flag>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>2535 Garcia Avenue</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_ADDRESS3>Mountain View, CA 94043</PRIM_WORK_ADDRESS3>
+  <PRIM_WORK_CITY>Mountain View</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>California</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>CA</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>United States of America</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>USA</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>94043</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>4</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>T - Product Management</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>71691</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>G - General Management</L2_JOB_FAMILY_GROUP>
+  <TOP_SUP_ORG_MANAGED>192766</TOP_SUP_ORG_MANAGED>
+  <PERSONAL_EMAIL>aplee13@gmail.com</PERSONAL_EMAIL>
+  <MANAGER_NAME>Kevin Kirn</MANAGER_NAME>
+  <BP_REASON_CATG>Hire Employee</BP_REASON_CATG>
+  <RESCINDED_DATE>2017-06-12</RESCINDED_DATE>
+  <RESCINDED_BY>189607</RESCINDED_BY>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <BP_INITIATOR>Albert Lee</BP_INITIATOR>
+  <BP_INITIATOR_EMP_ID>189607</BP_INITIATOR_EMP_ID>
+  <IS_EXTERNAL_LOAD>0</IS_EXTERNAL_LOAD>
+  <HR_BUS_PARTNER>Ben Serio | Yael Shalev Barkai</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS>No Entry</EIACA_STATUS>
+  <WORKER_COMMUNITY_REF_ID>CP-PM+ConvertedTeam</WORKER_COMMUNITY_REF_ID>
+  <LOCATION_EFFT_DATE>2017-06-12</LOCATION_EFFT_DATE>
+  <COMP_EFFT_DATE>06122017</COMP_EFFT_DATE>
+  <COMP_PLAN_START_DT>2017-06-12</COMP_PLAN_START_DT>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>70000</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <COMP_PLAN>General Salary Plan</COMP_PLAN>
+  <COMP_GRADE>General Grade</COMP_GRADE>
+  <COMP_GRADE_PROFILE>General - USD</COMP_GRADE_PROFILE>
+  <ASSIGNED_BONUS_PLAN_DETAILS>IPI - Intuit Performance Incentive Plan (%)</ASSIGNED_BONUS_PLAN_DETAILS>
+  <BONUS_TARGET_AMT>7500</BONUS_TARGET_AMT>
+  <BONUS_PLANNED_PCT>0.1</BONUS_PLANNED_PCT>
+  <PAY_GROUP_ID>1 - Exempt</PAY_GROUP_ID>
+  <CONTINUOUS_SERVICE_DATE>2017-06-12</CONTINUOUS_SERVICE_DATE>
+  <LEVEL2_MGR_NAME>Albert Ko</LEVEL2_MGR_NAME>
+  <COMMUNITY>PM</COMMUNITY>
+  <WORKER_COMMUNITY>PM</WORKER_COMMUNITY>
+  <BU_NAME>Unknown Business Unit</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Kevin Kirn</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>75000</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>CEG (Albert Ko)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>CEG - PM (Kevin Kirn)</LEVEL3_ORG_NAME>
+  <MANAGER_ID_PROPOSED>85095</MANAGER_ID_PROPOSED>
+  <MANAGER_CORPID_PROPOSED>10000175078</MANAGER_CORPID_PROPOSED>
+  <SUPERVISORY_ORGANIZATION>CEG - PM (Kevin Kirn)</SUPERVISORY_ORGANIZATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2017-06-12</TIME_IN_JOB_PROFILE_START_DATE>
+  <Trans_Type>Rescind</Trans_Type>
+  <System_List>Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker</System_List>
+</element>
+
+2017-10-30 14:10:24 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 14:10:24 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 14:10:24 BoomiTest (WDPBaseWorker) [INFO] ==================completed WDP Base Worker========================
+2017-10-30 14:10:24 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 14:10:24 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 14:10:24 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 14:10:30 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 14:10:30 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 14:10:32 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 14:10:36 BoomiTest (WDPBaseWorker) [INFO] =====================SmashFly WDP Passed========================
+2017-10-30 14:58:31 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 14:58:31 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 14:58:31 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 14:58:31 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 14:58:31 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 14:58:31 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:58:31 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 14:58:31 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 14:58:31 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 14:58:31 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:58:31 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 14:58:31 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 14:58:31 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 14:58:33 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 14:58:33 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 14:58:53 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 14:58:53 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 14:58:53 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 14:58:53 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 14:58:53 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 14:58:53 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:58:53 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 14:58:53 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 14:58:53 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 14:58:53 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 14:58:53 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 14:58:53 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 14:58:53 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 14:58:56 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 14:58:56 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 14:58:57 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 14:58:57 BoomiTest (WDPBaseWorker) [INFO] ===================== WDP Passed========================
+2017-10-30 15:00:09 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 15:00:09 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 15:00:09 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 15:00:09 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 15:00:09 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 15:00:09 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:00:09 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 15:00:09 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 15:00:09 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:00:09 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:00:09 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 15:00:09 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 15:00:09 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 15:00:12 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 15:00:12 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 15:00:12 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 15:00:34 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 15:00:34 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 15:00:34 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 15:00:34 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 15:00:34 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 15:00:34 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:00:34 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 15:00:34 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 15:00:34 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:00:34 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:00:34 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 15:00:34 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 15:00:34 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 15:00:37 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 15:00:37 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 15:00:38 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 15:00:38 BoomiTest (WDPBaseWorker) [INFO] ===================== WDP Passed========================
+2017-10-30 15:02:18 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 15:02:18 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 15:02:18 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 15:02:18 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 15:02:18 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 15:02:18 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:02:18 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 15:02:18 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 15:02:18 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:02:18 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:02:18 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 15:02:18 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 15:02:18 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 15:02:21 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 15:02:21 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 15:02:22 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 15:02:22 BoomiTest (WDPBaseWorker) [INFO] ===================== WDP Passed========================
+2017-10-30 15:03:18 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 15:03:18 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 15:03:18 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 15:03:18 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 15:03:18 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 15:03:18 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:03:18 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 15:03:18 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 15:03:18 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:03:18 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:03:18 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 15:03:18 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 15:03:18 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 15:03:21 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 15:03:21 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 15:03:22 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 15:03:22 BoomiTest (WDPBaseWorker) [INFO] Verify emp details in WDP employeid= 192766, Applicantid= A4100357, Email Id= Luke_Skywalker@intuit.com
+2017-10-30 15:03:22 BoomiTest (WDPBaseWorker) [INFO] ===================== WDP Passed========================
+2017-10-30 15:08:42 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 15:08:42 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 15:08:42 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 15:08:42 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 15:08:42 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 15:08:42 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:08:42 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 15:08:42 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 15:08:42 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:08:42 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:08:42 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 15:08:42 BoomiTest (WDPBaseWorker) [INFO] DB Url= "jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1"
+2017-10-30 15:08:42 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 15:08:42 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 15:08:42 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 15:08:42 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 15:08:42 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 15:08:42 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 15:08:42 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:08:42 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 15:08:42 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 15:08:42 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:08:42 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:08:42 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 15:08:42 BoomiTest (WDPBaseWorker) [INFO] DB Url= "jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1"
+2017-10-30 15:08:42 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 15:09:49 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 15:09:49 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 15:09:49 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 15:09:49 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 15:09:49 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 15:09:49 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:09:49 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 15:09:49 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 15:09:49 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:09:49 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:09:50 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 15:09:50 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 15:09:50 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 15:10:24 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 15:10:24 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 15:10:24 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 15:10:24 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 15:10:24 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 15:10:24 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:10:24 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 15:10:24 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 15:10:24 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:10:24 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:10:24 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 15:10:24 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 15:10:24 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 15:11:06 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 15:11:06 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 15:11:06 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 15:11:06 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 15:11:06 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 15:11:06 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:11:06 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 15:11:06 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 15:11:06 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:11:06 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:11:06 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 15:11:06 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 15:11:06 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 15:11:08 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 15:11:08 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 15:11:09 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 15:11:09 BoomiTest (WDPBaseWorker) [INFO] Verify emp details in WDP: employeid= 192766, Applicantid= A4100357, Email Id= Luke_Skywalker@intuit.com
+2017-10-30 15:11:09 BoomiTest (WDPBaseWorker) [INFO] ===================== WDP Passed========================
+2017-10-30 15:20:28 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 15:20:28 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 15:20:28 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 15:20:28 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 15:20:28 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 15:20:28 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:20:28 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 15:20:28 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 15:20:28 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:20:28 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:20:28 BoomiTest (WDPBaseWorker) [INFO] ==================Info WDP Base Worker========================
+2017-10-30 15:20:28 BoomiTest (WDPBaseWorker) [INFO] =====Call Restassured config method=========
+2017-10-30 15:20:28 BoomiTest (PostSetRestAssuredConfig) [INFO] ------- setRestAssuredConfig---------
+2017-10-30 15:20:28 BoomiTest (PostSetRestAssuredConfig) [INFO] ----Building Request Specification for Post Call -----
+2017-10-30 15:20:28 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=, contentType=application/json}
+2017-10-30 15:20:28 BoomiTest (WDPBaseWorker) [INFO] Local_perf_URL : https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:20:28 BoomiTest (WDPBaseWorker) [INFO] Auth_Token_perf : Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=
+2017-10-30 15:20:28 Utility (parseXmlPayload) [INFO] Headers :[﻿element/CandidateID, element/Applicant_ID, element/Employee_ID, element/Corp_ID, element/Legal_Name, element/Legal_First_Name, element/Legal_Last_Name, element/Preferred_Name, element/Preferred_Name_First, element/Preferred_Name_Last, element/Hire_Dt, element/Rehire_Dt, element/Company_Id, element/Company_Desc, element/Org_Id, element/Org_Name, element/Dept_Id, element/Dept_Name, element/Supervisor_Id, element/WORKER_TYPE, element/Emp_Type, element/Emp_Class_Desc, element/Emp_Status_Code, element/Emp_Status_Desc, element/Bufg, element/Jobcode, element/Jobcode_Desc, element/Job_Family, element/Job_Function, element/Grade, element/Business_Title, element/Std_Hours, element/Full_Part_Time, element/Annual_Rt, element/Hourly_Rt, element/ANNUAL_RT_WDP_EVENT_VALUE, element/HOURLY_RT_WDP_EVENT_VALUE, element/Bonus_Plan_Code, element/Bonus_Target_Pct, element/Currency_Code, element/Legal_Work_Location, element/WD_Location_Country_Code, element/Is_Manager, element/Is_Manager_Of_Cwf, element/Is_Manager_Of_Emp_Or_Cwf, element/NID_Count, element/TACoordinator_Employee_ID, element/BP_Event, element/BP_Comments, element/BP_Rescind_Date, element/BP_Status, element/BP_REASON, element/BP_Reason_Text, element/BP_Effective_Dt, element/BP_Process_WID, element/TRANSACTION_TYPE, element/Supervisor_Corp_Id, element/Work_Email, element/IS_ADMIN_ASST, element/TOP_SUPERVISORY_ORG, element/Directory_Login_Id, element/Is_Taleo_Admin, element/Is_Primetime_Admin, element/Supervisory_Org_Ref_Id, element/SUPERVISORY_ORGANIZATION_WID, element/Is_Recruiter, element/Is_HRBP, element/Is_Payroll_Country_USA, element/WID, element/Jobcode_Change_Flag, element/IS_SOURCER, element/IS_TAM, element/IS_FINANCE_BP, element/IS_HR_ADVISOR, element/IS_HRBI, element/IS_TAC, element/PRIM_WORK_ADDRESS, element/PRIM_WORK_ADDRESS3, element/PRIM_WORK_CITY, element/PRIM_WORK_STATE, element/PRIM_WORK_STATE_ISO_CODE, element/PRIM_WORK_COUNTRY, element/PRIM_WORK_COUNTRY_ISO_CODE, element/PRIM_WORK_POSTAL_CODE, element/EE_ORG_LEVEL, element/EE_JOB_FAMILY_GROUP, element/L2_EMPLOYEE_ID, element/L2_JOB_FAMILY_GROUP, element/TOP_SUP_ORG_MANAGED, element/PERSONAL_EMAIL, element/MANAGER_NAME, element/BP_REASON_CATG, element/RESCINDED_DATE, element/RESCINDED_BY, element/NOT_ELIGIBLE_FOR_REHIRE, element/BP_INITIATOR, element/BP_INITIATOR_EMP_ID, element/IS_EXTERNAL_LOAD, element/HR_BUS_PARTNER, element/SCH_WEEKLY_HOURS, element/POS_TIME_TYPE_FLASTATUS, element/EIACA_STATUS, element/WORKER_COMMUNITY_REF_ID, element/LOCATION_EFFT_DATE, element/COMP_EFFT_DATE, element/COMP_PLAN_START_DT, element/TTL_BASE_PERIOD_WDP_EVNT_VAL, element/COMP_PLAN, element/COMP_GRADE, element/COMP_GRADE_PROFILE, element/ASSIGNED_BONUS_PLAN_DETAILS, element/BONUS_TARGET_AMT, element/BONUS_PLANNED_PCT, element/PAY_GROUP_ID, element/CONTINUOUS_SERVICE_DATE, element/LEVEL2_MGR_NAME, element/COMMUNITY, element/WORKER_COMMUNITY, element/BU_NAME, element/GENDER_SHORT, element/CONTRACT_PAY_RATE, element/LEVEL3_MGR_NAME, element/TOTAL_BASE_PAY_AMOUNT, element/LEVEL2_ORG_NAME, element/LEVEL3_ORG_NAME, element/MANAGER_ID_PROPOSED, element/MANAGER_CORPID_PROPOSED, element/SUPERVISORY_ORGANIZATION, element/TIME_IN_JOB_PROFILE_START_DATE, element/Trans_Type, element/System_List]
+Values: [A4100357, A4100357, 192766, 70000034781, Skywalker, Luke, Luke, Skywalker, Skywalker, Luke, Luke, Skywalker, 20170612, 20170612, 100, Intuit Corp, 000, No Group, Unspecified, 1000, BU/DC Prod Cogs, 85095, Employee, E, Employee, T, Terminated, UNK, APDM21, Product Mgr 1, PDM - Product Mgmt, T - Product Management, SRP, Product Mgr 1, 40, F, 75000, 0, 70000, 0, IPI, 0.1, USD, USACA01, USA, 0, 0, 0, 0, 192766, Hire, Albert Lee: rollback, 2017-06-12, Rescinded, Hire Employee > Hire Employee > New Hire, New Hire, 2017-06-12, c68a0c6e44d801611863ceece1141600, Rescind, 10000175078, Luke_Skywalker@intuit.com, 0, brad smith (), lskywalker1, 0, 0, S3726, c1d0b1adbcd5104f7f36adadb2655833, 0, 0, 1, c68a0c6e44d801deda2a3110e2142a00, 1, 0, 0, 0, 0, 0, 0, 2535 Garcia Avenue, Mountain View, CA 94043, Mountain View, California, CA, United States of America, USA, 94043, 4, T - Product Management, 71691, G - General Management, 192766, aplee13@gmail.com, Kevin Kirn, Hire Employee, 2017-06-12, 189607, 0, Albert Lee, 189607, 0, Ben Serio | Yael Shalev Barkai, 40, Full time, No Entry, CP-PM+ConvertedTeam, 2017-06-12, 06122017, 2017-06-12, 70000, General Salary Plan, General Grade, General - USD, IPI - Intuit Performance Incentive Plan (%), 7500, 0.1, 1 - Exempt, 2017-06-12, Albert Ko, PM, PM, Unknown Business Unit, M, 0, Kevin Kirn, 75000, CEG (Albert Ko), CEG - PM (Kevin Kirn), 85095, 10000175078, CEG - PM (Kevin Kirn), 2017-06-12, Rescind, Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker]
+2017-10-30 15:20:28 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-30 15:20:28 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><element>
+  <CandidateID>A4100357</CandidateID>
+  <Applicant_ID>A4100357</Applicant_ID>
+  <Employee_ID>192766</Employee_ID>
+  <Corp_ID>70000034781</Corp_ID>
+  <Legal_Name>Skywalker, Luke</Legal_Name>
+  <Legal_First_Name>Luke</Legal_First_Name>
+  <Legal_Last_Name>Skywalker</Legal_Last_Name>
+  <Preferred_Name>Skywalker, Luke</Preferred_Name>
+  <Preferred_Name_First>Luke</Preferred_Name_First>
+  <Preferred_Name_Last>Skywalker</Preferred_Name_Last>
+  <Hire_Dt>20170612</Hire_Dt>
+  <Rehire_Dt>20170612</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>000</Org_Id>
+  <Org_Name>No Group, Unspecified</Org_Name>
+  <Dept_Id>1000</Dept_Id>
+  <Dept_Name>BU/DC Prod Cogs</Dept_Name>
+  <Supervisor_Id>85095</Supervisor_Id>
+  <WORKER_TYPE>Employee</WORKER_TYPE>
+  <Emp_Type>E</Emp_Type>
+  <Emp_Class_Desc>Employee</Emp_Class_Desc>
+  <Emp_Status_Code>T</Emp_Status_Code>
+  <Emp_Status_Desc>Terminated</Emp_Status_Desc>
+  <Bufg>UNK</Bufg>
+  <Jobcode>APDM21</Jobcode>
+  <Jobcode_Desc>Product Mgr 1</Jobcode_Desc>
+  <Job_Family>PDM - Product Mgmt</Job_Family>
+  <Job_Function>T - Product Management</Job_Function>
+  <Grade>SRP</Grade>
+  <Business_Title>Product Mgr 1</Business_Title>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>75000</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>70000</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Plan_Code>IPI</Bonus_Plan_Code>
+  <Bonus_Target_Pct>0.1</Bonus_Target_Pct>
+  <Currency_Code>USD</Currency_Code>
+  <Legal_Work_Location>USACA01</Legal_Work_Location>
+  <WD_Location_Country_Code>USA</WD_Location_Country_Code>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <NID_Count>0</NID_Count>
+  <TACoordinator_Employee_ID>192766</TACoordinator_Employee_ID>
+  <BP_Event>Hire</BP_Event>
+  <BP_Comments>Albert Lee: rollback</BP_Comments>
+  <BP_Rescind_Date>2017-06-12</BP_Rescind_Date>
+  <BP_Status>Rescinded</BP_Status>
+  <BP_REASON>Hire Employee &gt; Hire Employee &gt; New Hire</BP_REASON>
+  <BP_Reason_Text>New Hire</BP_Reason_Text>
+  <BP_Effective_Dt>2017-06-12</BP_Effective_Dt>
+  <BP_Process_WID>c68a0c6e44d801611863ceece1141600</BP_Process_WID>
+  <TRANSACTION_TYPE>Rescind</TRANSACTION_TYPE>
+  <Supervisor_Corp_Id>10000175078</Supervisor_Corp_Id>
+  <Work_Email>Luke_Skywalker@intuit.com</Work_Email>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <TOP_SUPERVISORY_ORG>brad smith ()</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>lskywalker1</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Is_Primetime_Admin>0</Is_Primetime_Admin>
+  <Supervisory_Org_Ref_Id>S3726</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>c1d0b1adbcd5104f7f36adadb2655833</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>1</Is_Payroll_Country_USA>
+  <WID>c68a0c6e44d801deda2a3110e2142a00</WID>
+  <Jobcode_Change_Flag>1</Jobcode_Change_Flag>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>2535 Garcia Avenue</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_ADDRESS3>Mountain View, CA 94043</PRIM_WORK_ADDRESS3>
+  <PRIM_WORK_CITY>Mountain View</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>California</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>CA</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>United States of America</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>USA</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>94043</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>4</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>T - Product Management</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>71691</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>G - General Management</L2_JOB_FAMILY_GROUP>
+  <TOP_SUP_ORG_MANAGED>192766</TOP_SUP_ORG_MANAGED>
+  <PERSONAL_EMAIL>aplee13@gmail.com</PERSONAL_EMAIL>
+  <MANAGER_NAME>Kevin Kirn</MANAGER_NAME>
+  <BP_REASON_CATG>Hire Employee</BP_REASON_CATG>
+  <RESCINDED_DATE>2017-06-12</RESCINDED_DATE>
+  <RESCINDED_BY>189607</RESCINDED_BY>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <BP_INITIATOR>Albert Lee</BP_INITIATOR>
+  <BP_INITIATOR_EMP_ID>189607</BP_INITIATOR_EMP_ID>
+  <IS_EXTERNAL_LOAD>0</IS_EXTERNAL_LOAD>
+  <HR_BUS_PARTNER>Ben Serio | Yael Shalev Barkai</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS>No Entry</EIACA_STATUS>
+  <WORKER_COMMUNITY_REF_ID>CP-PM+ConvertedTeam</WORKER_COMMUNITY_REF_ID>
+  <LOCATION_EFFT_DATE>2017-06-12</LOCATION_EFFT_DATE>
+  <COMP_EFFT_DATE>06122017</COMP_EFFT_DATE>
+  <COMP_PLAN_START_DT>2017-06-12</COMP_PLAN_START_DT>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>70000</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <COMP_PLAN>General Salary Plan</COMP_PLAN>
+  <COMP_GRADE>General Grade</COMP_GRADE>
+  <COMP_GRADE_PROFILE>General - USD</COMP_GRADE_PROFILE>
+  <ASSIGNED_BONUS_PLAN_DETAILS>IPI - Intuit Performance Incentive Plan (%)</ASSIGNED_BONUS_PLAN_DETAILS>
+  <BONUS_TARGET_AMT>7500</BONUS_TARGET_AMT>
+  <BONUS_PLANNED_PCT>0.1</BONUS_PLANNED_PCT>
+  <PAY_GROUP_ID>1 - Exempt</PAY_GROUP_ID>
+  <CONTINUOUS_SERVICE_DATE>2017-06-12</CONTINUOUS_SERVICE_DATE>
+  <LEVEL2_MGR_NAME>Albert Ko</LEVEL2_MGR_NAME>
+  <COMMUNITY>PM</COMMUNITY>
+  <WORKER_COMMUNITY>PM</WORKER_COMMUNITY>
+  <BU_NAME>Unknown Business Unit</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Kevin Kirn</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>75000</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>CEG (Albert Ko)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>CEG - PM (Kevin Kirn)</LEVEL3_ORG_NAME>
+  <MANAGER_ID_PROPOSED>85095</MANAGER_ID_PROPOSED>
+  <MANAGER_CORPID_PROPOSED>10000175078</MANAGER_CORPID_PROPOSED>
+  <SUPERVISORY_ORGANIZATION>CEG - PM (Kevin Kirn)</SUPERVISORY_ORGANIZATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2017-06-12</TIME_IN_JOB_PROFILE_START_DATE>
+  <Trans_Type>Rescind</Trans_Type>
+  <System_List>Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker</System_List>
+</element>
+
+2017-10-30 15:20:31 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 15:20:31 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 15:20:31 BoomiTest (WDPBaseWorker) [INFO] ==================completed WDP Base Worker========================
+2017-10-30 15:20:31 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 15:20:31 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 15:20:31 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 15:20:34 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 15:20:34 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 15:20:34 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 15:20:34 BoomiTest (WDPBaseWorker) [INFO] Verify emp details in WDP: employeid= 192766, Applicantid= A4100357, Email Id= Luke_Skywalker@intuit.com
+2017-10-30 15:20:35 BoomiTest (WDPBaseWorker) [INFO] ===================== WDP Passed========================
+2017-10-30 15:24:12 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 15:24:12 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 15:24:12 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 15:24:12 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 15:24:12 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 15:24:12 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:24:12 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 15:24:12 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 15:24:12 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:24:12 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:24:12 BoomiTest (WDPBaseWorker) [INFO] ==================Info WDP Base Worker========================
+2017-10-30 15:24:12 BoomiTest (WDPBaseWorker) [INFO] =====Call Restassured config method=========
+2017-10-30 15:24:12 BoomiTest (PostSetRestAssuredConfig) [INFO] ------- setRestAssuredConfig---------
+2017-10-30 15:24:12 BoomiTest (PostSetRestAssuredConfig) [INFO] ----Building Request Specification for Post Call -----
+2017-10-30 15:24:12 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=, contentType=application/json}
+2017-10-30 15:24:12 BoomiTest (WDPBaseWorker) [INFO] Local_perf_URL : https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:24:12 BoomiTest (WDPBaseWorker) [INFO] Auth_Token_perf : Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=
+2017-10-30 15:24:13 Utility (parseXmlPayload) [INFO] Headers :[﻿element/CandidateID, element/Applicant_ID, element/Employee_ID, element/Corp_ID, element/Legal_Name, element/Legal_First_Name, element/Legal_Last_Name, element/Preferred_Name, element/Preferred_Name_First, element/Preferred_Name_Last, element/Hire_Dt, element/Rehire_Dt, element/Company_Id, element/Company_Desc, element/Org_Id, element/Org_Name, element/Dept_Id, element/Dept_Name, element/Supervisor_Id, element/WORKER_TYPE, element/Emp_Type, element/Emp_Class_Desc, element/Emp_Status_Code, element/Emp_Status_Desc, element/Bufg, element/Jobcode, element/Jobcode_Desc, element/Job_Family, element/Job_Function, element/Grade, element/Business_Title, element/Std_Hours, element/Full_Part_Time, element/Annual_Rt, element/Hourly_Rt, element/ANNUAL_RT_WDP_EVENT_VALUE, element/HOURLY_RT_WDP_EVENT_VALUE, element/Bonus_Plan_Code, element/Bonus_Target_Pct, element/Currency_Code, element/Legal_Work_Location, element/WD_Location_Country_Code, element/Is_Manager, element/Is_Manager_Of_Cwf, element/Is_Manager_Of_Emp_Or_Cwf, element/NID_Count, element/TACoordinator_Employee_ID, element/BP_Event, element/BP_Comments, element/BP_Rescind_Date, element/BP_Status, element/BP_REASON, element/BP_Reason_Text, element/BP_Effective_Dt, element/BP_Process_WID, element/TRANSACTION_TYPE, element/Supervisor_Corp_Id, element/Work_Email, element/IS_ADMIN_ASST, element/TOP_SUPERVISORY_ORG, element/Directory_Login_Id, element/Is_Taleo_Admin, element/Is_Primetime_Admin, element/Supervisory_Org_Ref_Id, element/SUPERVISORY_ORGANIZATION_WID, element/Is_Recruiter, element/Is_HRBP, element/Is_Payroll_Country_USA, element/WID, element/Jobcode_Change_Flag, element/IS_SOURCER, element/IS_TAM, element/IS_FINANCE_BP, element/IS_HR_ADVISOR, element/IS_HRBI, element/IS_TAC, element/PRIM_WORK_ADDRESS, element/PRIM_WORK_ADDRESS3, element/PRIM_WORK_CITY, element/PRIM_WORK_STATE, element/PRIM_WORK_STATE_ISO_CODE, element/PRIM_WORK_COUNTRY, element/PRIM_WORK_COUNTRY_ISO_CODE, element/PRIM_WORK_POSTAL_CODE, element/EE_ORG_LEVEL, element/EE_JOB_FAMILY_GROUP, element/L2_EMPLOYEE_ID, element/L2_JOB_FAMILY_GROUP, element/TOP_SUP_ORG_MANAGED, element/PERSONAL_EMAIL, element/MANAGER_NAME, element/BP_REASON_CATG, element/RESCINDED_DATE, element/RESCINDED_BY, element/NOT_ELIGIBLE_FOR_REHIRE, element/BP_INITIATOR, element/BP_INITIATOR_EMP_ID, element/IS_EXTERNAL_LOAD, element/HR_BUS_PARTNER, element/SCH_WEEKLY_HOURS, element/POS_TIME_TYPE_FLASTATUS, element/EIACA_STATUS, element/WORKER_COMMUNITY_REF_ID, element/LOCATION_EFFT_DATE, element/COMP_EFFT_DATE, element/COMP_PLAN_START_DT, element/TTL_BASE_PERIOD_WDP_EVNT_VAL, element/COMP_PLAN, element/COMP_GRADE, element/COMP_GRADE_PROFILE, element/ASSIGNED_BONUS_PLAN_DETAILS, element/BONUS_TARGET_AMT, element/BONUS_PLANNED_PCT, element/PAY_GROUP_ID, element/CONTINUOUS_SERVICE_DATE, element/LEVEL2_MGR_NAME, element/COMMUNITY, element/WORKER_COMMUNITY, element/BU_NAME, element/GENDER_SHORT, element/CONTRACT_PAY_RATE, element/LEVEL3_MGR_NAME, element/TOTAL_BASE_PAY_AMOUNT, element/LEVEL2_ORG_NAME, element/LEVEL3_ORG_NAME, element/MANAGER_ID_PROPOSED, element/MANAGER_CORPID_PROPOSED, element/SUPERVISORY_ORGANIZATION, element/TIME_IN_JOB_PROFILE_START_DATE, element/Trans_Type, element/System_List]
+Values: [A4100357, A4100357, 192766, 70000034781, Skywalker, Luke, Luke, Skywalker, Skywalker, Luke, Luke, Skywalker, 20170612, 20170612, 100, Intuit Corp, 000, No Group, Unspecified, 1000, BU/DC Prod Cogs, 85095, Employee, E, Employee, T, Terminated, UNK, APDM21, Product Mgr 1, PDM - Product Mgmt, T - Product Management, SRP, Product Mgr 1, 40, F, 75000, 0, 70000, 0, IPI, 0.1, USD, USACA01, USA, 0, 0, 0, 0, 192766, Hire, Albert Lee: rollback, 2017-06-12, Rescinded, Hire Employee > Hire Employee > New Hire, New Hire, 2017-06-12, c68a0c6e44d801611863ceece1141600, Rescind, 10000175078, Luke_Skywalker@intuit.com, 0, brad smith (), lskywalker1, 0, 0, S3726, c1d0b1adbcd5104f7f36adadb2655833, 0, 0, 1, c68a0c6e44d801deda2a3110e2142a00, 1, 0, 0, 0, 0, 0, 0, 2535 Garcia Avenue, Mountain View, CA 94043, Mountain View, California, CA, United States of America, USA, 94043, 4, T - Product Management, 71691, G - General Management, 192766, aplee13@gmail.com, Kevin Kirn, Hire Employee, 2017-06-12, 189607, 0, Albert Lee, 189607, 0, Ben Serio | Yael Shalev Barkai, 40, Full time, No Entry, CP-PM+ConvertedTeam, 2017-06-12, 06122017, 2017-06-12, 70000, General Salary Plan, General Grade, General - USD, IPI - Intuit Performance Incentive Plan (%), 7500, 0.1, 1 - Exempt, 2017-06-12, Albert Ko, PM, PM, Unknown Business Unit, M, 0, Kevin Kirn, 75000, CEG (Albert Ko), CEG - PM (Kevin Kirn), 85095, 10000175078, CEG - PM (Kevin Kirn), 2017-06-12, Rescind, Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker]
+2017-10-30 15:24:13 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-30 15:24:13 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><element>
+  <CandidateID>A4100357</CandidateID>
+  <Applicant_ID>A4100357</Applicant_ID>
+  <Employee_ID>192766</Employee_ID>
+  <Corp_ID>70000034781</Corp_ID>
+  <Legal_Name>Skywalker, Luke</Legal_Name>
+  <Legal_First_Name>Luke</Legal_First_Name>
+  <Legal_Last_Name>Skywalker</Legal_Last_Name>
+  <Preferred_Name>Skywalker, Luke</Preferred_Name>
+  <Preferred_Name_First>Luke</Preferred_Name_First>
+  <Preferred_Name_Last>Skywalker</Preferred_Name_Last>
+  <Hire_Dt>20170612</Hire_Dt>
+  <Rehire_Dt>20170612</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>000</Org_Id>
+  <Org_Name>No Group, Unspecified</Org_Name>
+  <Dept_Id>1000</Dept_Id>
+  <Dept_Name>BU/DC Prod Cogs</Dept_Name>
+  <Supervisor_Id>85095</Supervisor_Id>
+  <WORKER_TYPE>Employee</WORKER_TYPE>
+  <Emp_Type>E</Emp_Type>
+  <Emp_Class_Desc>Employee</Emp_Class_Desc>
+  <Emp_Status_Code>T</Emp_Status_Code>
+  <Emp_Status_Desc>Terminated</Emp_Status_Desc>
+  <Bufg>UNK</Bufg>
+  <Jobcode>APDM21</Jobcode>
+  <Jobcode_Desc>Product Mgr 1</Jobcode_Desc>
+  <Job_Family>PDM - Product Mgmt</Job_Family>
+  <Job_Function>T - Product Management</Job_Function>
+  <Grade>SRP</Grade>
+  <Business_Title>Product Mgr 1</Business_Title>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>75000</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>70000</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Plan_Code>IPI</Bonus_Plan_Code>
+  <Bonus_Target_Pct>0.1</Bonus_Target_Pct>
+  <Currency_Code>USD</Currency_Code>
+  <Legal_Work_Location>USACA01</Legal_Work_Location>
+  <WD_Location_Country_Code>USA</WD_Location_Country_Code>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <NID_Count>0</NID_Count>
+  <TACoordinator_Employee_ID>192766</TACoordinator_Employee_ID>
+  <BP_Event>Hire</BP_Event>
+  <BP_Comments>Albert Lee: rollback</BP_Comments>
+  <BP_Rescind_Date>2017-06-12</BP_Rescind_Date>
+  <BP_Status>Rescinded</BP_Status>
+  <BP_REASON>Hire Employee &gt; Hire Employee &gt; New Hire</BP_REASON>
+  <BP_Reason_Text>New Hire</BP_Reason_Text>
+  <BP_Effective_Dt>2017-06-12</BP_Effective_Dt>
+  <BP_Process_WID>c68a0c6e44d801611863ceece1141600</BP_Process_WID>
+  <TRANSACTION_TYPE>Rescind</TRANSACTION_TYPE>
+  <Supervisor_Corp_Id>10000175078</Supervisor_Corp_Id>
+  <Work_Email>Luke_Skywalker@intuit.com</Work_Email>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <TOP_SUPERVISORY_ORG>brad smith ()</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>lskywalker1</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Is_Primetime_Admin>0</Is_Primetime_Admin>
+  <Supervisory_Org_Ref_Id>S3726</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>c1d0b1adbcd5104f7f36adadb2655833</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>1</Is_Payroll_Country_USA>
+  <WID>c68a0c6e44d801deda2a3110e2142a00</WID>
+  <Jobcode_Change_Flag>1</Jobcode_Change_Flag>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>2535 Garcia Avenue</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_ADDRESS3>Mountain View, CA 94043</PRIM_WORK_ADDRESS3>
+  <PRIM_WORK_CITY>Mountain View</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>California</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>CA</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>United States of America</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>USA</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>94043</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>4</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>T - Product Management</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>71691</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>G - General Management</L2_JOB_FAMILY_GROUP>
+  <TOP_SUP_ORG_MANAGED>192766</TOP_SUP_ORG_MANAGED>
+  <PERSONAL_EMAIL>aplee13@gmail.com</PERSONAL_EMAIL>
+  <MANAGER_NAME>Kevin Kirn</MANAGER_NAME>
+  <BP_REASON_CATG>Hire Employee</BP_REASON_CATG>
+  <RESCINDED_DATE>2017-06-12</RESCINDED_DATE>
+  <RESCINDED_BY>189607</RESCINDED_BY>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <BP_INITIATOR>Albert Lee</BP_INITIATOR>
+  <BP_INITIATOR_EMP_ID>189607</BP_INITIATOR_EMP_ID>
+  <IS_EXTERNAL_LOAD>0</IS_EXTERNAL_LOAD>
+  <HR_BUS_PARTNER>Ben Serio | Yael Shalev Barkai</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS>No Entry</EIACA_STATUS>
+  <WORKER_COMMUNITY_REF_ID>CP-PM+ConvertedTeam</WORKER_COMMUNITY_REF_ID>
+  <LOCATION_EFFT_DATE>2017-06-12</LOCATION_EFFT_DATE>
+  <COMP_EFFT_DATE>06122017</COMP_EFFT_DATE>
+  <COMP_PLAN_START_DT>2017-06-12</COMP_PLAN_START_DT>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>70000</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <COMP_PLAN>General Salary Plan</COMP_PLAN>
+  <COMP_GRADE>General Grade</COMP_GRADE>
+  <COMP_GRADE_PROFILE>General - USD</COMP_GRADE_PROFILE>
+  <ASSIGNED_BONUS_PLAN_DETAILS>IPI - Intuit Performance Incentive Plan (%)</ASSIGNED_BONUS_PLAN_DETAILS>
+  <BONUS_TARGET_AMT>7500</BONUS_TARGET_AMT>
+  <BONUS_PLANNED_PCT>0.1</BONUS_PLANNED_PCT>
+  <PAY_GROUP_ID>1 - Exempt</PAY_GROUP_ID>
+  <CONTINUOUS_SERVICE_DATE>2017-06-12</CONTINUOUS_SERVICE_DATE>
+  <LEVEL2_MGR_NAME>Albert Ko</LEVEL2_MGR_NAME>
+  <COMMUNITY>PM</COMMUNITY>
+  <WORKER_COMMUNITY>PM</WORKER_COMMUNITY>
+  <BU_NAME>Unknown Business Unit</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Kevin Kirn</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>75000</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>CEG (Albert Ko)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>CEG - PM (Kevin Kirn)</LEVEL3_ORG_NAME>
+  <MANAGER_ID_PROPOSED>85095</MANAGER_ID_PROPOSED>
+  <MANAGER_CORPID_PROPOSED>10000175078</MANAGER_CORPID_PROPOSED>
+  <SUPERVISORY_ORGANIZATION>CEG - PM (Kevin Kirn)</SUPERVISORY_ORGANIZATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2017-06-12</TIME_IN_JOB_PROFILE_START_DATE>
+  <Trans_Type>Rescind</Trans_Type>
+  <System_List>Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker</System_List>
+</element>
+
+2017-10-30 15:24:16 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 15:24:16 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 15:24:16 BoomiTest (WDPBaseWorker) [INFO] ==================completed WDP Base Worker========================
+2017-10-30 15:24:16 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 15:24:16 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 15:24:16 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 15:24:19 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 15:24:19 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 15:24:19 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 15:24:19 BoomiTest (WDPBaseWorker) [INFO] Verify emp details in WDP: employeid= 192766, Applicantid= A4100357, Email Id= Luke_Skywalker@intuit.com
+2017-10-30 15:25:27 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 15:25:27 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 15:25:27 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 15:25:27 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 15:25:27 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 15:25:27 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:25:27 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 15:25:27 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 15:25:27 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:25:27 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:25:27 BoomiTest (WDPBaseWorker) [INFO] ==================Info WDP Base Worker========================
+2017-10-30 15:25:27 BoomiTest (WDPBaseWorker) [INFO] =====Call Restassured config method=========
+2017-10-30 15:25:27 BoomiTest (PostSetRestAssuredConfig) [INFO] ------- setRestAssuredConfig---------
+2017-10-30 15:25:27 BoomiTest (PostSetRestAssuredConfig) [INFO] ----Building Request Specification for Post Call -----
+2017-10-30 15:25:27 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=, contentType=application/json}
+2017-10-30 15:25:27 BoomiTest (WDPBaseWorker) [INFO] Local_perf_URL : https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:25:27 BoomiTest (WDPBaseWorker) [INFO] Auth_Token_perf : Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=
+2017-10-30 15:25:27 Utility (parseXmlPayload) [INFO] Headers :[﻿element/CandidateID, element/Applicant_ID, element/Employee_ID, element/Corp_ID, element/Legal_Name, element/Legal_First_Name, element/Legal_Last_Name, element/Preferred_Name, element/Preferred_Name_First, element/Preferred_Name_Last, element/Hire_Dt, element/Rehire_Dt, element/Company_Id, element/Company_Desc, element/Org_Id, element/Org_Name, element/Dept_Id, element/Dept_Name, element/Supervisor_Id, element/WORKER_TYPE, element/Emp_Type, element/Emp_Class_Desc, element/Emp_Status_Code, element/Emp_Status_Desc, element/Bufg, element/Jobcode, element/Jobcode_Desc, element/Job_Family, element/Job_Function, element/Grade, element/Business_Title, element/Std_Hours, element/Full_Part_Time, element/Annual_Rt, element/Hourly_Rt, element/ANNUAL_RT_WDP_EVENT_VALUE, element/HOURLY_RT_WDP_EVENT_VALUE, element/Bonus_Plan_Code, element/Bonus_Target_Pct, element/Currency_Code, element/Legal_Work_Location, element/WD_Location_Country_Code, element/Is_Manager, element/Is_Manager_Of_Cwf, element/Is_Manager_Of_Emp_Or_Cwf, element/NID_Count, element/TACoordinator_Employee_ID, element/BP_Event, element/BP_Comments, element/BP_Rescind_Date, element/BP_Status, element/BP_REASON, element/BP_Reason_Text, element/BP_Effective_Dt, element/BP_Process_WID, element/TRANSACTION_TYPE, element/Supervisor_Corp_Id, element/Work_Email, element/IS_ADMIN_ASST, element/TOP_SUPERVISORY_ORG, element/Directory_Login_Id, element/Is_Taleo_Admin, element/Is_Primetime_Admin, element/Supervisory_Org_Ref_Id, element/SUPERVISORY_ORGANIZATION_WID, element/Is_Recruiter, element/Is_HRBP, element/Is_Payroll_Country_USA, element/WID, element/Jobcode_Change_Flag, element/IS_SOURCER, element/IS_TAM, element/IS_FINANCE_BP, element/IS_HR_ADVISOR, element/IS_HRBI, element/IS_TAC, element/PRIM_WORK_ADDRESS, element/PRIM_WORK_ADDRESS3, element/PRIM_WORK_CITY, element/PRIM_WORK_STATE, element/PRIM_WORK_STATE_ISO_CODE, element/PRIM_WORK_COUNTRY, element/PRIM_WORK_COUNTRY_ISO_CODE, element/PRIM_WORK_POSTAL_CODE, element/EE_ORG_LEVEL, element/EE_JOB_FAMILY_GROUP, element/L2_EMPLOYEE_ID, element/L2_JOB_FAMILY_GROUP, element/TOP_SUP_ORG_MANAGED, element/PERSONAL_EMAIL, element/MANAGER_NAME, element/BP_REASON_CATG, element/RESCINDED_DATE, element/RESCINDED_BY, element/NOT_ELIGIBLE_FOR_REHIRE, element/BP_INITIATOR, element/BP_INITIATOR_EMP_ID, element/IS_EXTERNAL_LOAD, element/HR_BUS_PARTNER, element/SCH_WEEKLY_HOURS, element/POS_TIME_TYPE_FLASTATUS, element/EIACA_STATUS, element/WORKER_COMMUNITY_REF_ID, element/LOCATION_EFFT_DATE, element/COMP_EFFT_DATE, element/COMP_PLAN_START_DT, element/TTL_BASE_PERIOD_WDP_EVNT_VAL, element/COMP_PLAN, element/COMP_GRADE, element/COMP_GRADE_PROFILE, element/ASSIGNED_BONUS_PLAN_DETAILS, element/BONUS_TARGET_AMT, element/BONUS_PLANNED_PCT, element/PAY_GROUP_ID, element/CONTINUOUS_SERVICE_DATE, element/LEVEL2_MGR_NAME, element/COMMUNITY, element/WORKER_COMMUNITY, element/BU_NAME, element/GENDER_SHORT, element/CONTRACT_PAY_RATE, element/LEVEL3_MGR_NAME, element/TOTAL_BASE_PAY_AMOUNT, element/LEVEL2_ORG_NAME, element/LEVEL3_ORG_NAME, element/MANAGER_ID_PROPOSED, element/MANAGER_CORPID_PROPOSED, element/SUPERVISORY_ORGANIZATION, element/TIME_IN_JOB_PROFILE_START_DATE, element/Trans_Type, element/System_List]
+Values: [A4100357, A4100357, 192766, 70000034781, Skywalker, Luke, Luke, Skywalker, Skywalker, Luke, Luke, Skywalker, 20170612, 20170612, 100, Intuit Corp, 000, No Group, Unspecified, 1000, BU/DC Prod Cogs, 85095, Employee, E, Employee, T, Terminated, UNK, APDM21, Product Mgr 1, PDM - Product Mgmt, T - Product Management, SRP, Product Mgr 1, 40, F, 75000, 0, 70000, 0, IPI, 0.1, USD, USACA01, USA, 0, 0, 0, 0, 192766, Hire, Albert Lee: rollback, 2017-06-12, Rescinded, Hire Employee > Hire Employee > New Hire, New Hire, 2017-06-12, c68a0c6e44d801611863ceece1141600, Rescind, 10000175078, Luke_Skywalker@intuit.com, 0, brad smith (), lskywalker1, 0, 0, S3726, c1d0b1adbcd5104f7f36adadb2655833, 0, 0, 1, c68a0c6e44d801deda2a3110e2142a00, 1, 0, 0, 0, 0, 0, 0, 2535 Garcia Avenue, Mountain View, CA 94043, Mountain View, California, CA, United States of America, USA, 94043, 4, T - Product Management, 71691, G - General Management, 192766, aplee13@gmail.com, Kevin Kirn, Hire Employee, 2017-06-12, 189607, 0, Albert Lee, 189607, 0, Ben Serio | Yael Shalev Barkai, 40, Full time, No Entry, CP-PM+ConvertedTeam, 2017-06-12, 06122017, 2017-06-12, 70000, General Salary Plan, General Grade, General - USD, IPI - Intuit Performance Incentive Plan (%), 7500, 0.1, 1 - Exempt, 2017-06-12, Albert Ko, PM, PM, Unknown Business Unit, M, 0, Kevin Kirn, 75000, CEG (Albert Ko), CEG - PM (Kevin Kirn), 85095, 10000175078, CEG - PM (Kevin Kirn), 2017-06-12, Rescind, Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker]
+2017-10-30 15:25:27 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-30 15:25:27 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><element>
+  <CandidateID>A4100357</CandidateID>
+  <Applicant_ID>A4100357</Applicant_ID>
+  <Employee_ID>192766</Employee_ID>
+  <Corp_ID>70000034781</Corp_ID>
+  <Legal_Name>Skywalker, Luke</Legal_Name>
+  <Legal_First_Name>Luke</Legal_First_Name>
+  <Legal_Last_Name>Skywalker</Legal_Last_Name>
+  <Preferred_Name>Skywalker, Luke</Preferred_Name>
+  <Preferred_Name_First>Luke</Preferred_Name_First>
+  <Preferred_Name_Last>Skywalker</Preferred_Name_Last>
+  <Hire_Dt>20170612</Hire_Dt>
+  <Rehire_Dt>20170612</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>000</Org_Id>
+  <Org_Name>No Group, Unspecified</Org_Name>
+  <Dept_Id>1000</Dept_Id>
+  <Dept_Name>BU/DC Prod Cogs</Dept_Name>
+  <Supervisor_Id>85095</Supervisor_Id>
+  <WORKER_TYPE>Employee</WORKER_TYPE>
+  <Emp_Type>E</Emp_Type>
+  <Emp_Class_Desc>Employee</Emp_Class_Desc>
+  <Emp_Status_Code>T</Emp_Status_Code>
+  <Emp_Status_Desc>Terminated</Emp_Status_Desc>
+  <Bufg>UNK</Bufg>
+  <Jobcode>APDM21</Jobcode>
+  <Jobcode_Desc>Product Mgr 1</Jobcode_Desc>
+  <Job_Family>PDM - Product Mgmt</Job_Family>
+  <Job_Function>T - Product Management</Job_Function>
+  <Grade>SRP</Grade>
+  <Business_Title>Product Mgr 1</Business_Title>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>75000</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>70000</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Plan_Code>IPI</Bonus_Plan_Code>
+  <Bonus_Target_Pct>0.1</Bonus_Target_Pct>
+  <Currency_Code>USD</Currency_Code>
+  <Legal_Work_Location>USACA01</Legal_Work_Location>
+  <WD_Location_Country_Code>USA</WD_Location_Country_Code>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <NID_Count>0</NID_Count>
+  <TACoordinator_Employee_ID>192766</TACoordinator_Employee_ID>
+  <BP_Event>Hire</BP_Event>
+  <BP_Comments>Albert Lee: rollback</BP_Comments>
+  <BP_Rescind_Date>2017-06-12</BP_Rescind_Date>
+  <BP_Status>Rescinded</BP_Status>
+  <BP_REASON>Hire Employee &gt; Hire Employee &gt; New Hire</BP_REASON>
+  <BP_Reason_Text>New Hire</BP_Reason_Text>
+  <BP_Effective_Dt>2017-06-12</BP_Effective_Dt>
+  <BP_Process_WID>c68a0c6e44d801611863ceece1141600</BP_Process_WID>
+  <TRANSACTION_TYPE>Rescind</TRANSACTION_TYPE>
+  <Supervisor_Corp_Id>10000175078</Supervisor_Corp_Id>
+  <Work_Email>Luke_Skywalker@intuit.com</Work_Email>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <TOP_SUPERVISORY_ORG>brad smith ()</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>lskywalker1</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Is_Primetime_Admin>0</Is_Primetime_Admin>
+  <Supervisory_Org_Ref_Id>S3726</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>c1d0b1adbcd5104f7f36adadb2655833</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>1</Is_Payroll_Country_USA>
+  <WID>c68a0c6e44d801deda2a3110e2142a00</WID>
+  <Jobcode_Change_Flag>1</Jobcode_Change_Flag>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>2535 Garcia Avenue</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_ADDRESS3>Mountain View, CA 94043</PRIM_WORK_ADDRESS3>
+  <PRIM_WORK_CITY>Mountain View</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>California</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>CA</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>United States of America</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>USA</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>94043</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>4</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>T - Product Management</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>71691</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>G - General Management</L2_JOB_FAMILY_GROUP>
+  <TOP_SUP_ORG_MANAGED>192766</TOP_SUP_ORG_MANAGED>
+  <PERSONAL_EMAIL>aplee13@gmail.com</PERSONAL_EMAIL>
+  <MANAGER_NAME>Kevin Kirn</MANAGER_NAME>
+  <BP_REASON_CATG>Hire Employee</BP_REASON_CATG>
+  <RESCINDED_DATE>2017-06-12</RESCINDED_DATE>
+  <RESCINDED_BY>189607</RESCINDED_BY>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <BP_INITIATOR>Albert Lee</BP_INITIATOR>
+  <BP_INITIATOR_EMP_ID>189607</BP_INITIATOR_EMP_ID>
+  <IS_EXTERNAL_LOAD>0</IS_EXTERNAL_LOAD>
+  <HR_BUS_PARTNER>Ben Serio | Yael Shalev Barkai</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS>No Entry</EIACA_STATUS>
+  <WORKER_COMMUNITY_REF_ID>CP-PM+ConvertedTeam</WORKER_COMMUNITY_REF_ID>
+  <LOCATION_EFFT_DATE>2017-06-12</LOCATION_EFFT_DATE>
+  <COMP_EFFT_DATE>06122017</COMP_EFFT_DATE>
+  <COMP_PLAN_START_DT>2017-06-12</COMP_PLAN_START_DT>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>70000</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <COMP_PLAN>General Salary Plan</COMP_PLAN>
+  <COMP_GRADE>General Grade</COMP_GRADE>
+  <COMP_GRADE_PROFILE>General - USD</COMP_GRADE_PROFILE>
+  <ASSIGNED_BONUS_PLAN_DETAILS>IPI - Intuit Performance Incentive Plan (%)</ASSIGNED_BONUS_PLAN_DETAILS>
+  <BONUS_TARGET_AMT>7500</BONUS_TARGET_AMT>
+  <BONUS_PLANNED_PCT>0.1</BONUS_PLANNED_PCT>
+  <PAY_GROUP_ID>1 - Exempt</PAY_GROUP_ID>
+  <CONTINUOUS_SERVICE_DATE>2017-06-12</CONTINUOUS_SERVICE_DATE>
+  <LEVEL2_MGR_NAME>Albert Ko</LEVEL2_MGR_NAME>
+  <COMMUNITY>PM</COMMUNITY>
+  <WORKER_COMMUNITY>PM</WORKER_COMMUNITY>
+  <BU_NAME>Unknown Business Unit</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Kevin Kirn</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>75000</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>CEG (Albert Ko)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>CEG - PM (Kevin Kirn)</LEVEL3_ORG_NAME>
+  <MANAGER_ID_PROPOSED>85095</MANAGER_ID_PROPOSED>
+  <MANAGER_CORPID_PROPOSED>10000175078</MANAGER_CORPID_PROPOSED>
+  <SUPERVISORY_ORGANIZATION>CEG - PM (Kevin Kirn)</SUPERVISORY_ORGANIZATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2017-06-12</TIME_IN_JOB_PROFILE_START_DATE>
+  <Trans_Type>Rescind</Trans_Type>
+  <System_List>Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker</System_List>
+</element>
+
+2017-10-30 15:25:30 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 15:25:30 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 15:25:30 BoomiTest (WDPBaseWorker) [INFO] ==================completed WDP Base Worker========================
+2017-10-30 15:25:30 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 15:25:30 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 15:25:30 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 15:25:33 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 15:25:33 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 15:25:34 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 15:25:34 BoomiTest (WDPBaseWorker) [INFO] Verify emp details in WDP: employeid= 192766, Applicantid= A4100357, Email Id= Luke_Skywalker@intuit.com
+2017-10-30 15:26:17 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-30 15:26:17 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-30 15:26:17 BoomiTest (setupTestData) [INFO] Lms json file= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\lms--------
+2017-10-30 15:26:17 BoomiTest (setupTestData) [INFO] Taleo File Path= C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\src\main\resources\testdata\taleo
+2017-10-30 15:26:17 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-30 15:26:17 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:26:17 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-30 15:26:17 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-30 15:26:17 BoomiTest (setUpTestConfig) [INFO] Local.perf.URL = https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:26:17 BoomiTest (setUpTestConfig) [INFO] VPCQA.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-30 15:26:17 BoomiTest (WDPBaseWorker) [INFO] ==================Info WDP Base Worker========================
+2017-10-30 15:26:17 BoomiTest (WDPBaseWorker) [INFO] =====Call Restassured config method=========
+2017-10-30 15:26:17 BoomiTest (PostSetRestAssuredConfig) [INFO] ------- setRestAssuredConfig---------
+2017-10-30 15:26:17 BoomiTest (PostSetRestAssuredConfig) [INFO] ----Building Request Specification for Post Call -----
+2017-10-30 15:26:17 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=, contentType=application/json}
+2017-10-30 15:26:17 BoomiTest (WDPBaseWorker) [INFO] Local_perf_URL : https://workforceperf.platform.intuit.com/ws/simple
+2017-10-30 15:26:17 BoomiTest (WDPBaseWorker) [INFO] Auth_Token_perf : Basic aW50dWl0LTNHT1RVUTo4YjQ0NDYyZi1hZGVhLTQwY2YtYjM0Yi1lMjE0ZjBkNDc4NGY=
+2017-10-30 15:26:17 Utility (parseXmlPayload) [INFO] Headers :[﻿element/CandidateID, element/Applicant_ID, element/Employee_ID, element/Corp_ID, element/Legal_Name, element/Legal_First_Name, element/Legal_Last_Name, element/Preferred_Name, element/Preferred_Name_First, element/Preferred_Name_Last, element/Hire_Dt, element/Rehire_Dt, element/Company_Id, element/Company_Desc, element/Org_Id, element/Org_Name, element/Dept_Id, element/Dept_Name, element/Supervisor_Id, element/WORKER_TYPE, element/Emp_Type, element/Emp_Class_Desc, element/Emp_Status_Code, element/Emp_Status_Desc, element/Bufg, element/Jobcode, element/Jobcode_Desc, element/Job_Family, element/Job_Function, element/Grade, element/Business_Title, element/Std_Hours, element/Full_Part_Time, element/Annual_Rt, element/Hourly_Rt, element/ANNUAL_RT_WDP_EVENT_VALUE, element/HOURLY_RT_WDP_EVENT_VALUE, element/Bonus_Plan_Code, element/Bonus_Target_Pct, element/Currency_Code, element/Legal_Work_Location, element/WD_Location_Country_Code, element/Is_Manager, element/Is_Manager_Of_Cwf, element/Is_Manager_Of_Emp_Or_Cwf, element/NID_Count, element/TACoordinator_Employee_ID, element/BP_Event, element/BP_Comments, element/BP_Rescind_Date, element/BP_Status, element/BP_REASON, element/BP_Reason_Text, element/BP_Effective_Dt, element/BP_Process_WID, element/TRANSACTION_TYPE, element/Supervisor_Corp_Id, element/Work_Email, element/IS_ADMIN_ASST, element/TOP_SUPERVISORY_ORG, element/Directory_Login_Id, element/Is_Taleo_Admin, element/Is_Primetime_Admin, element/Supervisory_Org_Ref_Id, element/SUPERVISORY_ORGANIZATION_WID, element/Is_Recruiter, element/Is_HRBP, element/Is_Payroll_Country_USA, element/WID, element/Jobcode_Change_Flag, element/IS_SOURCER, element/IS_TAM, element/IS_FINANCE_BP, element/IS_HR_ADVISOR, element/IS_HRBI, element/IS_TAC, element/PRIM_WORK_ADDRESS, element/PRIM_WORK_ADDRESS3, element/PRIM_WORK_CITY, element/PRIM_WORK_STATE, element/PRIM_WORK_STATE_ISO_CODE, element/PRIM_WORK_COUNTRY, element/PRIM_WORK_COUNTRY_ISO_CODE, element/PRIM_WORK_POSTAL_CODE, element/EE_ORG_LEVEL, element/EE_JOB_FAMILY_GROUP, element/L2_EMPLOYEE_ID, element/L2_JOB_FAMILY_GROUP, element/TOP_SUP_ORG_MANAGED, element/PERSONAL_EMAIL, element/MANAGER_NAME, element/BP_REASON_CATG, element/RESCINDED_DATE, element/RESCINDED_BY, element/NOT_ELIGIBLE_FOR_REHIRE, element/BP_INITIATOR, element/BP_INITIATOR_EMP_ID, element/IS_EXTERNAL_LOAD, element/HR_BUS_PARTNER, element/SCH_WEEKLY_HOURS, element/POS_TIME_TYPE_FLASTATUS, element/EIACA_STATUS, element/WORKER_COMMUNITY_REF_ID, element/LOCATION_EFFT_DATE, element/COMP_EFFT_DATE, element/COMP_PLAN_START_DT, element/TTL_BASE_PERIOD_WDP_EVNT_VAL, element/COMP_PLAN, element/COMP_GRADE, element/COMP_GRADE_PROFILE, element/ASSIGNED_BONUS_PLAN_DETAILS, element/BONUS_TARGET_AMT, element/BONUS_PLANNED_PCT, element/PAY_GROUP_ID, element/CONTINUOUS_SERVICE_DATE, element/LEVEL2_MGR_NAME, element/COMMUNITY, element/WORKER_COMMUNITY, element/BU_NAME, element/GENDER_SHORT, element/CONTRACT_PAY_RATE, element/LEVEL3_MGR_NAME, element/TOTAL_BASE_PAY_AMOUNT, element/LEVEL2_ORG_NAME, element/LEVEL3_ORG_NAME, element/MANAGER_ID_PROPOSED, element/MANAGER_CORPID_PROPOSED, element/SUPERVISORY_ORGANIZATION, element/TIME_IN_JOB_PROFILE_START_DATE, element/Trans_Type, element/System_List]
+Values: [A4100357, A4100357, 192766, 70000034781, Skywalker, Luke, Luke, Skywalker, Skywalker, Luke, Luke, Skywalker, 20170612, 20170612, 100, Intuit Corp, 000, No Group, Unspecified, 1000, BU/DC Prod Cogs, 85095, Employee, E, Employee, T, Terminated, UNK, APDM21, Product Mgr 1, PDM - Product Mgmt, T - Product Management, SRP, Product Mgr 1, 40, F, 75000, 0, 70000, 0, IPI, 0.1, USD, USACA01, USA, 0, 0, 0, 0, 192766, Hire, Albert Lee: rollback, 2017-06-12, Rescinded, Hire Employee > Hire Employee > New Hire, New Hire, 2017-06-12, c68a0c6e44d801611863ceece1141600, Rescind, 10000175078, Luke_Skywalker@intuit.com, 0, brad smith (), lskywalker1, 0, 0, S3726, c1d0b1adbcd5104f7f36adadb2655833, 0, 0, 1, c68a0c6e44d801deda2a3110e2142a00, 1, 0, 0, 0, 0, 0, 0, 2535 Garcia Avenue, Mountain View, CA 94043, Mountain View, California, CA, United States of America, USA, 94043, 4, T - Product Management, 71691, G - General Management, 192766, aplee13@gmail.com, Kevin Kirn, Hire Employee, 2017-06-12, 189607, 0, Albert Lee, 189607, 0, Ben Serio | Yael Shalev Barkai, 40, Full time, No Entry, CP-PM+ConvertedTeam, 2017-06-12, 06122017, 2017-06-12, 70000, General Salary Plan, General Grade, General - USD, IPI - Intuit Performance Incentive Plan (%), 7500, 0.1, 1 - Exempt, 2017-06-12, Albert Ko, PM, PM, Unknown Business Unit, M, 0, Kevin Kirn, 75000, CEG (Albert Ko), CEG - PM (Kevin Kirn), 85095, 10000175078, CEG - PM (Kevin Kirn), 2017-06-12, Rescind, Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker]
+2017-10-30 15:26:17 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-30 15:26:17 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><element>
+  <CandidateID>A4100357</CandidateID>
+  <Applicant_ID>A4100357</Applicant_ID>
+  <Employee_ID>192766</Employee_ID>
+  <Corp_ID>70000034781</Corp_ID>
+  <Legal_Name>Skywalker, Luke</Legal_Name>
+  <Legal_First_Name>Luke</Legal_First_Name>
+  <Legal_Last_Name>Skywalker</Legal_Last_Name>
+  <Preferred_Name>Skywalker, Luke</Preferred_Name>
+  <Preferred_Name_First>Luke</Preferred_Name_First>
+  <Preferred_Name_Last>Skywalker</Preferred_Name_Last>
+  <Hire_Dt>20170612</Hire_Dt>
+  <Rehire_Dt>20170612</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>000</Org_Id>
+  <Org_Name>No Group, Unspecified</Org_Name>
+  <Dept_Id>1000</Dept_Id>
+  <Dept_Name>BU/DC Prod Cogs</Dept_Name>
+  <Supervisor_Id>85095</Supervisor_Id>
+  <WORKER_TYPE>Employee</WORKER_TYPE>
+  <Emp_Type>E</Emp_Type>
+  <Emp_Class_Desc>Employee</Emp_Class_Desc>
+  <Emp_Status_Code>T</Emp_Status_Code>
+  <Emp_Status_Desc>Terminated</Emp_Status_Desc>
+  <Bufg>UNK</Bufg>
+  <Jobcode>APDM21</Jobcode>
+  <Jobcode_Desc>Product Mgr 1</Jobcode_Desc>
+  <Job_Family>PDM - Product Mgmt</Job_Family>
+  <Job_Function>T - Product Management</Job_Function>
+  <Grade>SRP</Grade>
+  <Business_Title>Product Mgr 1</Business_Title>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>75000</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>70000</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Plan_Code>IPI</Bonus_Plan_Code>
+  <Bonus_Target_Pct>0.1</Bonus_Target_Pct>
+  <Currency_Code>USD</Currency_Code>
+  <Legal_Work_Location>USACA01</Legal_Work_Location>
+  <WD_Location_Country_Code>USA</WD_Location_Country_Code>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <NID_Count>0</NID_Count>
+  <TACoordinator_Employee_ID>192766</TACoordinator_Employee_ID>
+  <BP_Event>Hire</BP_Event>
+  <BP_Comments>Albert Lee: rollback</BP_Comments>
+  <BP_Rescind_Date>2017-06-12</BP_Rescind_Date>
+  <BP_Status>Rescinded</BP_Status>
+  <BP_REASON>Hire Employee &gt; Hire Employee &gt; New Hire</BP_REASON>
+  <BP_Reason_Text>New Hire</BP_Reason_Text>
+  <BP_Effective_Dt>2017-06-12</BP_Effective_Dt>
+  <BP_Process_WID>c68a0c6e44d801611863ceece1141600</BP_Process_WID>
+  <TRANSACTION_TYPE>Rescind</TRANSACTION_TYPE>
+  <Supervisor_Corp_Id>10000175078</Supervisor_Corp_Id>
+  <Work_Email>Luke_Skywalker@intuit.com</Work_Email>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <TOP_SUPERVISORY_ORG>brad smith ()</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>lskywalker1</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Is_Primetime_Admin>0</Is_Primetime_Admin>
+  <Supervisory_Org_Ref_Id>S3726</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>c1d0b1adbcd5104f7f36adadb2655833</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>1</Is_Payroll_Country_USA>
+  <WID>c68a0c6e44d801deda2a3110e2142a00</WID>
+  <Jobcode_Change_Flag>1</Jobcode_Change_Flag>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>2535 Garcia Avenue</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_ADDRESS3>Mountain View, CA 94043</PRIM_WORK_ADDRESS3>
+  <PRIM_WORK_CITY>Mountain View</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>California</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>CA</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>United States of America</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>USA</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>94043</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>4</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>T - Product Management</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>71691</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>G - General Management</L2_JOB_FAMILY_GROUP>
+  <TOP_SUP_ORG_MANAGED>192766</TOP_SUP_ORG_MANAGED>
+  <PERSONAL_EMAIL>aplee13@gmail.com</PERSONAL_EMAIL>
+  <MANAGER_NAME>Kevin Kirn</MANAGER_NAME>
+  <BP_REASON_CATG>Hire Employee</BP_REASON_CATG>
+  <RESCINDED_DATE>2017-06-12</RESCINDED_DATE>
+  <RESCINDED_BY>189607</RESCINDED_BY>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <BP_INITIATOR>Albert Lee</BP_INITIATOR>
+  <BP_INITIATOR_EMP_ID>189607</BP_INITIATOR_EMP_ID>
+  <IS_EXTERNAL_LOAD>0</IS_EXTERNAL_LOAD>
+  <HR_BUS_PARTNER>Ben Serio | Yael Shalev Barkai</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS>No Entry</EIACA_STATUS>
+  <WORKER_COMMUNITY_REF_ID>CP-PM+ConvertedTeam</WORKER_COMMUNITY_REF_ID>
+  <LOCATION_EFFT_DATE>2017-06-12</LOCATION_EFFT_DATE>
+  <COMP_EFFT_DATE>06122017</COMP_EFFT_DATE>
+  <COMP_PLAN_START_DT>2017-06-12</COMP_PLAN_START_DT>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>70000</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <COMP_PLAN>General Salary Plan</COMP_PLAN>
+  <COMP_GRADE>General Grade</COMP_GRADE>
+  <COMP_GRADE_PROFILE>General - USD</COMP_GRADE_PROFILE>
+  <ASSIGNED_BONUS_PLAN_DETAILS>IPI - Intuit Performance Incentive Plan (%)</ASSIGNED_BONUS_PLAN_DETAILS>
+  <BONUS_TARGET_AMT>7500</BONUS_TARGET_AMT>
+  <BONUS_PLANNED_PCT>0.1</BONUS_PLANNED_PCT>
+  <PAY_GROUP_ID>1 - Exempt</PAY_GROUP_ID>
+  <CONTINUOUS_SERVICE_DATE>2017-06-12</CONTINUOUS_SERVICE_DATE>
+  <LEVEL2_MGR_NAME>Albert Ko</LEVEL2_MGR_NAME>
+  <COMMUNITY>PM</COMMUNITY>
+  <WORKER_COMMUNITY>PM</WORKER_COMMUNITY>
+  <BU_NAME>Unknown Business Unit</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Kevin Kirn</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>75000</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>CEG (Albert Ko)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>CEG - PM (Kevin Kirn)</LEVEL3_ORG_NAME>
+  <MANAGER_ID_PROPOSED>85095</MANAGER_ID_PROPOSED>
+  <MANAGER_CORPID_PROPOSED>10000175078</MANAGER_CORPID_PROPOSED>
+  <SUPERVISORY_ORGANIZATION>CEG - PM (Kevin Kirn)</SUPERVISORY_ORGANIZATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2017-06-12</TIME_IN_JOB_PROFILE_START_DATE>
+  <Trans_Type>Rescind</Trans_Type>
+  <System_List>Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker</System_List>
+</element>
+
+2017-10-30 15:26:20 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 15:26:20 BoomiTest (WDPBaseWorker) [INFO] statuc code : 200
+2017-10-30 15:26:20 BoomiTest (WDPBaseWorker) [INFO] ==================completed WDP Base Worker========================
+2017-10-30 15:26:20 BoomiTest (WDPBaseWorker) [INFO] ==============Validate WDP===============================
+2017-10-30 15:26:20 BoomiTest (WDPBaseWorker) [INFO] DB Url= jdbc:oracle:thin:@rmohsitutxd501-vip.oracleoutsourcing.com:10110:TITU1O1
+2017-10-30 15:26:20 BoomiTest (WDPBaseWorker) [INFO] ==============Create the Connection================================
+2017-10-30 15:26:23 BoomiTest (WDPBaseWorker) [INFO] ==============Connection create==================
+2017-10-30 15:26:23 BoomiTest (WDPBaseWorker) [INFO] ===========create query as below===============
+2017-10-30 15:26:24 BoomiTest (WDPBaseWorker) [INFO] ============Display the result==========================
+2017-10-30 15:26:24 BoomiTest (WDPBaseWorker) [INFO] Verify emp details in WDP: employeid= 192766, Applicantid= A4100357, Email Id= Luke_Skywalker@intuit.com
+2017-10-30 15:26:24 BoomiTest (WDPBaseWorker) [INFO] response= 

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?><SFWFChangeWorkerList>
+<element>
+  <Applicant_ID>A4009231</Applicant_ID>
+  <Employee_ID>A4009231</Employee_ID>
+  <Legal_First_Name>Jeffery F</Legal_First_Name>
+  <Legal_Last_Name>Chin</Legal_Last_Name>
+  <Supervisor_Id>94794</Supervisor_Id>
+  <Emp_Type>E</Emp_Type>
+  <Emp_Class_Desc>Employee</Emp_Class_Desc>
+  <Emp_Status_Code>T</Emp_Status_Code>
+  <Emp_Status_Desc>Terminated</Emp_Status_Desc>
+  <Std_Hours>0</Std_Hours>
+  <Annual_Rt>0</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <Bonus_Target_Pct>0</Bonus_Target_Pct>
+  <Term_Date>20170728</Term_Date>
+  <Term_Reason>Canceled</Term_Reason>
+  <Effective_Date>20170728</Effective_Date>
+  <BP_Event>Hire</BP_Event>
+  <BP_Entry_Date>2017-07-28T07:26:13</BP_Entry_Date>
+  <BP_Completion_Date>2017-07-28 07:46:26</BP_Completion_Date>
+  <BP_Comments>Balakrishna Shankar on behalf of Kamakshi Kaul: OIM Testing; Balakrishna Shankar on behalf of Kamakshi Kaul: OIM testing</BP_Comments>
+  <BP_Status>Canceled</BP_Status>
+  <BP_Effective_Dt>2017-07-27</BP_Effective_Dt>
+</element></SFWFChangeWorkerList>

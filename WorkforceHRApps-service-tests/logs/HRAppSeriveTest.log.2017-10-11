@@ -1,0 +1,1591 @@
+2017-10-11 11:05:34 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 11:05:34 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 11:05:34 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 11:05:34 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:05:34 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 11:05:34 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 11:05:34 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 11:05:34 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 11:05:34 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 11:05:34 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 11:05:34 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 11:05:34 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 11:05:34 BoomiTest (testUpdateCorpInfoE2E) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:05:34 BoomiTest (testUpdateCorpInfoE2E) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 11:05:34 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4100237, 192664, 700033119, Employee, srane, sushant.rane@mainilator.com, 4/1/2017, UPDATE]
+2017-10-11 11:05:34 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 11:05:34 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4100237</APPLICANT_ID>
+   <EMPLOYEE_ID>192664</EMPLOYEE_ID>
+   <CORP_ID>700033119</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>srane</USER_ID>
+   <EMAIL>sushant.rane@mainilator.com</EMAIL>
+   <HIRE_DATE>4/1/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 11:05:43 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 11:05:43 BoomiTest (testUpdateCorpInfoE2E) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 11:05:43 Utility (getRequestParameters) [INFO] Request Parameters : {Corp_ID=700033119, format=simplexml}
+2017-10-11 11:06:45 BoomiTest (testUpdateCorpInfoE2E) [INFO] Response from getCall: <?xml version='1.0' encoding='UTF-8'?>
+<wd:Report_Data xmlns:wd="urn:com.workday.report/IntuitIntegrationAdmin/IntuitGetWorkerSensitive_v1.1">
+   <wd:Report_Entry>
+      <wd:EMPLOYEE_ID>192664</wd:EMPLOYEE_ID>
+      <wd:CORP_ID>700033119</wd:CORP_ID>
+      <wd:APPLICANT_ID>A4100237</wd:APPLICANT_ID>
+      <wd:LEGAL_NAME>Rane, Sushant</wd:LEGAL_NAME>
+      <wd:LEGAL_NAME_FIRST>Sushant</wd:LEGAL_NAME_FIRST>
+      <wd:LEGAL_NAME_LAST>Rane</wd:LEGAL_NAME_LAST>
+      <wd:PREFERRED_NAME>Rane, Sushant</wd:PREFERRED_NAME>
+      <wd:PREFERRED_NAME_FIRST>Sushant</wd:PREFERRED_NAME_FIRST>
+      <wd:PREFERRED_NAME_LAST>Rane</wd:PREFERRED_NAME_LAST>
+      <wd:HIRE_DT>2017-04-01</wd:HIRE_DT>
+      <wd:REHIRE_DT>2017-04-01</wd:REHIRE_DT>
+      <wd:COMPANY_ID>252</wd:COMPANY_ID>
+      <wd:COMPANY_DESC>Intuit India Product development centre Pvt ltd</wd:COMPANY_DESC>
+      <wd:ORG_ID>053</wd:ORG_ID>
+      <wd:ORG_NAME>QBO US</wd:ORG_NAME>
+      <wd:DEPT_ID>1299</wd:DEPT_ID>
+      <wd:DEPT_NAME>Prod Cogs-Ext Alloc</wd:DEPT_NAME>
+      <wd:BusinessSite_G>
+         <wd:WD_LOCATION>USACA02</wd:WD_LOCATION>
+      </wd:BusinessSite_G>
+      <wd:SUPERVISOR_ID>155694</wd:SUPERVISOR_ID>
+      <wd:EMP_TYPE>E</wd:EMP_TYPE>
+      <wd:EMP_CLASS_DES>Employee</wd:EMP_CLASS_DES>
+      <wd:EMP_STATUS_CODE>A</wd:EMP_STATUS_CODE>
+      <wd:BUFG>1BU020</wd:BUFG>
+      <wd:JOBCODE>IPID21</wd:JOBCODE>
+      <wd:JOBCODE_DESC>Database Engineer 2</wd:JOBCODE_DESC>
+      <wd:JOB_FAMILY>PID - Database Engineering</wd:JOB_FAMILY>
+      <wd:JOB_FUNCTION>I - Information Technology</wd:JOB_FUNCTION>
+      <wd:GRADE>SRP</wd:GRADE>
+      <wd:FULL_PART_TIME>F</wd:FULL_PART_TIME>
+      <wd:BUSINESS_TITLE>Database Engineer 2</wd:BUSINESS_TITLE>
+      <wd:FLSA_STATUS>T</wd:FLSA_STATUS>
+      <wd:STD_HOURS>40</wd:STD_HOURS>
+      <wd:ANNUAL_RT>89110</wd:ANNUAL_RT>
+      <wd:HOURLY_RT>0</wd:HOURLY_RT>
+      <wd:CURRENCY_CODE>USD</wd:CURRENCY_CODE>
+      <wd:Bonus_G>
+         <wd:BONUS_PLAN_CODE>IPI</wd:BONUS_PLAN_CODE>
+      </wd:Bonus_G>
+      <wd:BONUS_TARGET_PCT>0.1</wd:BONUS_TARGET_PCT>
+      <wd:WORK_ADDRESS_1>7535 Torrey Santa Fe Road</wd:WORK_ADDRESS_1>
+      <wd:WORK_CITY>San Diego</wd:WORK_CITY>
+      <wd:WORK_STATE_ISO>CA</wd:WORK_STATE_ISO>
+      <wd:WORK_POSTAL>92129</wd:WORK_POSTAL>
+      <wd:WORK_COUNTRY_ISO>USA</wd:WORK_COUNTRY_ISO>
+      <wd:IS_MGR_OF_EMP>0</wd:IS_MGR_OF_EMP>
+      <wd:IS_MGR_OF_CWF>0</wd:IS_MGR_OF_CWF>
+      <wd:IS_MGR_OF_EMP_OR_CWF>0</wd:IS_MGR_OF_EMP_OR_CWF>
+      <wd:WID>0045b6216d231014643d374ce3af346b</wd:WID>
+      <wd:ON_LOA>0</wd:ON_LOA>
+      <wd:POSITION_ID>Job-6-164696</wd:POSITION_ID>
+      <wd:IS_WORKER_TYPE_CWF>0</wd:IS_WORKER_TYPE_CWF>
+      <wd:MGR_CORP_ID>50002037692</wd:MGR_CORP_ID>
+      <wd:WORK_EMAIL>sushant.rane@mainilator.com</wd:WORK_EMAIL>
+      <wd:DIRECTORY_LOGIN_ID>srane</wd:DIRECTORY_LOGIN_ID>
+      <wd:MAIL_STOP>SIG-03-06</wd:MAIL_STOP>
+      <wd:IS_TALEO_ADMIN>0</wd:IS_TALEO_ADMIN>
+      <wd:SUPERVISORY_ORG_REF_ID>S5216</wd:SUPERVISORY_ORG_REF_ID>
+      <wd:SUPERVISORY_ORG_WID>e9d56745656010754260f21e481fe30c</wd:SUPERVISORY_ORG_WID>
+      <wd:IS_HRBP>0</wd:IS_HRBP>
+      <wd:IS_WORKER_RECRUITER>0</wd:IS_WORKER_RECRUITER>
+      <wd:IS_PAYROLL_COUNTRY_USA>1</wd:IS_PAYROLL_COUNTRY_USA>
+      <wd:GENDER_SHORT>M</wd:GENDER_SHORT>
+      <wd:WORKER_COMP_CODE>8859 - All CA Classifications (United States of America)</wd:WORKER_COMP_CODE>
+      <wd:SENIORITY_DT>2017-04-01</wd:SENIORITY_DT>
+      <wd:CONTINOUS_SERVICE_DT>2017-04-01</wd:CONTINOUS_SERVICE_DT>
+      <wd:IS_HOURLY>0</wd:IS_HOURLY>
+      <wd:PAY_RATE_TYPE>General Salary Plan</wd:PAY_RATE_TYPE>
+      <wd:NOT_ELIGIBLE_FOR_HIRE>0</wd:NOT_ELIGIBLE_FOR_HIRE>
+      <wd:SCHD_HOURS>40</wd:SCHD_HOURS>
+      <wd:MANAGER_EMAIL>ARVIND_SN@intuit.com</wd:MANAGER_EMAIL>
+      <wd:MANAGER_NAME>Arvind S N</wd:MANAGER_NAME>
+   </wd:Report_Entry>
+</wd:Report_Data>
+2017-10-11 11:06:45 BoomiTest (testUpdateCorpInfoE2E) [INFO] ===========getEmpInfoFromWD using CorpId completed ======================
+2017-10-11 11:20:13 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 11:20:13 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 11:20:13 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 11:20:13 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:20:13 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 11:20:13 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 11:20:13 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 11:20:13 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 11:20:13 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 11:20:14 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 11:20:14 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 11:20:14 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 11:20:14 BoomiTest (testUpdateCorpInfoE2E) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:20:14 BoomiTest (testUpdateCorpInfoE2E) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 11:20:37 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 11:20:37 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 11:20:37 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 11:20:37 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:20:37 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 11:20:37 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 11:20:37 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 11:20:37 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 11:20:37 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 11:20:37 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 11:20:37 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 11:20:37 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 11:20:37 BoomiTest (testUpdateCorpInfoE2E) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:20:37 BoomiTest (testUpdateCorpInfoE2E) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 11:21:20 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 11:21:20 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 11:21:20 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 11:21:20 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:21:20 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 11:21:20 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 11:21:20 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 11:21:20 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 11:21:20 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 11:21:20 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 11:21:20 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 11:21:20 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 11:21:20 BoomiTest (testUpdateCorpInfoE2E) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:21:20 BoomiTest (testUpdateCorpInfoE2E) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 11:21:37 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 11:21:37 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 11:21:37 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 11:21:37 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:21:37 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 11:21:37 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 11:21:37 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 11:21:37 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 11:21:37 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 11:21:37 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 11:21:37 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 11:21:37 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 11:21:37 BoomiTest (testUpdateCorpInfoE2E) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:21:37 BoomiTest (testUpdateCorpInfoE2E) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 11:24:58 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 11:24:58 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 11:24:58 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 11:24:58 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:24:58 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 11:24:58 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 11:24:58 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 11:24:58 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 11:24:58 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 11:24:58 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 11:24:58 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 11:24:58 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 11:24:58 BoomiTest (testUpdateCorpInfoE2E) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:24:58 BoomiTest (testUpdateCorpInfoE2E) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 11:25:47 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 11:25:47 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 11:25:47 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 11:25:47 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:25:47 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 11:25:47 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 11:25:47 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 11:25:47 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 11:25:47 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 11:25:47 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 11:25:47 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 11:25:47 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 11:25:47 BoomiTest (testUpdateCorpInfoE2E) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:25:47 BoomiTest (testUpdateCorpInfoE2E) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 11:39:47 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 11:39:47 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 11:39:47 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 11:39:47 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:39:47 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 11:39:47 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 11:39:47 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 11:39:47 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 11:39:47 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 11:39:47 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 11:39:47 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 11:39:47 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 11:39:47 BoomiTest (testUpdateCorpInfoE2E) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:39:47 BoomiTest (testUpdateCorpInfoE2E) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 11:40:53 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 11:40:53 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 11:40:53 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 11:40:53 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:40:53 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 11:40:53 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 11:40:53 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 11:40:53 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 11:40:53 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 11:40:53 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 11:40:53 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 11:40:53 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 11:40:53 BoomiTest (testUpdateCorpInfoE2E) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:40:53 BoomiTest (testUpdateCorpInfoE2E) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 11:42:23 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 11:42:23 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 11:42:23 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 11:42:23 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:42:23 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 11:42:23 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 11:42:23 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 11:42:23 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 11:42:23 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 11:42:23 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 11:42:23 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 11:42:23 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 11:42:23 BoomiTest (testUpdateCorpInfoE2E) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:42:23 BoomiTest (testUpdateCorpInfoE2E) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 11:45:27 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 11:45:27 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 11:45:27 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 11:45:27 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:45:27 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 11:45:27 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 11:45:27 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 11:45:27 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 11:45:27 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 11:45:27 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 11:45:27 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 11:45:27 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 11:45:27 BoomiTest (testUpdateCorpInfoE2E) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:45:27 BoomiTest (testUpdateCorpInfoE2E) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 11:45:27 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4100237, 192664, 700033119, Employee, srane, sushant.rane@mainilator.com, 4/1/2017, UPDATE]
+2017-10-11 11:45:27 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 11:45:27 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4100237</APPLICANT_ID>
+   <EMPLOYEE_ID>192664</EMPLOYEE_ID>
+   <CORP_ID>700033119</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>srane</USER_ID>
+   <EMAIL>sushant.rane@mainilator.com</EMAIL>
+   <HIRE_DATE>4/1/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 11:45:37 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 11:45:37 BoomiTest (testUpdateCorpInfoE2E) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 11:45:37 Utility (getRequestParameters) [INFO] Request Parameters : {Corp_ID=700033119, format=simplexml}
+2017-10-11 11:46:40 BoomiTest (testUpdateCorpInfoE2E) [INFO] Response from getCall: <?xml version='1.0' encoding='UTF-8'?>
+<wd:Report_Data xmlns:wd="urn:com.workday.report/IntuitIntegrationAdmin/IntuitGetWorkerSensitive_v1.1">
+   <wd:Report_Entry>
+      <wd:EMPLOYEE_ID>192664</wd:EMPLOYEE_ID>
+      <wd:CORP_ID>700033119</wd:CORP_ID>
+      <wd:APPLICANT_ID>A4100237</wd:APPLICANT_ID>
+      <wd:LEGAL_NAME>Rane, Sushant</wd:LEGAL_NAME>
+      <wd:LEGAL_NAME_FIRST>Sushant</wd:LEGAL_NAME_FIRST>
+      <wd:LEGAL_NAME_LAST>Rane</wd:LEGAL_NAME_LAST>
+      <wd:PREFERRED_NAME>Rane, Sushant</wd:PREFERRED_NAME>
+      <wd:PREFERRED_NAME_FIRST>Sushant</wd:PREFERRED_NAME_FIRST>
+      <wd:PREFERRED_NAME_LAST>Rane</wd:PREFERRED_NAME_LAST>
+      <wd:HIRE_DT>2017-04-01</wd:HIRE_DT>
+      <wd:REHIRE_DT>2017-04-01</wd:REHIRE_DT>
+      <wd:COMPANY_ID>252</wd:COMPANY_ID>
+      <wd:COMPANY_DESC>Intuit India Product development centre Pvt ltd</wd:COMPANY_DESC>
+      <wd:ORG_ID>053</wd:ORG_ID>
+      <wd:ORG_NAME>QBO US</wd:ORG_NAME>
+      <wd:DEPT_ID>1299</wd:DEPT_ID>
+      <wd:DEPT_NAME>Prod Cogs-Ext Alloc</wd:DEPT_NAME>
+      <wd:BusinessSite_G>
+         <wd:WD_LOCATION>USACA02</wd:WD_LOCATION>
+      </wd:BusinessSite_G>
+      <wd:SUPERVISOR_ID>155694</wd:SUPERVISOR_ID>
+      <wd:EMP_TYPE>E</wd:EMP_TYPE>
+      <wd:EMP_CLASS_DES>Employee</wd:EMP_CLASS_DES>
+      <wd:EMP_STATUS_CODE>A</wd:EMP_STATUS_CODE>
+      <wd:BUFG>1BU020</wd:BUFG>
+      <wd:JOBCODE>IPID21</wd:JOBCODE>
+      <wd:JOBCODE_DESC>Database Engineer 2</wd:JOBCODE_DESC>
+      <wd:JOB_FAMILY>PID - Database Engineering</wd:JOB_FAMILY>
+      <wd:JOB_FUNCTION>I - Information Technology</wd:JOB_FUNCTION>
+      <wd:GRADE>SRP</wd:GRADE>
+      <wd:FULL_PART_TIME>F</wd:FULL_PART_TIME>
+      <wd:BUSINESS_TITLE>Database Engineer 2</wd:BUSINESS_TITLE>
+      <wd:FLSA_STATUS>T</wd:FLSA_STATUS>
+      <wd:STD_HOURS>40</wd:STD_HOURS>
+      <wd:ANNUAL_RT>89110</wd:ANNUAL_RT>
+      <wd:HOURLY_RT>0</wd:HOURLY_RT>
+      <wd:CURRENCY_CODE>USD</wd:CURRENCY_CODE>
+      <wd:Bonus_G>
+         <wd:BONUS_PLAN_CODE>IPI</wd:BONUS_PLAN_CODE>
+      </wd:Bonus_G>
+      <wd:BONUS_TARGET_PCT>0.1</wd:BONUS_TARGET_PCT>
+      <wd:WORK_ADDRESS_1>7535 Torrey Santa Fe Road</wd:WORK_ADDRESS_1>
+      <wd:WORK_CITY>San Diego</wd:WORK_CITY>
+      <wd:WORK_STATE_ISO>CA</wd:WORK_STATE_ISO>
+      <wd:WORK_POSTAL>92129</wd:WORK_POSTAL>
+      <wd:WORK_COUNTRY_ISO>USA</wd:WORK_COUNTRY_ISO>
+      <wd:IS_MGR_OF_EMP>0</wd:IS_MGR_OF_EMP>
+      <wd:IS_MGR_OF_CWF>0</wd:IS_MGR_OF_CWF>
+      <wd:IS_MGR_OF_EMP_OR_CWF>0</wd:IS_MGR_OF_EMP_OR_CWF>
+      <wd:WID>0045b6216d231014643d374ce3af346b</wd:WID>
+      <wd:ON_LOA>0</wd:ON_LOA>
+      <wd:POSITION_ID>Job-6-164696</wd:POSITION_ID>
+      <wd:IS_WORKER_TYPE_CWF>0</wd:IS_WORKER_TYPE_CWF>
+      <wd:MGR_CORP_ID>50002037692</wd:MGR_CORP_ID>
+      <wd:WORK_EMAIL>sushant.rane@mainilator.com</wd:WORK_EMAIL>
+      <wd:DIRECTORY_LOGIN_ID>srane</wd:DIRECTORY_LOGIN_ID>
+      <wd:MAIL_STOP>SIG-03-06</wd:MAIL_STOP>
+      <wd:IS_TALEO_ADMIN>0</wd:IS_TALEO_ADMIN>
+      <wd:SUPERVISORY_ORG_REF_ID>S5216</wd:SUPERVISORY_ORG_REF_ID>
+      <wd:SUPERVISORY_ORG_WID>e9d56745656010754260f21e481fe30c</wd:SUPERVISORY_ORG_WID>
+      <wd:IS_HRBP>0</wd:IS_HRBP>
+      <wd:IS_WORKER_RECRUITER>0</wd:IS_WORKER_RECRUITER>
+      <wd:IS_PAYROLL_COUNTRY_USA>1</wd:IS_PAYROLL_COUNTRY_USA>
+      <wd:GENDER_SHORT>M</wd:GENDER_SHORT>
+      <wd:WORKER_COMP_CODE>8859 - All CA Classifications (United States of America)</wd:WORKER_COMP_CODE>
+      <wd:SENIORITY_DT>2017-04-01</wd:SENIORITY_DT>
+      <wd:CONTINOUS_SERVICE_DT>2017-04-01</wd:CONTINOUS_SERVICE_DT>
+      <wd:IS_HOURLY>0</wd:IS_HOURLY>
+      <wd:PAY_RATE_TYPE>General Salary Plan</wd:PAY_RATE_TYPE>
+      <wd:NOT_ELIGIBLE_FOR_HIRE>0</wd:NOT_ELIGIBLE_FOR_HIRE>
+      <wd:SCHD_HOURS>40</wd:SCHD_HOURS>
+      <wd:MANAGER_EMAIL>ARVIND_SN@intuit.com</wd:MANAGER_EMAIL>
+      <wd:MANAGER_NAME>Arvind S N</wd:MANAGER_NAME>
+   </wd:Report_Entry>
+</wd:Report_Data>
+2017-10-11 11:46:40 BoomiTest (testUpdateCorpInfoE2E) [INFO] ===========getEmpInfoFromWD using CorpId completed ======================
+2017-10-11 11:47:20 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 11:47:20 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 11:47:20 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 11:47:20 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:47:20 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 11:47:20 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 11:47:20 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 11:47:20 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 11:47:20 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 11:47:20 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 11:47:20 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 11:47:20 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 11:47:20 BoomiTest (testUpdateCorpInfoE2E) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:47:20 BoomiTest (testUpdateCorpInfoE2E) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 11:47:20 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4100237, 192664, 700033119, Employee, srane, sushant.rane@mainilator.com, 4/1/2017, UPDATE]
+2017-10-11 11:47:20 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 11:47:20 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4100237</APPLICANT_ID>
+   <EMPLOYEE_ID>192664</EMPLOYEE_ID>
+   <CORP_ID>700033119</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>srane</USER_ID>
+   <EMAIL>sushant.rane@mainilator.com</EMAIL>
+   <HIRE_DATE>4/1/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 11:47:29 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 11:47:29 BoomiTest (testUpdateCorpInfoE2E) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 11:49:04 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 11:49:04 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 11:49:04 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 11:49:04 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:49:04 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 11:49:04 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 11:49:04 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 11:49:04 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 11:49:04 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 11:49:04 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 11:49:04 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 11:49:04 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 11:49:04 BoomiTest (testUpdateCorpInfoE2E) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 11:49:04 BoomiTest (testUpdateCorpInfoE2E) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 11:49:04 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4100237, 192664, 700033119, Employee, srane, sushant.rane@mainilator.com, 4/1/2017, UPDATE]
+2017-10-11 11:49:04 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 11:49:04 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4100237</APPLICANT_ID>
+   <EMPLOYEE_ID>192664</EMPLOYEE_ID>
+   <CORP_ID>700033119</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>srane</USER_ID>
+   <EMAIL>sushant.rane@mainilator.com</EMAIL>
+   <HIRE_DATE>4/1/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 11:49:13 BoomiTest (testUpdateCorpInfoE2E) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 11:49:13 BoomiTest (testUpdateCorpInfoE2E) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 12:03:34 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 12:03:34 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 12:03:34 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 12:03:34 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:03:34 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 12:03:34 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 12:03:34 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 12:03:34 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 12:03:34 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 12:03:34 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 12:03:34 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 12:03:34 BoomiTest (UpdateContactinfo) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 12:03:34 BoomiTest (UpdateContactinfo) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:03:34 BoomiTest (UpdateContactinfo) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 12:03:34 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4100437, 192830, 70000035537, Employee, akapur, anil.kapur@mainilator.com, 7/11/2017, UPDATE]
+2017-10-11 12:03:34 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 12:03:34 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4100437</APPLICANT_ID>
+   <EMPLOYEE_ID>192830</EMPLOYEE_ID>
+   <CORP_ID>70000035537</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>akapur</USER_ID>
+   <EMAIL>anil.kapur@mainilator.com</EMAIL>
+   <HIRE_DATE>7/11/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 12:03:45 BoomiTest (UpdateContactinfo) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 12:03:45 BoomiTest (UpdateContactinfo) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 12:04:27 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 12:04:27 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 12:04:27 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 12:04:27 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:04:27 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 12:04:27 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 12:04:27 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 12:04:27 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 12:04:27 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 12:04:27 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 12:04:27 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 12:04:27 BoomiTest (UpdateContactinfo) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 12:04:27 BoomiTest (UpdateContactinfo) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:04:27 BoomiTest (UpdateContactinfo) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 12:04:27 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4100437, 192830, 70000035537, Employee, akapur, anil.kapur@mainilator.com, 7/11/2017, UPDATE]
+2017-10-11 12:04:27 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 12:04:27 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4100437</APPLICANT_ID>
+   <EMPLOYEE_ID>192830</EMPLOYEE_ID>
+   <CORP_ID>70000035537</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>akapur</USER_ID>
+   <EMAIL>anil.kapur@mainilator.com</EMAIL>
+   <HIRE_DATE>7/11/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 12:04:38 BoomiTest (UpdateContactinfo) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 12:04:38 BoomiTest (UpdateContactinfo) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 12:04:38 Utility (getRequestParameters) [INFO] Request Parameters : {Corp_ID=700033119, format=simplexml}
+2017-10-11 12:04:53 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 12:04:53 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 12:04:53 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 12:04:53 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:04:53 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 12:04:53 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 12:04:53 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 12:04:53 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 12:04:53 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 12:04:53 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 12:04:53 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 12:04:53 BoomiTest (UpdateContactinfo) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 12:04:53 BoomiTest (UpdateContactinfo) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:04:53 BoomiTest (UpdateContactinfo) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 12:04:53 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4100437, 192830, 70000035537, Employee, akapur, anil.kapur@mainilator.com, 7/11/2017, UPDATE]
+2017-10-11 12:04:53 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 12:04:53 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4100437</APPLICANT_ID>
+   <EMPLOYEE_ID>192830</EMPLOYEE_ID>
+   <CORP_ID>70000035537</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>akapur</USER_ID>
+   <EMAIL>anil.kapur@mainilator.com</EMAIL>
+   <HIRE_DATE>7/11/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 12:05:52 BoomiTest (UpdateContactinfo) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 12:05:52 BoomiTest (UpdateContactinfo) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 12:05:52 Utility (getRequestParameters) [INFO] Request Parameters : {Corp_ID=70000035537, format=simplexml}
+2017-10-11 12:06:55 BoomiTest (UpdateContactinfo) [INFO] Response from getCall: <?xml version='1.0' encoding='UTF-8'?>
+<wd:Report_Data xmlns:wd="urn:com.workday.report/IntuitIntegrationAdmin/IntuitGetWorkerSensitive_v1.1">
+   <wd:Report_Entry>
+      <wd:EMPLOYEE_ID>192830</wd:EMPLOYEE_ID>
+      <wd:CORP_ID>70000035537</wd:CORP_ID>
+      <wd:APPLICANT_ID>A4100437</wd:APPLICANT_ID>
+      <wd:LEGAL_NAME>Kapur, Anil</wd:LEGAL_NAME>
+      <wd:LEGAL_NAME_FIRST>Anil</wd:LEGAL_NAME_FIRST>
+      <wd:LEGAL_NAME_LAST>Kapur</wd:LEGAL_NAME_LAST>
+      <wd:PREFERRED_NAME>Kapur, Anil</wd:PREFERRED_NAME>
+      <wd:PREFERRED_NAME_FIRST>Anil</wd:PREFERRED_NAME_FIRST>
+      <wd:PREFERRED_NAME_LAST>Kapur</wd:PREFERRED_NAME_LAST>
+      <wd:HIRE_DT>2017-07-11</wd:HIRE_DT>
+      <wd:REHIRE_DT>2017-07-11</wd:REHIRE_DT>
+      <wd:COMPANY_ID>100</wd:COMPANY_ID>
+      <wd:COMPANY_DESC>Intuit Corp</wd:COMPANY_DESC>
+      <wd:ORG_ID>150</wd:ORG_ID>
+      <wd:ORG_NAME>ProTax - ProSeries</wd:ORG_NAME>
+      <wd:DEPT_ID>2202</wd:DEPT_ID>
+      <wd:DEPT_NAME>TS-Admin/Consulting/PCS</wd:DEPT_NAME>
+      <wd:BusinessSite_G>
+         <wd:WD_LOCATION>USAINRM</wd:WD_LOCATION>
+      </wd:BusinessSite_G>
+      <wd:SUPERVISOR_ID>91628</wd:SUPERVISOR_ID>
+      <wd:EMP_TYPE>N</wd:EMP_TYPE>
+      <wd:CWF_TYPE>Outsource</wd:CWF_TYPE>
+      <wd:EMP_STATUS_CODE>A</wd:EMP_STATUS_CODE>
+      <wd:BUFG>1BU025</wd:BUFG>
+      <wd:JOBCODE>XYTSU91</wd:JOBCODE>
+      <wd:JOBCODE_DESC>CW Technical Support 1</wd:JOBCODE_DESC>
+      <wd:JOB_FAMILY>YTSU - CW Technical Support</wd:JOB_FAMILY>
+      <wd:JOB_FUNCTION>X - Contingent Workers</wd:JOB_FUNCTION>
+      <wd:FULL_PART_TIME>F</wd:FULL_PART_TIME>
+      <wd:BUSINESS_TITLE>CW Technical Support 1</wd:BUSINESS_TITLE>
+      <wd:FLSA_STATUS>N</wd:FLSA_STATUS>
+      <wd:STD_HOURS>40</wd:STD_HOURS>
+      <wd:ANNUAL_RT>0</wd:ANNUAL_RT>
+      <wd:HOURLY_RT>0</wd:HOURLY_RT>
+      <wd:BONUS_TARGET_PCT>0</wd:BONUS_TARGET_PCT>
+      <wd:WORK_ADDRESS_1>IN Remote Loc</wd:WORK_ADDRESS_1>
+      <wd:WORK_CITY>Indiana</wd:WORK_CITY>
+      <wd:WORK_STATE_ISO>IN</wd:WORK_STATE_ISO>
+      <wd:WORK_POSTAL>46201</wd:WORK_POSTAL>
+      <wd:WORK_COUNTRY_ISO>USA</wd:WORK_COUNTRY_ISO>
+      <wd:IS_MGR_OF_EMP>0</wd:IS_MGR_OF_EMP>
+      <wd:IS_MGR_OF_CWF>0</wd:IS_MGR_OF_CWF>
+      <wd:IS_MGR_OF_EMP_OR_CWF>0</wd:IS_MGR_OF_EMP_OR_CWF>
+      <wd:WID>dceff7c85b91015f0fdda20ea72c1eb3</wd:WID>
+      <wd:ON_LOA>0</wd:ON_LOA>
+      <wd:POSITION_ID>Job-6-164946</wd:POSITION_ID>
+      <wd:IS_WORKER_TYPE_CWF>1</wd:IS_WORKER_TYPE_CWF>
+      <wd:MGR_CORP_ID>10000000192</wd:MGR_CORP_ID>
+      <wd:WORK_PHONE>+91  8041760046 x20046</wd:WORK_PHONE>
+      <wd:DIRECTORY_LOGIN_ID>ak18671</wd:DIRECTORY_LOGIN_ID>
+      <wd:IS_TALEO_ADMIN>0</wd:IS_TALEO_ADMIN>
+      <wd:SUPERVISORY_ORG_REF_ID>S4570</wd:SUPERVISORY_ORG_REF_ID>
+      <wd:SUPERVISORY_ORG_WID>61952b4a8deb10131c013c5dada0291b</wd:SUPERVISORY_ORG_WID>
+      <wd:IS_HRBP>0</wd:IS_HRBP>
+      <wd:IS_WORKER_RECRUITER>0</wd:IS_WORKER_RECRUITER>
+      <wd:IS_PAYROLL_COUNTRY_USA>0</wd:IS_PAYROLL_COUNTRY_USA>
+      <wd:CW_SUPPLIER>ARISE</wd:CW_SUPPLIER>
+      <wd:GENDER_SHORT>M</wd:GENDER_SHORT>
+      <wd:SENIORITY_DT>2017-07-11</wd:SENIORITY_DT>
+      <wd:IS_HOURLY>0</wd:IS_HOURLY>
+      <wd:NOT_ELIGIBLE_FOR_HIRE>0</wd:NOT_ELIGIBLE_FOR_HIRE>
+      <wd:SCHD_HOURS>40</wd:SCHD_HOURS>
+      <wd:MANAGER_EMAIL>Heather_Barger@intuit.com</wd:MANAGER_EMAIL>
+      <wd:MANAGER_NAME>Heather Barger</wd:MANAGER_NAME>
+   </wd:Report_Entry>
+</wd:Report_Data>
+2017-10-11 12:06:56 BoomiTest (UpdateContactinfo) [INFO] ===========getEmpInfoFromWD using CorpId completed ======================
+2017-10-11 12:30:06 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 12:30:06 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 12:30:06 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 12:30:06 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:30:06 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 12:30:06 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 12:30:06 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 12:30:06 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 12:30:06 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 12:30:06 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 12:30:06 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 12:30:06 BoomiTest (OIMAdhocUpdate) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 12:30:06 BoomiTest (OIMAdhocUpdate) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:30:06 BoomiTest (OIMAdhocUpdate) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 12:30:07 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4100437, 192830, 70000035537, Employee, akapur, anil.kapur@mainilator.com, 7/11/2017, UPDATE]
+2017-10-11 12:30:07 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 12:30:07 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4100437</APPLICANT_ID>
+   <EMPLOYEE_ID>192830</EMPLOYEE_ID>
+   <CORP_ID>70000035537</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>akapur</USER_ID>
+   <EMAIL>anil.kapur@mainilator.com</EMAIL>
+   <HIRE_DATE>7/11/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 12:31:26 BoomiTest (OIMAdhocUpdate) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 12:31:26 BoomiTest (OIMAdhocUpdate) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 12:31:26 Utility (getRequestParameters) [INFO] Request Parameters : {Corp_ID=70000035537}
+2017-10-11 12:32:38 BoomiTest (OIMAdhocUpdate) [INFO] Response from getCall: <?xml version='1.0' encoding='UTF-8'?><wd:Report_Data xmlns:wd="urn:com.workday.report/IntuitIntegrationAdmin/IntuitGetWorkerSensitive_v1.1"><wd:Report_Entry><wd:EMPLOYEE_ID>192830</wd:EMPLOYEE_ID><wd:CORP_ID wd:Descriptor="70000035537"><wd:ID wd:type="WID">dceff7c85b9101ac888f6432a72c63b3</wd:ID></wd:CORP_ID><wd:APPLICANT_ID>A4100437</wd:APPLICANT_ID><wd:LEGAL_NAME>Kapur, Anil</wd:LEGAL_NAME><wd:LEGAL_NAME_FIRST>Anil</wd:LEGAL_NAME_FIRST><wd:LEGAL_NAME_LAST>Kapur</wd:LEGAL_NAME_LAST><wd:PREFERRED_NAME>Kapur, Anil</wd:PREFERRED_NAME><wd:PREFERRED_NAME_FIRST>Anil</wd:PREFERRED_NAME_FIRST><wd:PREFERRED_NAME_LAST>Kapur</wd:PREFERRED_NAME_LAST><wd:HIRE_DT>2017-07-11-07:00</wd:HIRE_DT><wd:REHIRE_DT>2017-07-11-07:00</wd:REHIRE_DT><wd:COMPANY_ID>100</wd:COMPANY_ID><wd:COMPANY_DESC>Intuit Corp</wd:COMPANY_DESC><wd:ORG_ID>150</wd:ORG_ID><wd:Group_G><wd:ORG_NAME>ProTax - ProSeries</wd:ORG_NAME></wd:Group_G><wd:DEPT_ID>2202</wd:DEPT_ID><wd:DEPT_NAME>TS-Admin/Consulting/PCS</wd:DEPT_NAME><wd:BusinessSite_G><wd:WD_LOCATION>USAINRM</wd:WD_LOCATION></wd:BusinessSite_G><wd:SUPERVISOR_ID>91628</wd:SUPERVISOR_ID><wd:EMP_TYPE>N</wd:EMP_TYPE><wd:CWF_TYPE wd:Descriptor="Outsource"><wd:ID wd:type="WID">d7975740de1310b7e5b18490c855868a</wd:ID><wd:ID wd:type="Contingent_Worker_Type_ID">Out</wd:ID></wd:CWF_TYPE><wd:EMP_STATUS_CODE>A</wd:EMP_STATUS_CODE><wd:BUFG_G><wd:BUFG>1BU025</wd:BUFG></wd:BUFG_G><wd:JOBCODE>XYTSU91</wd:JOBCODE><wd:JOBCODE_DESC>CW Technical Support 1</wd:JOBCODE_DESC><wd:JOB_FAMILY wd:Descriptor="YTSU - CW Technical Support"><wd:ID wd:type="WID">4d05aa26fe4210bf2caa924296357380</wd:ID><wd:ID wd:type="Job_Family_ID">YTSU</wd:ID></wd:JOB_FAMILY><wd:JOB_FUNCTION wd:Descriptor="X - Contingent Workers"><wd:ID wd:type="WID">4d05aa26fe4210bf2cc3a893845d73a2</wd:ID><wd:ID wd:type="Job_Family_ID">JOB_FAMILY-3-336</wd:ID></wd:JOB_FUNCTION><wd:FULL_PART_TIME>F</wd:FULL_PART_TIME><wd:BUSINESS_TITLE>CW Technical Support 1</wd:BUSINESS_TITLE><wd:FLSA_STATUS>N</wd:FLSA_STATUS><wd:STD_HOURS>40</wd:STD_HOURS><wd:ANNUAL_RT>0</wd:ANNUAL_RT><wd:HOURLY_RT>0</wd:HOURLY_RT><wd:BONUS_TARGET_PCT>0</wd:BONUS_TARGET_PCT><wd:WORK_ADDRESS_1>IN Remote Loc</wd:WORK_ADDRESS_1><wd:WORK_CITY>Indiana</wd:WORK_CITY><wd:WORK_STATE_ISO>IN</wd:WORK_STATE_ISO><wd:WORK_POSTAL>46201</wd:WORK_POSTAL><wd:WORK_COUNTRY_ISO>USA</wd:WORK_COUNTRY_ISO><wd:IS_MGR_OF_EMP>0</wd:IS_MGR_OF_EMP><wd:IS_MGR_OF_CWF>0</wd:IS_MGR_OF_CWF><wd:IS_MGR_OF_EMP_OR_CWF>0</wd:IS_MGR_OF_EMP_OR_CWF><wd:WID>dceff7c85b91015f0fdda20ea72c1eb3</wd:WID><wd:ON_LOA>0</wd:ON_LOA><wd:POSITION_ID>Job-6-164946</wd:POSITION_ID><wd:IS_WORKER_TYPE_CWF>1</wd:IS_WORKER_TYPE_CWF><wd:MGR_CORP_ID>10000000192</wd:MGR_CORP_ID><wd:WORK_PHONE>+91  8041760046 x20046</wd:WORK_PHONE><wd:DIRECTORY_LOGIN_ID wd:Descriptor="ak18671"><wd:ID wd:type="WID">dceff7c85b91016f1e596632a72c65b3</wd:ID></wd:DIRECTORY_LOGIN_ID><wd:IS_TALEO_ADMIN>0</wd:IS_TALEO_ADMIN><wd:Supervisory_Org_G><wd:SUPERVISORY_ORG_REF_ID>S4570</wd:SUPERVISORY_ORG_REF_ID><wd:SUPERVISORY_ORG_WID>61952b4a8deb10131c013c5dada0291b</wd:SUPERVISORY_ORG_WID></wd:Supervisory_Org_G><wd:IS_HRBP>0</wd:IS_HRBP><wd:IS_WORKER_RECRUITER>0</wd:IS_WORKER_RECRUITER><wd:IS_PAYROLL_COUNTRY_USA>0</wd:IS_PAYROLL_COUNTRY_USA><wd:CW_G><wd:CW_SUPPLIER wd:Descriptor="ARISE"><wd:ID wd:type="WID">4d05aa26fe4210bf3494830541358a10</wd:ID><wd:ID wd:type="Supplier_Reference_ID">ARISE</wd:ID></wd:CW_SUPPLIER></wd:CW_G><wd:GENDER_SHORT>M</wd:GENDER_SHORT><wd:SENIORITY_DT>2017-07-11-07:00</wd:SENIORITY_DT><wd:IS_HOURLY>0</wd:IS_HOURLY><wd:Applicant_G><wd:NOT_ELIGIBLE_FOR_HIRE>0</wd:NOT_ELIGIBLE_FOR_HIRE></wd:Applicant_G><wd:SCHD_HOURS>40</wd:SCHD_HOURS><wd:MANAGER_EMAIL>Heather_Barger@intuit.com</wd:MANAGER_EMAIL><wd:MANAGER_NAME wd:Descriptor="Heather Barger"><wd:ID wd:type="WID">bde9a7845d6846e8aeee8ee6ebdb4cc4</wd:ID><wd:ID wd:type="Employee_ID">91628</wd:ID></wd:MANAGER_NAME></wd:Report_Entry></wd:Report_Data>
+2017-10-11 12:42:59 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 12:42:59 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 12:42:59 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 12:42:59 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:42:59 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 12:42:59 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 12:42:59 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 12:42:59 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 12:42:59 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 12:42:59 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 12:42:59 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 12:42:59 BoomiTest (OIMAdhocUpdate) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 12:42:59 BoomiTest (OIMAdhocUpdate) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:42:59 BoomiTest (OIMAdhocUpdate) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 12:43:00 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4107478, 202144, 50002107253, Employee, mKamika, kamika.mincer@mainilator.com, 9/14/2017, UPDATE]
+2017-10-11 12:43:00 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 12:43:00 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4107478</APPLICANT_ID>
+   <EMPLOYEE_ID>202144</EMPLOYEE_ID>
+   <CORP_ID>50002107253</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mKamika</USER_ID>
+   <EMAIL>kamika.mincer@mainilator.com</EMAIL>
+   <HIRE_DATE>9/14/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 12:43:57 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 12:43:57 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 12:43:57 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 12:43:57 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:43:57 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 12:43:57 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 12:43:57 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 12:43:57 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 12:43:57 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 12:43:57 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 12:43:57 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 12:43:57 BoomiTest (OIMAdhocUpdate) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 12:43:57 BoomiTest (OIMAdhocUpdate) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:43:57 BoomiTest (OIMAdhocUpdate) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 12:43:57 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4107478, 202144, 50002107253, Employee, mKamika, kamika.mincer@mainilator.com, 9/14/2017, UPDATE]
+2017-10-11 12:43:57 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 12:43:57 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4107478</APPLICANT_ID>
+   <EMPLOYEE_ID>202144</EMPLOYEE_ID>
+   <CORP_ID>50002107253</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mKamika</USER_ID>
+   <EMAIL>kamika.mincer@mainilator.com</EMAIL>
+   <HIRE_DATE>9/14/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 12:44:25 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 12:44:25 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 12:44:25 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 12:44:25 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:44:25 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 12:44:25 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 12:44:25 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 12:44:25 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 12:44:25 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 12:44:25 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 12:44:25 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 12:44:25 BoomiTest (OIMAdhocUpdate) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 12:44:25 BoomiTest (OIMAdhocUpdate) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:44:25 BoomiTest (OIMAdhocUpdate) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 12:44:25 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4107478, 202144, 50002107253, Employee, mKamika, kamika.mincer@mainilator.com, 9/14/2017, UPDATE]
+2017-10-11 12:44:25 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 12:44:25 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4107478</APPLICANT_ID>
+   <EMPLOYEE_ID>202144</EMPLOYEE_ID>
+   <CORP_ID>50002107253</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mKamika</USER_ID>
+   <EMAIL>kamika.mincer@mainilator.com</EMAIL>
+   <HIRE_DATE>9/14/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 12:45:01 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 12:45:01 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 12:45:01 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 12:45:01 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:45:01 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 12:45:01 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 12:45:01 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 12:45:01 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 12:45:01 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 12:45:01 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 12:45:01 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 12:45:01 BoomiTest (OIMAdhocUpdate) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 12:45:01 BoomiTest (OIMAdhocUpdate) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:45:01 BoomiTest (OIMAdhocUpdate) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 12:45:01 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4107478, 202144, 50002107253, Employee, mKamika, kamika.mincer@mainilator.com, 9/14/2017, UPDATE]
+2017-10-11 12:45:01 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 12:45:01 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4107478</APPLICANT_ID>
+   <EMPLOYEE_ID>202144</EMPLOYEE_ID>
+   <CORP_ID>50002107253</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mKamika</USER_ID>
+   <EMAIL>kamika.mincer@mainilator.com</EMAIL>
+   <HIRE_DATE>9/14/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 12:45:32 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 12:45:32 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 12:45:32 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 12:45:32 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:45:32 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 12:45:32 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 12:45:32 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 12:45:32 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 12:45:32 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 12:45:32 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 12:45:32 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 12:45:32 BoomiTest (OIMAdhocUpdate) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 12:45:32 BoomiTest (OIMAdhocUpdate) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:45:32 BoomiTest (OIMAdhocUpdate) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 12:45:32 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4107478, 202144, 50002107253, Employee, mKamika, kamika.mincer@mainilator.com, 9/14/2017, UPDATE]
+2017-10-11 12:45:32 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 12:45:32 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4107478</APPLICANT_ID>
+   <EMPLOYEE_ID>202144</EMPLOYEE_ID>
+   <CORP_ID>50002107253</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mKamika</USER_ID>
+   <EMAIL>kamika.mincer@mainilator.com</EMAIL>
+   <HIRE_DATE>9/14/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 12:46:48 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 12:46:48 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 12:46:48 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 12:46:48 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:46:48 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 12:46:48 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 12:46:48 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 12:46:48 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 12:46:48 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 12:46:48 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 12:46:48 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 12:46:48 BoomiTest (OIMAdhocUpdate) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 12:46:48 BoomiTest (OIMAdhocUpdate) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:46:48 BoomiTest (OIMAdhocUpdate) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 12:46:48 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4107478, 202144, 50002107253, Employee, mKamika, kamika.mincer@mainilator.com, 9/14/2017, ADD]
+2017-10-11 12:46:48 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 12:46:48 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4107478</APPLICANT_ID>
+   <EMPLOYEE_ID>202144</EMPLOYEE_ID>
+   <CORP_ID>50002107253</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mKamika</USER_ID>
+   <EMAIL>kamika.mincer@mainilator.com</EMAIL>
+   <HIRE_DATE>9/14/2017</HIRE_DATE>
+   <OPERATION>ADD</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 12:47:07 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 12:47:07 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 12:47:07 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 12:47:07 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:47:07 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 12:47:07 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 12:47:07 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 12:47:07 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 12:47:07 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 12:47:07 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 12:47:07 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 12:47:07 BoomiTest (OIMAdhocUpdate) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 12:47:07 BoomiTest (OIMAdhocUpdate) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:47:07 BoomiTest (OIMAdhocUpdate) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 12:47:07 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4107478, 202144, 50002107253, Employee, mKamika, kamika.mincer@mainilator.com, 9/14/2017, ADD]
+2017-10-11 12:47:07 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 12:47:07 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4107478</APPLICANT_ID>
+   <EMPLOYEE_ID>202144</EMPLOYEE_ID>
+   <CORP_ID>50002107253</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mKamika</USER_ID>
+   <EMAIL>kamika.mincer@mainilator.com</EMAIL>
+   <HIRE_DATE>9/14/2017</HIRE_DATE>
+   <OPERATION>ADD</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 12:48:12 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 12:48:12 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 12:48:12 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 12:48:12 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:48:12 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 12:48:12 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 12:48:12 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 12:48:12 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 12:48:12 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 12:48:12 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 12:48:12 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 12:48:12 BoomiTest (OIMAdhocUpdate) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 12:48:12 BoomiTest (OIMAdhocUpdate) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 12:48:12 BoomiTest (OIMAdhocUpdate) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 12:48:12 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4107478, 202144, 50002107253, Employee, mKamika, kamika.mincer@mainilator.com, 9/14/2017, ADD]
+2017-10-11 12:48:12 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 12:48:12 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4107478</APPLICANT_ID>
+   <EMPLOYEE_ID>202144</EMPLOYEE_ID>
+   <CORP_ID>50002107253</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mKamika</USER_ID>
+   <EMAIL>kamika.mincer@mainilator.com</EMAIL>
+   <HIRE_DATE>9/14/2017</HIRE_DATE>
+   <OPERATION>ADD</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 13:42:23 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 13:42:23 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 13:42:23 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 13:42:23 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 13:42:23 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 13:42:23 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 13:42:23 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 13:42:23 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 13:42:23 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 13:42:23 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 13:42:23 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 13:42:23 BoomiTest (OIMAdhocUpdate) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 13:42:23 BoomiTest (OIMAdhocUpdate) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 13:42:23 BoomiTest (OIMAdhocUpdate) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 13:42:23 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4107478, 202144, 50002107253, Employee, mKamika, kamika.mincer@mainilator.com, 9/14/2017, ADD]
+2017-10-11 13:42:23 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 13:42:23 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4107478</APPLICANT_ID>
+   <EMPLOYEE_ID>202144</EMPLOYEE_ID>
+   <CORP_ID>50002107253</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mKamika</USER_ID>
+   <EMAIL>kamika.mincer@mainilator.com</EMAIL>
+   <HIRE_DATE>9/14/2017</HIRE_DATE>
+   <OPERATION>ADD</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 13:42:27 BoomiTest (OIMAdhocUpdate) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 13:42:27 BoomiTest (OIMAdhocUpdate) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 13:42:27 Utility (getRequestParameters) [INFO] Request Parameters : {Corp_ID=50002107253}
+2017-10-11 13:43:30 BoomiTest (OIMAdhocUpdate) [INFO] Response from getCall: <?xml version='1.0' encoding='UTF-8'?><wd:Report_Data xmlns:wd="urn:com.workday.report/IntuitIntegrationAdmin/IntuitGetWorkerSensitive_v1.1"/>
+2017-10-11 13:46:47 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 13:46:47 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 13:46:47 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 13:46:47 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 13:46:47 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 13:46:47 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 13:46:47 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 13:46:47 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 13:46:47 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 13:46:47 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 13:46:47 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 13:46:47 BoomiTest (UpdateContactinfo) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 13:46:47 BoomiTest (UpdateContactinfo) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 13:46:47 BoomiTest (UpdateContactinfo) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 13:46:47 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4100437, 192830, 70000035537, Employee, akapur, anil.kapur@mainilator.com, 7/11/2017, UPDATE]
+2017-10-11 13:46:47 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 13:46:47 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4100437</APPLICANT_ID>
+   <EMPLOYEE_ID>192830</EMPLOYEE_ID>
+   <CORP_ID>70000035537</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>akapur</USER_ID>
+   <EMAIL>anil.kapur@mainilator.com</EMAIL>
+   <HIRE_DATE>7/11/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 13:46:58 BoomiTest (UpdateContactinfo) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 13:46:58 BoomiTest (UpdateContactinfo) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 13:46:58 Utility (getRequestParameters) [INFO] Request Parameters : {Corp_ID=70000035537}
+2017-10-11 13:48:01 BoomiTest (UpdateContactinfo) [INFO] Response from getCall: <?xml version='1.0' encoding='UTF-8'?><wd:Report_Data xmlns:wd="urn:com.workday.report/IntuitIntegrationAdmin/IntuitGetWorkerSensitive_v1.1"><wd:Report_Entry><wd:EMPLOYEE_ID>192830</wd:EMPLOYEE_ID><wd:CORP_ID wd:Descriptor="70000035537"><wd:ID wd:type="WID">dceff7c85b9101ac888f6432a72c63b3</wd:ID></wd:CORP_ID><wd:APPLICANT_ID>A4100437</wd:APPLICANT_ID><wd:LEGAL_NAME>Kapur, Anil</wd:LEGAL_NAME><wd:LEGAL_NAME_FIRST>Anil</wd:LEGAL_NAME_FIRST><wd:LEGAL_NAME_LAST>Kapur</wd:LEGAL_NAME_LAST><wd:PREFERRED_NAME>Kapur, Anil</wd:PREFERRED_NAME><wd:PREFERRED_NAME_FIRST>Anil</wd:PREFERRED_NAME_FIRST><wd:PREFERRED_NAME_LAST>Kapur</wd:PREFERRED_NAME_LAST><wd:HIRE_DT>2017-07-11-07:00</wd:HIRE_DT><wd:REHIRE_DT>2017-07-11-07:00</wd:REHIRE_DT><wd:COMPANY_ID>100</wd:COMPANY_ID><wd:COMPANY_DESC>Intuit Corp</wd:COMPANY_DESC><wd:ORG_ID>150</wd:ORG_ID><wd:Group_G><wd:ORG_NAME>ProTax - ProSeries</wd:ORG_NAME></wd:Group_G><wd:DEPT_ID>2202</wd:DEPT_ID><wd:DEPT_NAME>TS-Admin/Consulting/PCS</wd:DEPT_NAME><wd:BusinessSite_G><wd:WD_LOCATION>USAINRM</wd:WD_LOCATION></wd:BusinessSite_G><wd:SUPERVISOR_ID>91628</wd:SUPERVISOR_ID><wd:EMP_TYPE>N</wd:EMP_TYPE><wd:CWF_TYPE wd:Descriptor="Outsource"><wd:ID wd:type="WID">d7975740de1310b7e5b18490c855868a</wd:ID><wd:ID wd:type="Contingent_Worker_Type_ID">Out</wd:ID></wd:CWF_TYPE><wd:EMP_STATUS_CODE>A</wd:EMP_STATUS_CODE><wd:BUFG_G><wd:BUFG>1BU025</wd:BUFG></wd:BUFG_G><wd:JOBCODE>XYTSU91</wd:JOBCODE><wd:JOBCODE_DESC>CW Technical Support 1</wd:JOBCODE_DESC><wd:JOB_FAMILY wd:Descriptor="YTSU - CW Technical Support"><wd:ID wd:type="WID">4d05aa26fe4210bf2caa924296357380</wd:ID><wd:ID wd:type="Job_Family_ID">YTSU</wd:ID></wd:JOB_FAMILY><wd:JOB_FUNCTION wd:Descriptor="X - Contingent Workers"><wd:ID wd:type="WID">4d05aa26fe4210bf2cc3a893845d73a2</wd:ID><wd:ID wd:type="Job_Family_ID">JOB_FAMILY-3-336</wd:ID></wd:JOB_FUNCTION><wd:FULL_PART_TIME>F</wd:FULL_PART_TIME><wd:BUSINESS_TITLE>CW Technical Support 1</wd:BUSINESS_TITLE><wd:FLSA_STATUS>N</wd:FLSA_STATUS><wd:STD_HOURS>40</wd:STD_HOURS><wd:ANNUAL_RT>0</wd:ANNUAL_RT><wd:HOURLY_RT>0</wd:HOURLY_RT><wd:BONUS_TARGET_PCT>0</wd:BONUS_TARGET_PCT><wd:WORK_ADDRESS_1>IN Remote Loc</wd:WORK_ADDRESS_1><wd:WORK_CITY>Indiana</wd:WORK_CITY><wd:WORK_STATE_ISO>IN</wd:WORK_STATE_ISO><wd:WORK_POSTAL>46201</wd:WORK_POSTAL><wd:WORK_COUNTRY_ISO>USA</wd:WORK_COUNTRY_ISO><wd:IS_MGR_OF_EMP>0</wd:IS_MGR_OF_EMP><wd:IS_MGR_OF_CWF>0</wd:IS_MGR_OF_CWF><wd:IS_MGR_OF_EMP_OR_CWF>0</wd:IS_MGR_OF_EMP_OR_CWF><wd:WID>dceff7c85b91015f0fdda20ea72c1eb3</wd:WID><wd:ON_LOA>0</wd:ON_LOA><wd:POSITION_ID>Job-6-164946</wd:POSITION_ID><wd:IS_WORKER_TYPE_CWF>1</wd:IS_WORKER_TYPE_CWF><wd:MGR_CORP_ID>10000000192</wd:MGR_CORP_ID><wd:WORK_PHONE>+91  8041760046 x20046</wd:WORK_PHONE><wd:DIRECTORY_LOGIN_ID wd:Descriptor="ak18671"><wd:ID wd:type="WID">dceff7c85b91016f1e596632a72c65b3</wd:ID></wd:DIRECTORY_LOGIN_ID><wd:IS_TALEO_ADMIN>0</wd:IS_TALEO_ADMIN><wd:Supervisory_Org_G><wd:SUPERVISORY_ORG_REF_ID>S4570</wd:SUPERVISORY_ORG_REF_ID><wd:SUPERVISORY_ORG_WID>61952b4a8deb10131c013c5dada0291b</wd:SUPERVISORY_ORG_WID></wd:Supervisory_Org_G><wd:IS_HRBP>0</wd:IS_HRBP><wd:IS_WORKER_RECRUITER>0</wd:IS_WORKER_RECRUITER><wd:IS_PAYROLL_COUNTRY_USA>0</wd:IS_PAYROLL_COUNTRY_USA><wd:CW_G><wd:CW_SUPPLIER wd:Descriptor="ARISE"><wd:ID wd:type="WID">4d05aa26fe4210bf3494830541358a10</wd:ID><wd:ID wd:type="Supplier_Reference_ID">ARISE</wd:ID></wd:CW_SUPPLIER></wd:CW_G><wd:GENDER_SHORT>M</wd:GENDER_SHORT><wd:SENIORITY_DT>2017-07-11-07:00</wd:SENIORITY_DT><wd:IS_HOURLY>0</wd:IS_HOURLY><wd:Applicant_G><wd:NOT_ELIGIBLE_FOR_HIRE>0</wd:NOT_ELIGIBLE_FOR_HIRE></wd:Applicant_G><wd:SCHD_HOURS>40</wd:SCHD_HOURS><wd:MANAGER_EMAIL>Heather_Barger@intuit.com</wd:MANAGER_EMAIL><wd:MANAGER_NAME wd:Descriptor="Heather Barger"><wd:ID wd:type="WID">bde9a7845d6846e8aeee8ee6ebdb4cc4</wd:ID><wd:ID wd:type="Employee_ID">91628</wd:ID></wd:MANAGER_NAME></wd:Report_Entry></wd:Report_Data>
+2017-10-11 13:48:35 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 13:48:35 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 13:48:35 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 13:48:35 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 13:48:35 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 13:48:35 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 13:48:35 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 13:48:35 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 13:48:35 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 13:48:35 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 13:48:35 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 13:48:35 BoomiTest (UpdateContactinfo) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 13:48:35 BoomiTest (UpdateContactinfo) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 13:48:35 BoomiTest (UpdateContactinfo) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 13:48:35 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4100437, 192830, 70000035537, Employee, akapur, anil.kapur@mainilator.com, 7/11/2017, UPDATE]
+2017-10-11 13:48:35 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 13:48:35 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4100437</APPLICANT_ID>
+   <EMPLOYEE_ID>192830</EMPLOYEE_ID>
+   <CORP_ID>70000035537</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>akapur</USER_ID>
+   <EMAIL>anil.kapur@mainilator.com</EMAIL>
+   <HIRE_DATE>7/11/2017</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 13:50:53 BoomiTest (UpdateContactinfo) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 13:50:53 BoomiTest (UpdateContactinfo) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 13:50:53 Utility (getRequestParameters) [INFO] Request Parameters : {Corp_ID=70000035537, format=simplexml}
+2017-10-11 13:51:59 BoomiTest (UpdateContactinfo) [INFO] Response from getCall: <?xml version='1.0' encoding='UTF-8'?>
+<wd:Report_Data xmlns:wd="urn:com.workday.report/IntuitIntegrationAdmin/IntuitGetWorkerSensitive_v1.1">
+   <wd:Report_Entry>
+      <wd:EMPLOYEE_ID>192830</wd:EMPLOYEE_ID>
+      <wd:CORP_ID>70000035537</wd:CORP_ID>
+      <wd:APPLICANT_ID>A4100437</wd:APPLICANT_ID>
+      <wd:LEGAL_NAME>Kapur, Anil</wd:LEGAL_NAME>
+      <wd:LEGAL_NAME_FIRST>Anil</wd:LEGAL_NAME_FIRST>
+      <wd:LEGAL_NAME_LAST>Kapur</wd:LEGAL_NAME_LAST>
+      <wd:PREFERRED_NAME>Kapur, Anil</wd:PREFERRED_NAME>
+      <wd:PREFERRED_NAME_FIRST>Anil</wd:PREFERRED_NAME_FIRST>
+      <wd:PREFERRED_NAME_LAST>Kapur</wd:PREFERRED_NAME_LAST>
+      <wd:HIRE_DT>2017-07-11</wd:HIRE_DT>
+      <wd:REHIRE_DT>2017-07-11</wd:REHIRE_DT>
+      <wd:COMPANY_ID>100</wd:COMPANY_ID>
+      <wd:COMPANY_DESC>Intuit Corp</wd:COMPANY_DESC>
+      <wd:ORG_ID>150</wd:ORG_ID>
+      <wd:ORG_NAME>ProTax - ProSeries</wd:ORG_NAME>
+      <wd:DEPT_ID>2202</wd:DEPT_ID>
+      <wd:DEPT_NAME>TS-Admin/Consulting/PCS</wd:DEPT_NAME>
+      <wd:BusinessSite_G>
+         <wd:WD_LOCATION>USAINRM</wd:WD_LOCATION>
+      </wd:BusinessSite_G>
+      <wd:SUPERVISOR_ID>91628</wd:SUPERVISOR_ID>
+      <wd:EMP_TYPE>N</wd:EMP_TYPE>
+      <wd:CWF_TYPE>Outsource</wd:CWF_TYPE>
+      <wd:EMP_STATUS_CODE>A</wd:EMP_STATUS_CODE>
+      <wd:BUFG>1BU025</wd:BUFG>
+      <wd:JOBCODE>XYTSU91</wd:JOBCODE>
+      <wd:JOBCODE_DESC>CW Technical Support 1</wd:JOBCODE_DESC>
+      <wd:JOB_FAMILY>YTSU - CW Technical Support</wd:JOB_FAMILY>
+      <wd:JOB_FUNCTION>X - Contingent Workers</wd:JOB_FUNCTION>
+      <wd:FULL_PART_TIME>F</wd:FULL_PART_TIME>
+      <wd:BUSINESS_TITLE>CW Technical Support 1</wd:BUSINESS_TITLE>
+      <wd:FLSA_STATUS>N</wd:FLSA_STATUS>
+      <wd:STD_HOURS>40</wd:STD_HOURS>
+      <wd:ANNUAL_RT>0</wd:ANNUAL_RT>
+      <wd:HOURLY_RT>0</wd:HOURLY_RT>
+      <wd:BONUS_TARGET_PCT>0</wd:BONUS_TARGET_PCT>
+      <wd:WORK_ADDRESS_1>IN Remote Loc</wd:WORK_ADDRESS_1>
+      <wd:WORK_CITY>Indiana</wd:WORK_CITY>
+      <wd:WORK_STATE_ISO>IN</wd:WORK_STATE_ISO>
+      <wd:WORK_POSTAL>46201</wd:WORK_POSTAL>
+      <wd:WORK_COUNTRY_ISO>USA</wd:WORK_COUNTRY_ISO>
+      <wd:IS_MGR_OF_EMP>0</wd:IS_MGR_OF_EMP>
+      <wd:IS_MGR_OF_CWF>0</wd:IS_MGR_OF_CWF>
+      <wd:IS_MGR_OF_EMP_OR_CWF>0</wd:IS_MGR_OF_EMP_OR_CWF>
+      <wd:WID>dceff7c85b91015f0fdda20ea72c1eb3</wd:WID>
+      <wd:ON_LOA>0</wd:ON_LOA>
+      <wd:POSITION_ID>Job-6-164946</wd:POSITION_ID>
+      <wd:IS_WORKER_TYPE_CWF>1</wd:IS_WORKER_TYPE_CWF>
+      <wd:MGR_CORP_ID>10000000192</wd:MGR_CORP_ID>
+      <wd:WORK_PHONE>+91  8041760046 x20046</wd:WORK_PHONE>
+      <wd:DIRECTORY_LOGIN_ID>ak18671</wd:DIRECTORY_LOGIN_ID>
+      <wd:IS_TALEO_ADMIN>0</wd:IS_TALEO_ADMIN>
+      <wd:SUPERVISORY_ORG_REF_ID>S4570</wd:SUPERVISORY_ORG_REF_ID>
+      <wd:SUPERVISORY_ORG_WID>61952b4a8deb10131c013c5dada0291b</wd:SUPERVISORY_ORG_WID>
+      <wd:IS_HRBP>0</wd:IS_HRBP>
+      <wd:IS_WORKER_RECRUITER>0</wd:IS_WORKER_RECRUITER>
+      <wd:IS_PAYROLL_COUNTRY_USA>0</wd:IS_PAYROLL_COUNTRY_USA>
+      <wd:CW_SUPPLIER>ARISE</wd:CW_SUPPLIER>
+      <wd:GENDER_SHORT>M</wd:GENDER_SHORT>
+      <wd:SENIORITY_DT>2017-07-11</wd:SENIORITY_DT>
+      <wd:IS_HOURLY>0</wd:IS_HOURLY>
+      <wd:NOT_ELIGIBLE_FOR_HIRE>0</wd:NOT_ELIGIBLE_FOR_HIRE>
+      <wd:SCHD_HOURS>40</wd:SCHD_HOURS>
+      <wd:MANAGER_EMAIL>Heather_Barger@intuit.com</wd:MANAGER_EMAIL>
+      <wd:MANAGER_NAME>Heather Barger</wd:MANAGER_NAME>
+   </wd:Report_Entry>
+</wd:Report_Data>
+2017-10-11 13:52:00 BoomiTest (UpdateContactinfo) [INFO] ===========getEmpInfoFromWD using CorpId completed ======================
+2017-10-11 13:55:35 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 13:55:35 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 13:55:35 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 13:55:35 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 13:55:35 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 13:55:35 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 13:55:35 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 13:55:35 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 13:55:35 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 13:55:35 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 13:55:35 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 13:55:35 BoomiTest (updateApplicant) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 13:55:35 BoomiTest (updateApplicant) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 13:55:35 BoomiTest (updateApplicant) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 13:55:35 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A53850, 53850, 10000105893, Employee, mvelu, malika.velu@mainilator.com, 4/23/2001, UPDATE]
+2017-10-11 13:55:35 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 13:55:35 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A53850</APPLICANT_ID>
+   <EMPLOYEE_ID>53850</EMPLOYEE_ID>
+   <CORP_ID>10000105893</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mvelu</USER_ID>
+   <EMAIL>malika.velu@mainilator.com</EMAIL>
+   <HIRE_DATE>4/23/2001</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 13:55:46 BoomiTest (updateApplicant) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 13:55:46 BoomiTest (updateApplicant) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 13:55:46 Utility (getRequestParameters) [INFO] Request Parameters : {Corp_ID=10000105893, format=simplexml}
+2017-10-11 13:56:47 BoomiTest (updateApplicant) [INFO] Response from getCall: <?xml version='1.0' encoding='UTF-8'?>
+<wd:Report_Data xmlns:wd="urn:com.workday.report/IntuitIntegrationAdmin/IntuitGetWorkerSensitive_v1.1">
+   <wd:Report_Entry>
+      <wd:EMPLOYEE_ID>53850</wd:EMPLOYEE_ID>
+      <wd:CORP_ID>10000105893</wd:CORP_ID>
+      <wd:APPLICANT_ID>A53850</wd:APPLICANT_ID>
+      <wd:LEGAL_NAME>Velu, Mallika C.</wd:LEGAL_NAME>
+      <wd:LEGAL_NAME_FIRST>Mallika</wd:LEGAL_NAME_FIRST>
+      <wd:LEGAL_NAME_MIDDLE>C.</wd:LEGAL_NAME_MIDDLE>
+      <wd:LEGAL_NAME_LAST>Velu</wd:LEGAL_NAME_LAST>
+      <wd:PREFERRED_NAME>Velu, Mallika</wd:PREFERRED_NAME>
+      <wd:PREFERRED_NAME_FIRST>Mallika</wd:PREFERRED_NAME_FIRST>
+      <wd:PREFERRED_NAME_LAST>Velu</wd:PREFERRED_NAME_LAST>
+      <wd:BIRTHDATE_NO_YEAR>08/26</wd:BIRTHDATE_NO_YEAR>
+      <wd:BIRTHDATE>1960-08-26</wd:BIRTHDATE>
+      <wd:HIRE_DT>2001-04-23</wd:HIRE_DT>
+      <wd:REHIRE_DT>2001-04-23</wd:REHIRE_DT>
+      <wd:COMPANY_ID>100</wd:COMPANY_ID>
+      <wd:COMPANY_DESC>Intuit Corp</wd:COMPANY_DESC>
+      <wd:ORG_ID>921</wd:ORG_ID>
+      <wd:ORG_NAME>Prod and Technology III</wd:ORG_NAME>
+      <wd:DEPT_ID>7836</wd:DEPT_ID>
+      <wd:DEPT_NAME>Ent Ops-DC/Ent Storage</wd:DEPT_NAME>
+      <wd:BusinessSite_G>
+         <wd:WD_LOCATION>USACA19</wd:WD_LOCATION>
+      </wd:BusinessSite_G>
+      <wd:SUPERVISOR_ID>72330</wd:SUPERVISOR_ID>
+      <wd:EMP_TYPE>E</wd:EMP_TYPE>
+      <wd:EMP_CLASS_DES>Employee</wd:EMP_CLASS_DES>
+      <wd:EMP_STATUS_CODE>T</wd:EMP_STATUS_CODE>
+      <wd:JOBCODE>ASWX23</wd:JOBCODE>
+      <wd:JOBCODE_DESC>Staff SW Engineer</wd:JOBCODE_DESC>
+      <wd:JOB_FAMILY>SWX - Software Engineering</wd:JOB_FAMILY>
+      <wd:JOB_FUNCTION>A - Software Engineering</wd:JOB_FUNCTION>
+      <wd:GRADE>LEC</wd:GRADE>
+      <wd:FULL_PART_TIME>F</wd:FULL_PART_TIME>
+      <wd:BUSINESS_TITLE>Staff SW Engineer</wd:BUSINESS_TITLE>
+      <wd:FLSA_STATUS>T</wd:FLSA_STATUS>
+      <wd:STD_HOURS>40</wd:STD_HOURS>
+      <wd:ANNUAL_RT>158000</wd:ANNUAL_RT>
+      <wd:HOURLY_RT>0</wd:HOURLY_RT>
+      <wd:CURRENCY_CODE>USD</wd:CURRENCY_CODE>
+      <wd:Bonus_G>
+         <wd:BONUS_PLAN_CODE>IPI</wd:BONUS_PLAN_CODE>
+      </wd:Bonus_G>
+      <wd:BONUS_TARGET_PCT>0.2</wd:BONUS_TARGET_PCT>
+      <wd:HOME_PHONE>+1 (510) 2267022</wd:HOME_PHONE>
+      <wd:HOME_ADDRESS1>43411 Olivos Court</wd:HOME_ADDRESS1>
+      <wd:HOME_CITY>Fremont</wd:HOME_CITY>
+      <wd:HOME_STATE_ISO>CA</wd:HOME_STATE_ISO>
+      <wd:HOME_POSTAL>94539</wd:HOME_POSTAL>
+      <wd:HOME_COUNTRY_ISO>USA</wd:HOME_COUNTRY_ISO>
+      <wd:WORK_ADDRESS_1>180 Jefferson Drive</wd:WORK_ADDRESS_1>
+      <wd:WORK_CITY>Menlo Park</wd:WORK_CITY>
+      <wd:WORK_STATE_ISO>CA</wd:WORK_STATE_ISO>
+      <wd:WORK_POSTAL>94025</wd:WORK_POSTAL>
+      <wd:WORK_COUNTRY_ISO>USA</wd:WORK_COUNTRY_ISO>
+      <wd:IS_MGR_OF_EMP>0</wd:IS_MGR_OF_EMP>
+      <wd:IS_MGR_OF_CWF>0</wd:IS_MGR_OF_CWF>
+      <wd:IS_MGR_OF_EMP_OR_CWF>0</wd:IS_MGR_OF_EMP_OR_CWF>
+      <wd:WID>549b00f09fa646b88b50c3212e985ede</wd:WID>
+      <wd:ON_LOA>0</wd:ON_LOA>
+      <wd:LOA_G>
+         <wd:LAST_DAY_BEFORE_LOA>2011-01-05</wd:LAST_DAY_BEFORE_LOA>
+         <wd:RETURN_FROM_LOA_EST_DT>2011-04-10</wd:RETURN_FROM_LOA_EST_DT>
+         <wd:RETURN_FROM_LOA_ACTUAL_DT>2011-03-07</wd:RETURN_FROM_LOA_ACTUAL_DT>
+         <wd:LOA_TYPE>Regulatory > Family Medical Leave Act</wd:LOA_TYPE>
+      </wd:LOA_G>
+      <wd:POSITION_ID>P53850</wd:POSITION_ID>
+      <wd:IS_WORKER_TYPE_CWF>0</wd:IS_WORKER_TYPE_CWF>
+      <wd:MGR_CORP_ID>10000137331</wd:MGR_CORP_ID>
+      <wd:WORK_EMAIL>Mallika_Velu@intuit.com</wd:WORK_EMAIL>
+      <wd:WORK_PHONE>+1  6509445081 x45081</wd:WORK_PHONE>
+      <wd:WORK_CELL>+1  650 743 1527</wd:WORK_CELL>
+      <wd:TERM_DATE>2016-07-14</wd:TERM_DATE>
+      <wd:TERM_REASON>Mutual Consent</wd:TERM_REASON>
+      <wd:DIRECTORY_LOGIN_ID>mvelu</wd:DIRECTORY_LOGIN_ID>
+      <wd:MAIL_STOP>MPK-01-03</wd:MAIL_STOP>
+      <wd:IS_TALEO_ADMIN>1</wd:IS_TALEO_ADMIN>
+      <wd:IS_PRIMETIME_ADMIN>1</wd:IS_PRIMETIME_ADMIN>
+      <wd:SUPERVISORY_ORG_REF_ID>SUP-72330</wd:SUPERVISORY_ORG_REF_ID>
+      <wd:SUPERVISORY_ORG_WID>6a31a066f2444014b1a2957d82621fad</wd:SUPERVISORY_ORG_WID>
+      <wd:IS_HRBP>0</wd:IS_HRBP>
+      <wd:IS_WORKER_RECRUITER>0</wd:IS_WORKER_RECRUITER>
+      <wd:IS_PAYROLL_COUNTRY_USA>1</wd:IS_PAYROLL_COUNTRY_USA>
+      <wd:NID_4DIGIT>8847</wd:NID_4DIGIT>
+      <wd:NID_G>
+         <wd:NID_UNFORMATTED>164688847</wd:NID_UNFORMATTED>
+         <wd:NID_TYPE>USA-SSN</wd:NID_TYPE>
+      </wd:NID_G>
+      <wd:GENDER>Male</wd:GENDER>
+      <wd:GENDER_SHORT>M</wd:GENDER_SHORT>
+      <wd:ETHNICITY_ID>Asian/Pacific Islander.USA</wd:ETHNICITY_ID>
+      <wd:MARITAL_STATUS_ID>Married.USA</wd:MARITAL_STATUS_ID>
+      <wd:WORKER_COMP_CODE>8859 - All CA Classifications (United States of America)</wd:WORKER_COMP_CODE>
+      <wd:SENIORITY_DT>2001-04-23</wd:SENIORITY_DT>
+      <wd:CONTINOUS_SERVICE_DT>2001-04-23</wd:CONTINOUS_SERVICE_DT>
+      <wd:HOME_STATE_NAME>California</wd:HOME_STATE_NAME>
+      <wd:IS_HOURLY>0</wd:IS_HOURLY>
+      <wd:PAY_RATE_TYPE>General Salary Plan</wd:PAY_RATE_TYPE>
+      <wd:NOT_ELIGIBLE_FOR_HIRE>0</wd:NOT_ELIGIBLE_FOR_HIRE>
+      <wd:SCHD_HOURS>40</wd:SCHD_HOURS>
+      <wd:MARITAL_SHORT>M</wd:MARITAL_SHORT>
+      <wd:MANAGER_EMAIL>Mani_Subramani@intuit.com</wd:MANAGER_EMAIL>
+   </wd:Report_Entry>
+</wd:Report_Data>
+2017-10-11 13:56:48 BoomiTest (updateApplicant) [INFO] ===========get OIM Uodate using CorpId completed ======================
+2017-10-11 14:07:23 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 14:07:23 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 14:07:23 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 14:07:23 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 14:07:23 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 14:07:23 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 14:07:23 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 14:07:23 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 14:07:23 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 14:07:23 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 14:07:23 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 14:08:24 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 14:08:24 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 14:08:24 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 14:08:24 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 14:08:24 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 14:08:24 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 14:08:24 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 14:08:24 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 14:08:24 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 14:08:24 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 14:08:24 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 14:08:24 BoomiTest (updateApplicant) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 14:08:24 BoomiTest (updateApplicant) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 14:08:24 BoomiTest (updateApplicant) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 14:08:24 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A53850, 53850, 10000105893, Employee, mvelu, malika.velu@mainilator.com, 4/23/2001, UPDATE]
+2017-10-11 14:08:24 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 14:08:24 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A53850</APPLICANT_ID>
+   <EMPLOYEE_ID>53850</EMPLOYEE_ID>
+   <CORP_ID>10000105893</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mvelu</USER_ID>
+   <EMAIL>malika.velu@mainilator.com</EMAIL>
+   <HIRE_DATE>4/23/2001</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 14:08:33 BoomiTest (updateApplicant) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 14:08:33 BoomiTest (updateApplicant) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 14:26:05 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 14:26:05 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 14:26:05 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 14:26:05 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 14:26:05 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 14:26:05 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 14:26:05 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 14:26:05 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 14:26:06 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 14:26:06 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 14:26:06 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 14:26:06 BoomiTest (updateApplicant) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 14:26:06 BoomiTest (updateApplicant) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 14:26:06 BoomiTest (updateApplicant) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 14:26:06 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A53850, 53850, 10000105893, Employee, mvelu, malika.velu@mainilator.com, 4/23/2001, UPDATE]
+2017-10-11 14:26:06 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 14:26:06 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A53850</APPLICANT_ID>
+   <EMPLOYEE_ID>53850</EMPLOYEE_ID>
+   <CORP_ID>10000105893</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mvelu</USER_ID>
+   <EMAIL>malika.velu@mainilator.com</EMAIL>
+   <HIRE_DATE>4/23/2001</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 14:26:15 BoomiTest (updateApplicant) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 14:26:15 BoomiTest (updateApplicant) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 15:04:01 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 15:04:01 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 15:04:01 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 15:04:01 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 15:04:01 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 15:04:01 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 15:04:01 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 15:04:01 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 15:04:01 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 15:04:01 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 15:04:01 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 15:04:23 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 15:04:23 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 15:04:23 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 15:04:23 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 15:04:23 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 15:04:23 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 15:04:23 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 15:04:23 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 15:04:23 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 15:04:23 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 15:04:23 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 15:06:28 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 15:06:28 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 15:06:28 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 15:06:28 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 15:06:28 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 15:06:28 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 15:06:28 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 15:06:28 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 15:06:28 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 15:06:28 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 15:06:28 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 15:09:27 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 15:09:27 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 15:09:27 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 15:09:27 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 15:09:27 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 15:09:27 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 15:09:27 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 15:09:27 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 15:09:27 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 15:09:27 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 15:09:27 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 15:14:06 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 15:14:06 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 15:14:06 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 15:14:06 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 15:14:06 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 15:14:06 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 15:14:06 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 15:14:06 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 15:14:06 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 15:14:06 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 15:14:06 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 15:21:59 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 15:21:59 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 15:21:59 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 15:21:59 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 15:21:59 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 15:21:59 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 15:21:59 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 15:21:59 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 15:21:59 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 15:21:59 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 15:21:59 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 17:49:14 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 17:49:14 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 17:49:14 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 17:49:14 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 17:49:14 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 17:49:14 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 17:49:14 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 17:49:14 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 17:49:14 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 17:49:14 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 17:49:14 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 17:49:14 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 17:49:14 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 17:49:14 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 17:49:14 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 17:49:14 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 17:49:14 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 17:49:14 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 17:49:14 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 17:49:14 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 17:49:14 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 17:49:14 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 17:49:30 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 17:49:30 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 17:49:30 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 17:49:30 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 17:49:30 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 17:49:30 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 17:49:30 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 17:49:30 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 17:49:30 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 17:49:30 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 17:49:30 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 17:50:06 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 17:50:06 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 17:50:06 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 17:50:06 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 17:50:06 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 17:50:06 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 17:50:06 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 17:50:06 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 17:50:06 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 17:50:06 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 17:50:06 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 17:51:15 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 17:51:15 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 17:51:15 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 17:51:15 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 17:51:15 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 17:51:15 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 17:51:15 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 17:51:15 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 17:51:15 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 17:51:15 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 17:51:15 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 17:52:27 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 17:52:27 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 17:52:27 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 17:52:27 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 17:52:27 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 17:52:27 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 17:52:27 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 17:52:27 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 17:52:27 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 17:52:27 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 17:52:27 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 17:53:39 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 17:53:39 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 17:53:39 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 17:53:39 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 17:53:39 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 17:53:39 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 17:53:39 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 17:53:39 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 17:53:39 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 17:53:39 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 17:53:39 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 17:54:41 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 17:54:41 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 17:54:41 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 17:54:41 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 17:54:41 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 17:54:41 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 17:54:41 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 17:54:41 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 17:54:41 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 17:54:41 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 17:54:41 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 17:55:50 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 17:55:50 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 17:55:50 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 17:55:50 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 17:55:50 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 17:55:50 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 17:55:50 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 17:55:50 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 17:55:50 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 17:55:50 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 17:55:50 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 17:58:41 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 17:58:41 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 17:58:41 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 17:58:41 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 17:58:41 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 17:58:41 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 17:58:41 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 17:58:41 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 17:58:41 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 17:58:41 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 17:58:41 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 17:59:11 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 17:59:11 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 17:59:11 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 17:59:11 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 17:59:11 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 17:59:11 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 17:59:11 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 17:59:11 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 17:59:11 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 17:59:11 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 17:59:11 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 18:04:06 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 18:04:06 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 18:04:06 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 18:04:06 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 18:04:06 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 18:04:06 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 18:04:06 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 18:04:06 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 18:04:06 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 18:04:06 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 18:04:07 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 18:06:31 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 18:06:31 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 18:06:31 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 18:06:31 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 18:06:31 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 18:06:31 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 18:06:31 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 18:06:31 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 18:06:31 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 18:06:31 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 18:06:31 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 18:06:31 BoomiTest (updateApplicant) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 18:06:31 BoomiTest (updateApplicant) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 18:06:31 BoomiTest (updateApplicant) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 18:06:31 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A53850, 53850, 10000105893, Employee, mvelu, malika.velu@mainilator.com, 4/23/2001, UPDATE]
+2017-10-11 18:06:31 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 18:06:31 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A53850</APPLICANT_ID>
+   <EMPLOYEE_ID>53850</EMPLOYEE_ID>
+   <CORP_ID>10000105893</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mvelu</USER_ID>
+   <EMAIL>malika.velu@mainilator.com</EMAIL>
+   <HIRE_DATE>4/23/2001</HIRE_DATE>
+   <OPERATION>UPDATE</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 18:08:37 BoomiTest (updateApplicant) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 18:08:37 BoomiTest (updateApplicant) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 18:08:37 Utility (getRequestParameters) [INFO] Request Parameters : {Corp_ID=10000105893, format=simplexml}
+2017-10-11 18:09:40 BoomiTest (updateApplicant) [INFO] Response from getCall: <?xml version='1.0' encoding='UTF-8'?>
+<wd:Report_Data xmlns:wd="urn:com.workday.report/IntuitIntegrationAdmin/IntuitGetWorkerSensitive_v1.1">
+   <wd:Report_Entry>
+      <wd:EMPLOYEE_ID>53850</wd:EMPLOYEE_ID>
+      <wd:CORP_ID>10000105893</wd:CORP_ID>
+      <wd:APPLICANT_ID>A53850</wd:APPLICANT_ID>
+      <wd:LEGAL_NAME>Velu, Mallika C.</wd:LEGAL_NAME>
+      <wd:LEGAL_NAME_FIRST>Mallika</wd:LEGAL_NAME_FIRST>
+      <wd:LEGAL_NAME_MIDDLE>C.</wd:LEGAL_NAME_MIDDLE>
+      <wd:LEGAL_NAME_LAST>Velu</wd:LEGAL_NAME_LAST>
+      <wd:PREFERRED_NAME>Velu, Mallika</wd:PREFERRED_NAME>
+      <wd:PREFERRED_NAME_FIRST>Mallika</wd:PREFERRED_NAME_FIRST>
+      <wd:PREFERRED_NAME_LAST>Velu</wd:PREFERRED_NAME_LAST>
+      <wd:BIRTHDATE_NO_YEAR>08/26</wd:BIRTHDATE_NO_YEAR>
+      <wd:BIRTHDATE>1960-08-26</wd:BIRTHDATE>
+      <wd:HIRE_DT>2001-04-23</wd:HIRE_DT>
+      <wd:REHIRE_DT>2001-04-23</wd:REHIRE_DT>
+      <wd:COMPANY_ID>100</wd:COMPANY_ID>
+      <wd:COMPANY_DESC>Intuit Corp</wd:COMPANY_DESC>
+      <wd:ORG_ID>921</wd:ORG_ID>
+      <wd:ORG_NAME>Prod and Technology III</wd:ORG_NAME>
+      <wd:DEPT_ID>7836</wd:DEPT_ID>
+      <wd:DEPT_NAME>Ent Ops-DC/Ent Storage</wd:DEPT_NAME>
+      <wd:BusinessSite_G>
+         <wd:WD_LOCATION>USACA19</wd:WD_LOCATION>
+      </wd:BusinessSite_G>
+      <wd:SUPERVISOR_ID>72330</wd:SUPERVISOR_ID>
+      <wd:EMP_TYPE>E</wd:EMP_TYPE>
+      <wd:EMP_CLASS_DES>Employee</wd:EMP_CLASS_DES>
+      <wd:EMP_STATUS_CODE>T</wd:EMP_STATUS_CODE>
+      <wd:JOBCODE>ASWX23</wd:JOBCODE>
+      <wd:JOBCODE_DESC>Staff SW Engineer</wd:JOBCODE_DESC>
+      <wd:JOB_FAMILY>SWX - Software Engineering</wd:JOB_FAMILY>
+      <wd:JOB_FUNCTION>A - Software Engineering</wd:JOB_FUNCTION>
+      <wd:GRADE>LEC</wd:GRADE>
+      <wd:FULL_PART_TIME>F</wd:FULL_PART_TIME>
+      <wd:BUSINESS_TITLE>Staff SW Engineer</wd:BUSINESS_TITLE>
+      <wd:FLSA_STATUS>T</wd:FLSA_STATUS>
+      <wd:STD_HOURS>40</wd:STD_HOURS>
+      <wd:ANNUAL_RT>158000</wd:ANNUAL_RT>
+      <wd:HOURLY_RT>0</wd:HOURLY_RT>
+      <wd:CURRENCY_CODE>USD</wd:CURRENCY_CODE>
+      <wd:Bonus_G>
+         <wd:BONUS_PLAN_CODE>IPI</wd:BONUS_PLAN_CODE>
+      </wd:Bonus_G>
+      <wd:BONUS_TARGET_PCT>0.2</wd:BONUS_TARGET_PCT>
+      <wd:HOME_PHONE>+1 (510) 2267022</wd:HOME_PHONE>
+      <wd:HOME_ADDRESS1>43411 Olivos Court</wd:HOME_ADDRESS1>
+      <wd:HOME_CITY>Fremont</wd:HOME_CITY>
+      <wd:HOME_STATE_ISO>CA</wd:HOME_STATE_ISO>
+      <wd:HOME_POSTAL>94539</wd:HOME_POSTAL>
+      <wd:HOME_COUNTRY_ISO>USA</wd:HOME_COUNTRY_ISO>
+      <wd:WORK_ADDRESS_1>180 Jefferson Drive</wd:WORK_ADDRESS_1>
+      <wd:WORK_CITY>Menlo Park</wd:WORK_CITY>
+      <wd:WORK_STATE_ISO>CA</wd:WORK_STATE_ISO>
+      <wd:WORK_POSTAL>94025</wd:WORK_POSTAL>
+      <wd:WORK_COUNTRY_ISO>USA</wd:WORK_COUNTRY_ISO>
+      <wd:IS_MGR_OF_EMP>0</wd:IS_MGR_OF_EMP>
+      <wd:IS_MGR_OF_CWF>0</wd:IS_MGR_OF_CWF>
+      <wd:IS_MGR_OF_EMP_OR_CWF>0</wd:IS_MGR_OF_EMP_OR_CWF>
+      <wd:WID>549b00f09fa646b88b50c3212e985ede</wd:WID>
+      <wd:ON_LOA>0</wd:ON_LOA>
+      <wd:LOA_G>
+         <wd:LAST_DAY_BEFORE_LOA>2011-01-05</wd:LAST_DAY_BEFORE_LOA>
+         <wd:RETURN_FROM_LOA_EST_DT>2011-04-10</wd:RETURN_FROM_LOA_EST_DT>
+         <wd:RETURN_FROM_LOA_ACTUAL_DT>2011-03-07</wd:RETURN_FROM_LOA_ACTUAL_DT>
+         <wd:LOA_TYPE>Regulatory > Family Medical Leave Act</wd:LOA_TYPE>
+      </wd:LOA_G>
+      <wd:POSITION_ID>P53850</wd:POSITION_ID>
+      <wd:IS_WORKER_TYPE_CWF>0</wd:IS_WORKER_TYPE_CWF>
+      <wd:MGR_CORP_ID>10000137331</wd:MGR_CORP_ID>
+      <wd:WORK_EMAIL>Mallika_Velu@intuit.com</wd:WORK_EMAIL>
+      <wd:WORK_PHONE>+1  6509445081 x45081</wd:WORK_PHONE>
+      <wd:WORK_CELL>+1  650 743 1527</wd:WORK_CELL>
+      <wd:TERM_DATE>2016-07-14</wd:TERM_DATE>
+      <wd:TERM_REASON>Mutual Consent</wd:TERM_REASON>
+      <wd:DIRECTORY_LOGIN_ID>mvelu</wd:DIRECTORY_LOGIN_ID>
+      <wd:MAIL_STOP>MPK-01-03</wd:MAIL_STOP>
+      <wd:IS_TALEO_ADMIN>1</wd:IS_TALEO_ADMIN>
+      <wd:IS_PRIMETIME_ADMIN>1</wd:IS_PRIMETIME_ADMIN>
+      <wd:SUPERVISORY_ORG_REF_ID>SUP-72330</wd:SUPERVISORY_ORG_REF_ID>
+      <wd:SUPERVISORY_ORG_WID>6a31a066f2444014b1a2957d82621fad</wd:SUPERVISORY_ORG_WID>
+      <wd:IS_HRBP>0</wd:IS_HRBP>
+      <wd:IS_WORKER_RECRUITER>0</wd:IS_WORKER_RECRUITER>
+      <wd:IS_PAYROLL_COUNTRY_USA>1</wd:IS_PAYROLL_COUNTRY_USA>
+      <wd:NID_4DIGIT>8847</wd:NID_4DIGIT>
+      <wd:NID_G>
+         <wd:NID_UNFORMATTED>164688847</wd:NID_UNFORMATTED>
+         <wd:NID_TYPE>USA-SSN</wd:NID_TYPE>
+      </wd:NID_G>
+      <wd:GENDER>Male</wd:GENDER>
+      <wd:GENDER_SHORT>M</wd:GENDER_SHORT>
+      <wd:ETHNICITY_ID>Asian/Pacific Islander.USA</wd:ETHNICITY_ID>
+      <wd:MARITAL_STATUS_ID>Married.USA</wd:MARITAL_STATUS_ID>
+      <wd:WORKER_COMP_CODE>8859 - All CA Classifications (United States of America)</wd:WORKER_COMP_CODE>
+      <wd:SENIORITY_DT>2001-04-23</wd:SENIORITY_DT>
+      <wd:CONTINOUS_SERVICE_DT>2001-04-23</wd:CONTINOUS_SERVICE_DT>
+      <wd:HOME_STATE_NAME>California</wd:HOME_STATE_NAME>
+      <wd:IS_HOURLY>0</wd:IS_HOURLY>
+      <wd:PAY_RATE_TYPE>General Salary Plan</wd:PAY_RATE_TYPE>
+      <wd:NOT_ELIGIBLE_FOR_HIRE>0</wd:NOT_ELIGIBLE_FOR_HIRE>
+      <wd:SCHD_HOURS>40</wd:SCHD_HOURS>
+      <wd:MARITAL_SHORT>M</wd:MARITAL_SHORT>
+      <wd:MANAGER_EMAIL>Mani_Subramani@intuit.com</wd:MANAGER_EMAIL>
+   </wd:Report_Entry>
+</wd:Report_Data>
+2017-10-11 18:09:40 BoomiTest (updateApplicant) [INFO] ===========get OIM Uodate using CorpId completed ======================
+2017-10-11 18:27:21 BoomiTest (setupTestData) [INFO] Payload Schema Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\payloadSchema-----
+2017-10-11 18:27:21 BoomiTest (setupTestData) [INFO] Test File Absolute Path : -----C:\Users\sbisoi\Desktop\wft-api-tests-master\wft-api-tests-master\testing\WorkforceHRApps-service-tests\..\WorkforceHRApps-service-tests\src\main\resources\testdata\testFile-----
+2017-10-11 18:27:21 BoomiTest (setUpTestConfig) [INFO] targetenv = e2e
+2017-10-11 18:27:21 BoomiTest (setUpTestConfig) [INFO] VPCE2E.URL = https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 18:27:21 BoomiTest (setUpTestConfig) [INFO] INTUIT2.URL = https://impl-cc.workday.com/ccx/service/customreport2/intuit2/IntuitIntegrationAdmin
+2017-10-11 18:27:21 BoomiTest (setUpTestConfig) [INFO] configDir = /qa
+2017-10-11 18:27:21 BoomiTest (setRestAssuredConfig) [INFO] ------- setRestAssuredConfig ---------
+2017-10-11 18:27:21 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Boomi-----
+2017-10-11 18:27:21 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk, contentType=application/xml}
+2017-10-11 18:27:21 BoomiTest (setRestAssuredConfig) [INFO] ----Building Request Specification for Workday-----
+2017-10-11 18:27:21 Utility (getHeaders) [INFO] Map Headers : {Authorization=Basic aW50dWl0aW50ZWdyYXRpb25hZG1pbjpJbnR1aXRAMg==, contentType=application/xml}
+2017-10-11 18:27:21 BoomiTest (OIMAdhocUpdate) [INFO] =========== Starting updateCorpInfo API call ======================
+2017-10-11 18:27:21 BoomiTest (OIMAdhocUpdate) [INFO] VPCE2E_URL : https://vpc-3GOTUQ.boomi.com/ws/simple
+2017-10-11 18:27:21 BoomiTest (OIMAdhocUpdate) [INFO] Auth_Token_VPCE2E : Basic aW50dWl0LTNHT1RVUS5OWFBOUFI6MTNjMzNjMzEtYWI3MC00NGVmLWI5MTctYjYyODFmNTk5OWNk
+2017-10-11 18:27:21 Utility (parseXmlPayload) [INFO] Headers :[APPLICANTID, EMPLOYEEID, CORPID, EMPTYPE, USERID, EMAILID, HIREDATE, ACTIONTYPE]
+Values: [A4107478, 202144, 50002107253, Employee, mKamika, kamika.mincer@mainilator.com, 9/14/2017, ADD]
+2017-10-11 18:27:21 Utility (parseXmlPayload) [INFO] XML as String using JCabi library : 
+=============================
+2017-10-11 18:27:21 Utility (parseXmlPayload) [INFO] <?xml version="1.0" encoding="UTF-8"?><UpdateCorpInfo>
+   <APPLICANT_ID>A4107478</APPLICANT_ID>
+   <EMPLOYEE_ID>202144</EMPLOYEE_ID>
+   <CORP_ID>50002107253</CORP_ID>
+   <EMP_TYPE>Employee</EMP_TYPE>
+   <USER_ID>mKamika</USER_ID>
+   <EMAIL>kamika.mincer@mainilator.com</EMAIL>
+   <HIRE_DATE>9/14/2017</HIRE_DATE>
+   <OPERATION>ADD</OPERATION>
+</UpdateCorpInfo>
+
+2017-10-11 18:27:27 BoomiTest (OIMAdhocUpdate) [INFO] =========== updateCorpInfo API call completed ======================
+2017-10-11 18:27:27 BoomiTest (OIMAdhocUpdate) [INFO] =============== Staring getEmpInfoFromWD using CorpId ===================
+2017-10-11 18:27:27 Utility (getRequestParameters) [INFO] Request Parameters : {Corp_ID=70000035537, format=simplexml}

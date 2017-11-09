@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?><element>
+  <Applicant_ID>A77365</Applicant_ID>
+  <Employee_ID>77365</Employee_ID>
+  <Corp_ID>10000150058</Corp_ID>
+  <Legal_Name>Thomas, William Scott</Legal_Name>
+  <Legal_First_Name>William</Legal_First_Name>
+  <Legal_Middle_Name>Scott</Legal_Middle_Name>
+  <Legal_Last_Name>Thomas</Legal_Last_Name>
+  <Legal_Name_Suffix>Jr.</Legal_Name_Suffix>
+  <Preferred_Name>Thomas, William Scott</Preferred_Name>
+  <Preferred_Name_First>William</Preferred_Name_First>
+  <Preferred_Name_Middle>Scott</Preferred_Name_Middle>
+  <Preferred_Name_Last>Thomas</Preferred_Name_Last>
+  <Preferred_Name_Suffix>Jr.</Preferred_Name_Suffix>
+  <Birthdate>19551104</Birthdate>
+  <Hire_Dt>20071105</Hire_Dt>
+  <Rehire_Dt>20091102</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>911</Org_Id>
+  <Org_Name>Channel Sales Telesales</Org_Name>
+  <Dept_Id>3802</Dept_Id>
+  <Dept_Name>DST Allocations</Dept_Name>
+  <Supervisor_Id>50563</Supervisor_Id>
+  <WORKER_TYPE>Employee</WORKER_TYPE>
+  <Emp_Type>E</Emp_Type>
+  <Emp_Class_Desc>Employee</Emp_Class_Desc>
+  <Emp_Status_Code>A</Emp_Status_Code>
+  <Bufg>1FG011</Bufg>
+  <Jobcode>SITI12</Jobcode>
+  <Jobcode_Desc>Inside Sales Consultant Inbound 2</Jobcode_Desc>
+  <Job_Family>ITI - Inside Transactional</Job_Family>
+  <Job_Function>S - Sales</Job_Function>
+  <Grade>PRO</Grade>
+  <Business_Title>Inside Sales Consultant 2, Inbound</Business_Title>
+  <FLSA_Status>N</FLSA_Status>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>60091.2</Annual_Rt>
+  <Hourly_Rt>28.89</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>0</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Plan_Code>SLS</Bonus_Plan_Code>
+  <Bonus_Target_Pct>0.4285</Bonus_Target_Pct>
+  <BONUS_TGT_PERCENT_WDP_EVNT_VAL>0</BONUS_TGT_PERCENT_WDP_EVNT_VAL>
+  <Currency_Code>USD</Currency_Code>
+  <Home_Phone>+1  540/322-8411</Home_Phone>
+  <Term_Date>20090306</Term_Date>
+  <Term_Reason>Personal Reasons</Term_Reason>
+  <Home_Address1>206 Southgate Ave</Home_Address1>
+  <Home_City>Fredericksburg</Home_City>
+  <Home_State>VA</Home_State>
+  <Home_Postal>22408</Home_Postal>
+  <Home_Country>USA</Home_Country>
+  <Legal_Work_Location>USAVA01</Legal_Work_Location>
+  <WD_Location_Country_Code>USA</WD_Location_Country_Code>
+  <NID_4Digit>3893</NID_4Digit>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <Mailstop>FBG-02-01</Mailstop>
+  <NID>231643893</NID>
+  <NIDType>USA-SSN</NIDType>
+  <NID_Country_Code>USA</NID_Country_Code>
+  <NID_Count>1</NID_Count>
+  <Gender>Male</Gender>
+  <BP_Event>Edit ID Information</BP_Event>
+  <BP_Completion_Date>2017-10-11 16:28:04</BP_Completion_Date>
+  <BP_Status>Successfully Completed</BP_Status>
+  <BP_Process_WID>20958f6513ec01e631ac23e1d862079f</BP_Process_WID>
+  <TRANSACTION_TYPE>Regular</TRANSACTION_TYPE>
+  <Supervisor_Corp_Id>10000000061</Supervisor_Corp_Id>
+  <Work_Email>William_Thomas@intuit.com</Work_Email>
+  <Work_Phone>+1  8003659618 x33425</Work_Phone>
+  <WORK_PHONE_COUNTRY_CD>1</WORK_PHONE_COUNTRY_CD>
+  <WORK_PHONE_NUMBER>() 8003659618</WORK_PHONE_NUMBER>
+  <WORK_EXTENSION>33425</WORK_EXTENSION>
+  <PHOTO_WID>c1d0b1adbcd5104e784a97e97ac53ee9</PHOTO_WID>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <MANAGER_AS_OF_DATE1>50563</MANAGER_AS_OF_DATE1>
+  <JOBCODE_AS_OF_DATE1>SITI12</JOBCODE_AS_OF_DATE1>
+  <TOP_SUPERVISORY_ORG>Intuit (Brad Smith)</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>william874</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Supervisory_Org_Ref_Id>SUP-50563</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>51499f90d1464e3ebae6e7f0b0d13d6c</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>1</Is_Payroll_Country_USA>
+  <Birthdate_No_Year>11/04</Birthdate_No_Year>
+  <Eventless_Manager_Change_Flag>0</Eventless_Manager_Change_Flag>
+  <WID>0ff7a0d7660744d5a4c484e13df1a22f</WID>
+  <Jobcode_Change_Flag>0</Jobcode_Change_Flag>
+  <TALEO_CANDIDATE_ID>21881</TALEO_CANDIDATE_ID>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>114 Juliad Court</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_CITY>Fredericksburg</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>Virginia</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>VA</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>United States of America</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>USA</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>22406</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>8</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>S - Sales</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>157590</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>S - Sales</L2_JOB_FAMILY_GROUP>
+  <MANAGERS_MGR_ID>64630</MANAGERS_MGR_ID>
+  <PERSONAL_EMAIL>billthedogguy@yahoo1.com</PERSONAL_EMAIL>
+  <MANAGER_NAME>Carole Allen</MANAGER_NAME>
+  <MANAGER_EMAIL>Carole_Allen@intuit.com</MANAGER_EMAIL>
+  <MANAGER_BUSINESS_TITLE>Sales Manager</MANAGER_BUSINESS_TITLE>
+  <DID_EE_MOVE_IC_2_MGR>0</DID_EE_MOVE_IC_2_MGR>
+  <ETHNICITY_REF_ID>White.USA</ETHNICITY_REF_ID>
+  <CITIZENSHIP_STATUS_REF_ID>Citizen_National_of_US_United_States</CITIZENSHIP_STATUS_REF_ID>
+  <MARITAL_STATUS_REF_ID>Married.USA</MARITAL_STATUS_REF_ID>
+  <HOME_STATE_NAME>Virginia</HOME_STATE_NAME>
+  <HOME_COUNTRY_NAME>United States of America</HOME_COUNTRY_NAME>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <LEAVE_TYPE_REF_ID>Regulatory > Family Medical Leave Act</LEAVE_TYPE_REF_ID>
+  <LAST_DAY_BEFORE_LOA>2014-03-14</LAST_DAY_BEFORE_LOA>
+  <FIRST_DAY_OF_LEAVE>2014-03-31</FIRST_DAY_OF_LEAVE>
+  <EST_LOA_END_DT>2014-05-11</EST_LOA_END_DT>
+  <LAST_DAY_OF_LOA>2014-04-27</LAST_DAY_OF_LOA>
+  <FIRST_DAY_BACK_LOA>2014-04-28</FIRST_DAY_BACK_LOA>
+  <LOA_EFFECTIVE_DATE>2014-03-31</LOA_EFFECTIVE_DATE>
+  <LOA_DATE_TIME_COMPLETED>2014-04-03T14:58:28.607</LOA_DATE_TIME_COMPLETED>
+  <BP_INITIATOR>Christine Weltz [C]</BP_INITIATOR>
+  <BP_INITIATOR_EMP_ID>84036</BP_INITIATOR_EMP_ID>
+  <IS_EXTERNAL_LOAD>0</IS_EXTERNAL_LOAD>
+  <HR_BUS_PARTNER>Terri Fox</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS_DATE>2009-11-02</EIACA_STATUS_DATE>
+  <EIACA_STATUS>Y</EIACA_STATUS>
+  <WORKER_COMMUNITY_REF_ID>CP-Sales+ConvertedTeam</WORKER_COMMUNITY_REF_ID>
+  <LOCATION_EFFT_DATE>2009-11-02</LOCATION_EFFT_DATE>
+  <REVIEW_START_DATE>2016-08-01</REVIEW_START_DATE>
+  <REVIEW_END_DATE>2017-07-31</REVIEW_END_DATE>
+  <REVIEW_RATING_EFFT_DT>2017-07-11</REVIEW_RATING_EFFT_DT>
+  <REVIEW_RATING>Outstanding</REVIEW_RATING>
+  <RETENSION_LST_UPDATED>2017-07-11</RETENSION_LST_UPDATED>
+  <POTENTIAL_RATING>Game Changer</POTENTIAL_RATING>
+  <RETENTION_RATING>3-Moderate Retention</RETENTION_RATING>
+  <COMP_EFFT_DATE>08012017</COMP_EFFT_DATE>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>0</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <COMP_PLAN>Hourly Plan</COMP_PLAN>
+  <COMP_GRADE>General Grade</COMP_GRADE>
+  <COMP_GRADE_PROFILE>General - USD</COMP_GRADE_PROFILE>
+  <ASSIGNED_BONUS_PLAN_DETAILS>SLS - Sales Incentive Plan (Amount)</ASSIGNED_BONUS_PLAN_DETAILS>
+  <BONUS_TARGET_AMT>25748.92</BONUS_TARGET_AMT>
+  <BONUS_TGT_AMT_WDP_EVENT_VALUE>0</BONUS_TGT_AMT_WDP_EVENT_VALUE>
+  <BONUS_PLANNED_PCT>0</BONUS_PLANNED_PCT>
+  <PAY_GROUP_ID>2 - Non-Exempt</PAY_GROUP_ID>
+  <CONTINUOUS_SERVICE_DATE>2009-11-02</CONTINUOUS_SERVICE_DATE>
+  <LEVEL2_MGR_NAME>Lucas Watson</LEVEL2_MGR_NAME>
+  <COMMUNITY>Sales</COMMUNITY>
+  <WORKER_COMMUNITY>Sales</WORKER_COMMUNITY>
+  <BU_NAME>Sales</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Rob Lips</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>60091.2</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>Mktg &amp; Sales (Lucas Watson)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>GTM - US (Rob Lips)</LEVEL3_ORG_NAME>
+  <SUPERVISORY_ORGANIZATION>Organization (Carole Allen)</SUPERVISORY_ORGANIZATION>
+  <LOCATION>Fredericksburg, VA</LOCATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2016-07-29</TIME_IN_JOB_PROFILE_START_DATE>
+  <HRBP_CORP_ID>50002007642</HRBP_CORP_ID>
+  <EMP_COUNT_WORKER_ORG>0</EMP_COUNT_WORKER_ORG>
+  <DETAILED_WORKER_STATUS>Active</DETAILED_WORKER_STATUS>
+  <LEVEL04_MGR_NAME>Robert Hannan Jr.</LEVEL04_MGR_NAME>
+  <LEVEL05_MGR_NAME>Chris Simmons</LEVEL05_MGR_NAME>
+  <LEVEL06_MGR_NAME>Craig Baker</LEVEL06_MGR_NAME>
+  <LEVEL07_MGR_NAME>Carole Allen</LEVEL07_MGR_NAME>
+  <TIME_IN_JOB_PROFILE>1.2</TIME_IN_JOB_PROFILE>
+  <LOCATION_HIERARCHY_LEVEL_05_AWAY>AMER</LOCATION_HIERARCHY_LEVEL_05_AWAY>
+  <Trans_Type>Bulk_Current</Trans_Type>
+  <System_List>Jive;OIM;JLL;Taleo;Oboarding;WDP;ILN;LMS;SFWorkforce;IMTQB;SFB2B;SFB2C;SFWFChangeWorker</System_List>
+</element>

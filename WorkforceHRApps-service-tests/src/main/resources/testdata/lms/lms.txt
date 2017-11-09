@@ -1,0 +1,9 @@
+{
+                   "grant_type":"client_credentials",
+                   "scope":{
+                      "userId":"50002044759",
+                      "companyId":"intuit1",
+                      "userType":"admin",
+                      "resourceType":"learning_public_api"
+}
+}

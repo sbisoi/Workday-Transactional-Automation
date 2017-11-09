@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<element>
+  <CandidateID>1893993</CandidateID>
+  <ReqNumber>00128435</ReqNumber>
+  <Legal_First_Name>Sabrina</Legal_First_Name>
+  <Legal_Middle_Name>S.</Legal_Middle_Name>
+  <Legal_Last_Name>Condon</Legal_Last_Name>
+  <Preferred_Name_First>Sabrina</Preferred_Name_First>
+  <Preferred_Name_Middle>S.</Preferred_Name_Middle>
+  <Preferred_Name_Last>Condon</Preferred_Name_Last>
+  <Birthdate>19770703</Birthdate>
+  <Hire_Dt>20171218</Hire_Dt>
+  <Company_Id>CO-101</Company_Id>
+  <Org_Id>GR-140</Org_Id>
+  <Dept_Id>CC-1301</Dept_Id>
+  <Supervisor_Id>85846</Supervisor_Id>
+  <Emp_Type>S</Emp_Type>
+  <SourceCode>OT-OT</SourceCode>
+  <Referral_Source>OT</Referral_Source>
+  <Jobcode>VSSU13</Jobcode>
+  <Jobcode_Desc>Services and Support Representative</Jobcode_Desc>
+  <Grade>PRO</Grade>
+  <Business_Title>Seasonal Credentialed Tax Expert - Remote</Business_Title>
+  <Std_Hours>40</Std_Hours>
+  <Annual_Rt>52000</Annual_Rt>
+  <Hourly_Rt>25</Hourly_Rt>
+  <Bonus_Plan_Code>BONUS_PLAN_TECH_AMOUNT</Bonus_Plan_Code>
+  <Currency_Code>USD</Currency_Code>
+  <Home_Phone>617.461.4484</Home_Phone>
+  <Home_Address1>29 Indian Wells Road</Home_Address1>
+  <Home_City>Brewster</Home_City>
+  <Home_State>USA-NY</Home_State>
+  <Home_Postal>10509</Home_Postal>
+  <Home_Country>USA</Home_Country>
+  <Legal_Work_Location>USANYRM</Legal_Work_Location>
+  <Effective_Date>20171218</Effective_Date>
+  <Event_Type>New Hire</Event_Type>
+  <JobseekerType>0</JobseekerType>
+  <NID>026702093</NID>
+  <NIDType>USA-SSN</NIDType>
+  <CurrencyCompensationGrade>Compensation_Grade_Profile_USD</CurrencyCompensationGrade>
+  <AnnualHourly>Hourly</AnnualHourly>
+  <EmailAddress>sabrina.s.condon@gmail.com</EmailAddress>
+  <Disability_Date>20170901</Disability_Date>
+  <Recruiter>126042</Recruiter>
+  <TACoordinator_Name>Dahlia Knott</TACoordinator_Name>
+  <EEOCode>2</EEOCode>
+  <HireType>New Hire</HireType>
+  <Supervisory_Org_Ref_Id>1674728409c246b88e46997e54f47328</Supervisory_Org_Ref_Id>
+  <Taleo_CSWLatestDate>2017-10-16T23:52:04-04:00</Taleo_CSWLatestDate>
+  <TargetIncentiveAmount_numeric>3000</TargetIncentiveAmount_numeric>
+</element>

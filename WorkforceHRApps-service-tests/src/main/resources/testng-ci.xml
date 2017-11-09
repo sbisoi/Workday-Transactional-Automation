@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WorkforceHRApps-ci-tests">
+    <test name="WorkforceHRApps service tests" preserve-order="true">
+        <!-- <packages>
+            <package name="com.intuit.ebs.wft.WorkforceHRApps.tests.service.*"/>
+        </packages> -->
+        <classes>
+            <class name="com.intuit.ebs.wft.WorkforceHRApps.tests.service.BoomiTest" >
+                <methods>
+                    <include name="testUpdateCorpInfoE2E"/>
+                </methods>
+              
+           </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<bm:GetWorkerAndQueryWorkers xmlns:bm="http://www.boomi.com" bm:xmlnsxsi="http://www.w3.org/2001/XMLSchema-instance">
+       <bm:Search_Type>GetWorker</bm:Search_Type>
+       <bm:GetWorkerBy>
+              <bm:Filter>NID_EffectiveDt</bm:Filter>
+              <bm:ID>568135529</bm:ID>
+              <bm:Effective_Dt>2017-10-01T12:00:00</bm:Effective_Dt>
+       </bm:GetWorkerBy>
+       <bm:PartnerName>INTERNALAPP</bm:PartnerName>
+       <bm:Version>1.1</bm:Version>
+ </bm:GetWorkerAndQueryWorkers>

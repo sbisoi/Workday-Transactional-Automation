@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WorkforceHRApps-e2e-tests">
+    <test name="WorkforceHRApps service tests" preserve-order="true">
+    	<classes>
+           <!--  <class name="com.intuit.ebs.wft.WorkforceHRApps.tests.service.BoomiTest" >
+                <methods>
+                    <include name="testUpdateCorpInfoE2E"/>
+                </methods>
+             </class> -->
+             <class name="com.intuit.ebs.wft.WorkforceHRApps.tests.service.WDIntegrationCompareTest" >
+                <methods>
+                    <include name="testGloboforceOutboundIntegrationCompare"/>
+                </methods>
+             </class>
+        </classes>
+    </test>
+</suite>

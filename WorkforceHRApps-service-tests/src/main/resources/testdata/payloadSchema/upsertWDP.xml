@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?><element>
+  <CandidateID>A4100357</CandidateID>
+  <Applicant_ID>A4100357</Applicant_ID>
+  <Employee_ID>192766</Employee_ID>
+  <Corp_ID>70000034781</Corp_ID>
+  <Legal_Name>Skywalker, Luke</Legal_Name>
+  <Legal_First_Name>Luke</Legal_First_Name>
+  <Legal_Last_Name>Skywalker</Legal_Last_Name>
+  <Preferred_Name>Skywalker, Luke</Preferred_Name>
+  <Preferred_Name_First>Luke</Preferred_Name_First>
+  <Preferred_Name_Last>Skywalker</Preferred_Name_Last>
+  <Hire_Dt>20170612</Hire_Dt>
+  <Rehire_Dt>20170612</Rehire_Dt>
+  <Company_Id>100</Company_Id>
+  <Company_Desc>Intuit Corp</Company_Desc>
+  <Org_Id>000</Org_Id>
+  <Org_Name>No Group, Unspecified</Org_Name>
+  <Dept_Id>1000</Dept_Id>
+  <Dept_Name>BU/DC Prod Cogs</Dept_Name>
+  <Supervisor_Id>85095</Supervisor_Id>
+  <WORKER_TYPE>Employee</WORKER_TYPE>
+  <Emp_Type>E</Emp_Type>
+  <Emp_Class_Desc>Employee</Emp_Class_Desc>
+  <Emp_Status_Code>T</Emp_Status_Code>
+  <Emp_Status_Desc>Terminated</Emp_Status_Desc>
+  <Bufg>UNK</Bufg>
+  <Jobcode>APDM21</Jobcode>
+  <Jobcode_Desc>Product Mgr 1</Jobcode_Desc>
+  <Job_Family>PDM - Product Mgmt</Job_Family>
+  <Job_Function>T - Product Management</Job_Function>
+  <Grade>SRP</Grade>
+  <Business_Title>Product Mgr 1</Business_Title>
+  <Std_Hours>40</Std_Hours>
+  <Full_Part_Time>F</Full_Part_Time>
+  <Annual_Rt>75000</Annual_Rt>
+  <Hourly_Rt>0</Hourly_Rt>
+  <ANNUAL_RT_WDP_EVENT_VALUE>70000</ANNUAL_RT_WDP_EVENT_VALUE>
+  <HOURLY_RT_WDP_EVENT_VALUE>0</HOURLY_RT_WDP_EVENT_VALUE>
+  <Bonus_Plan_Code>IPI</Bonus_Plan_Code>
+  <Bonus_Target_Pct>0.1</Bonus_Target_Pct>
+  <Currency_Code>USD</Currency_Code>
+  <Legal_Work_Location>USACA01</Legal_Work_Location>
+  <WD_Location_Country_Code>USA</WD_Location_Country_Code>
+  <Is_Manager>0</Is_Manager>
+  <Is_Manager_Of_Cwf>0</Is_Manager_Of_Cwf>
+  <Is_Manager_Of_Emp_Or_Cwf>0</Is_Manager_Of_Emp_Or_Cwf>
+  <NID_Count>0</NID_Count>
+  <TACoordinator_Employee_ID>192766</TACoordinator_Employee_ID>
+  <BP_Event>Hire</BP_Event>
+  <BP_Comments>Albert Lee: rollback</BP_Comments>
+  <BP_Rescind_Date>2017-06-12</BP_Rescind_Date>
+  <BP_Status>Rescinded</BP_Status>
+  <BP_REASON>Hire Employee > Hire Employee > New Hire</BP_REASON>
+  <BP_Reason_Text>New Hire</BP_Reason_Text>
+  <BP_Effective_Dt>2017-06-12</BP_Effective_Dt>
+  <BP_Process_WID>c68a0c6e44d801611863ceece1141600</BP_Process_WID>
+  <TRANSACTION_TYPE>Rescind</TRANSACTION_TYPE>
+  <Supervisor_Corp_Id>10000175078</Supervisor_Corp_Id>
+  <Work_Email>Luke_Skywalker@intuit.com</Work_Email>
+  <IS_ADMIN_ASST>0</IS_ADMIN_ASST>
+  <TOP_SUPERVISORY_ORG>brad smith ()</TOP_SUPERVISORY_ORG>
+  <Directory_Login_Id>lskywalker1</Directory_Login_Id>
+  <Is_Taleo_Admin>0</Is_Taleo_Admin>
+  <Is_Primetime_Admin>0</Is_Primetime_Admin>
+  <Supervisory_Org_Ref_Id>S3726</Supervisory_Org_Ref_Id>
+  <SUPERVISORY_ORGANIZATION_WID>c1d0b1adbcd5104f7f36adadb2655833</SUPERVISORY_ORGANIZATION_WID>
+  <Is_Recruiter>0</Is_Recruiter>
+  <Is_HRBP>0</Is_HRBP>
+  <Is_Payroll_Country_USA>1</Is_Payroll_Country_USA>
+  <WID>c68a0c6e44d801deda2a3110e2142a00</WID>
+  <Jobcode_Change_Flag>1</Jobcode_Change_Flag>
+  <IS_SOURCER>0</IS_SOURCER>
+  <IS_TAM>0</IS_TAM>
+  <IS_FINANCE_BP>0</IS_FINANCE_BP>
+  <IS_HR_ADVISOR>0</IS_HR_ADVISOR>
+  <IS_HRBI>0</IS_HRBI>
+  <IS_TAC>0</IS_TAC>
+  <PRIM_WORK_ADDRESS>2535 Garcia Avenue</PRIM_WORK_ADDRESS>
+  <PRIM_WORK_ADDRESS3>Mountain View, CA 94043</PRIM_WORK_ADDRESS3>
+  <PRIM_WORK_CITY>Mountain View</PRIM_WORK_CITY>
+  <PRIM_WORK_STATE>California</PRIM_WORK_STATE>
+  <PRIM_WORK_STATE_ISO_CODE>CA</PRIM_WORK_STATE_ISO_CODE>
+  <PRIM_WORK_COUNTRY>United States of America</PRIM_WORK_COUNTRY>
+  <PRIM_WORK_COUNTRY_ISO_CODE>USA</PRIM_WORK_COUNTRY_ISO_CODE>
+  <PRIM_WORK_POSTAL_CODE>94043</PRIM_WORK_POSTAL_CODE>
+  <EE_ORG_LEVEL>4</EE_ORG_LEVEL>
+  <EE_JOB_FAMILY_GROUP>T - Product Management</EE_JOB_FAMILY_GROUP>
+  <L2_EMPLOYEE_ID>71691</L2_EMPLOYEE_ID>
+  <L2_JOB_FAMILY_GROUP>G - General Management</L2_JOB_FAMILY_GROUP>
+  <TOP_SUP_ORG_MANAGED>192766</TOP_SUP_ORG_MANAGED>
+  <PERSONAL_EMAIL>aplee13@gmail.com</PERSONAL_EMAIL>
+  <MANAGER_NAME>Kevin Kirn</MANAGER_NAME>
+  <BP_REASON_CATG>Hire Employee</BP_REASON_CATG>
+  <RESCINDED_DATE>2017-06-12</RESCINDED_DATE>
+  <RESCINDED_BY>189607</RESCINDED_BY>
+  <NOT_ELIGIBLE_FOR_REHIRE>0</NOT_ELIGIBLE_FOR_REHIRE>
+  <BP_INITIATOR>Albert Lee</BP_INITIATOR>
+  <BP_INITIATOR_EMP_ID>189607</BP_INITIATOR_EMP_ID>
+  <IS_EXTERNAL_LOAD>0</IS_EXTERNAL_LOAD>
+  <HR_BUS_PARTNER>Ben Serio | Yael Shalev Barkai</HR_BUS_PARTNER>
+  <SCH_WEEKLY_HOURS>40</SCH_WEEKLY_HOURS>
+  <POS_TIME_TYPE_FLASTATUS>Full time</POS_TIME_TYPE_FLASTATUS>
+  <EIACA_STATUS>No Entry</EIACA_STATUS>
+  <WORKER_COMMUNITY_REF_ID>CP-PM+ConvertedTeam</WORKER_COMMUNITY_REF_ID>
+  <LOCATION_EFFT_DATE>2017-06-12</LOCATION_EFFT_DATE>
+  <COMP_EFFT_DATE>06122017</COMP_EFFT_DATE>
+  <COMP_PLAN_START_DT>2017-06-12</COMP_PLAN_START_DT>
+  <TTL_BASE_PERIOD_WDP_EVNT_VAL>70000</TTL_BASE_PERIOD_WDP_EVNT_VAL>
+  <COMP_PLAN>General Salary Plan</COMP_PLAN>
+  <COMP_GRADE>General Grade</COMP_GRADE>
+  <COMP_GRADE_PROFILE>General - USD</COMP_GRADE_PROFILE>
+  <ASSIGNED_BONUS_PLAN_DETAILS>IPI - Intuit Performance Incentive Plan (%)</ASSIGNED_BONUS_PLAN_DETAILS>
+  <BONUS_TARGET_AMT>7500</BONUS_TARGET_AMT>
+  <BONUS_PLANNED_PCT>0.1</BONUS_PLANNED_PCT>
+  <PAY_GROUP_ID>1 - Exempt</PAY_GROUP_ID>
+  <CONTINUOUS_SERVICE_DATE>2017-06-12</CONTINUOUS_SERVICE_DATE>
+  <LEVEL2_MGR_NAME>Albert Ko</LEVEL2_MGR_NAME>
+  <COMMUNITY>PM</COMMUNITY>
+  <WORKER_COMMUNITY>PM</WORKER_COMMUNITY>
+  <BU_NAME>Unknown Business Unit</BU_NAME>
+  <GENDER_SHORT>M</GENDER_SHORT>
+  <CONTRACT_PAY_RATE>0</CONTRACT_PAY_RATE>
+  <LEVEL3_MGR_NAME>Kevin Kirn</LEVEL3_MGR_NAME>
+  <TOTAL_BASE_PAY_AMOUNT>75000</TOTAL_BASE_PAY_AMOUNT>
+  <LEVEL2_ORG_NAME>CEG (Albert Ko)</LEVEL2_ORG_NAME>
+  <LEVEL3_ORG_NAME>CEG - PM (Kevin Kirn)</LEVEL3_ORG_NAME>
+  <MANAGER_ID_PROPOSED>85095</MANAGER_ID_PROPOSED>
+  <MANAGER_CORPID_PROPOSED>10000175078</MANAGER_CORPID_PROPOSED>
+  <SUPERVISORY_ORGANIZATION>CEG - PM (Kevin Kirn)</SUPERVISORY_ORGANIZATION>
+  <TIME_IN_JOB_PROFILE_START_DATE>2017-06-12</TIME_IN_JOB_PROFILE_START_DATE>
+  <Trans_Type>Rescind</Trans_Type>
+  <System_List>Jive;OIM;Taleo;JLL;ILN;LMS;Oboarding;WDP;SFWorkforce;SmashflyEmp;IMTQB;SFB2B;SFB2C;SFWFChangeWorker</System_List>
+</element>

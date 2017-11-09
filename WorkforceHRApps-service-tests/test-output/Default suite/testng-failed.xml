@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <parameter name="copyToConsole" value="true"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.intuit.ebs.wft.WorkforceHRApps.tests.service.BoomiTest">
+        <methods>
+          <include name="CreateEMP"/>
+          <include name="setUpTestConfig"/>
+          <include name="SFWFChangeWorker"/>
+          <include name="WDPBaseWorker"/>
+          <include name="HireCreateEmpVerification"/>
+          <include name="setupTestData"/>
+          <include name="SFWFupdate"/>
+          <include name="deleteCWFs"/>
+          <include name="updateCWFs"/>
+        </methods>
+      </class> <!-- com.intuit.ebs.wft.WorkforceHRApps.tests.service.BoomiTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,109 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:find="http://www.taleo.com/ws/tee800/2009/01/find" xmlns:quer="http://itk.taleo.com/ws/query">
+    <soapenv:Header></soapenv:Header>
+      <soapenv:Body>
+        <find:findPartialEntities>
+            <find:mappingVersion>http://www.taleo.com/ws/tee800/2009/01</find:mappingVersion>
+            <find:query>
+                <quer:query alias="EmailCheck" projectedClass="Candidate">
+                    <quer:projections>
+                        
+                        <!-- Email Address -->
+                        <quer:projection>
+                            <quer:field path="EmailAddress"></quer:field>
+                          </quer:projection>
+                  
+                          <!--Employee Details -->
+                          <quer:projection>
+                             <quer:field path="FirstName"></quer:field>
+                          </quer:projection>
+                          <quer:projection>
+                             <quer:field path="LastName"></quer:field>
+                          </quer:projection>
+                          <quer:projection>
+                            <quer:field path="SocialSecurityNumber"/>
+                          </quer:projection>
+                           <quer:projection>
+                            <quer:field path="Address"/>
+                            </quer:projection>
+                             <quer:projection>
+                            <quer:field path="Address2"/>
+                             </quer:projection>
+                            <quer:projection>
+                            <quer:field path="City"/>
+                            </quer:projection>
+                             <quer:projection>
+                            <quer:field path="ResidenceLocation,StateLocation,Abbreviation"/>
+                             </quer:projection>
+                            <quer:projection>
+                            <quer:field path="ResidenceLocation,CountryLocation,ISO3166Alpha3"/>
+                            </quer:projection>
+                            <quer:projection>
+                            <quer:field path="ZipCode"/>
+                             </quer:projection>
+                           <quer:projection>
+                            <quer:field path="HomePhone"/>
+                             </quer:projection>
+
+                        <!-- Work IDs -->
+                          <quer:projection>
+                             <quer:field path="Number"></quer:field>
+                          </quer:projection>
+                          <quer:projection>
+                             <quer:field path="EmployeeNumber"></quer:field>
+                          </quer:projection>
+                          <quer:projection>
+                             <quer:field path="InternalApplication"></quer:field>
+                          </quer:projection>
+                          <quer:projection>
+                             <quer:field path="Credentials,SSOID"></quer:field>
+                          </quer:projection>
+                          <quer:projection>
+                             <quer:field path="Credentials,Username"></quer:field>
+                          </quer:projection>
+                  
+                        <!-- Hire and Organization details -->
+                           <quer:projection alias="HireType">
+                               <quer:field path="Applications,Offers,JobseekerType,Description"/>
+                          </quer:projection>
+                          <quer:projection>
+                              <quer:field path="Applications,Requisition,ContestNumber"/>
+                         </quer:projection>
+                         <quer:projection>
+                            <quer:field path="Applications,Requisition,JobInformation,Company,Code"/>
+                            </quer:projection>
+                          <quer:projection>
+                               <quer:field path="Applications,Requisition,JobInformation,Dept2,Code"/>
+                          </quer:projection>
+                          <quer:projection>
+                            <quer:field path="Applications,Requisition,JobInformation,JobType,Number"/>
+                          </quer:projection>
+                          <quer:projection>
+                            <quer:field path="Applications,Requisition,JobInformation,Group,Code"/>
+                          </quer:projection>
+                        <quer:projection>
+                            <quer:field path="Applications,Requisition,JobInformation,Group,Description"/>
+                          </quer:projection>
+                          <quer:projection>
+                               <quer:field path="Applications,Requisition,HiringManager,EmployeeID"/>
+                          </quer:projection>
+                          <quer:projection>
+                               <quer:field path="Applications,Requisition,BaseJobTemplate,JobCode"/>
+                          </quer:projection>
+                          
+                    </quer:projections>
+               
+                       <quer:projectionFilterings></quer:projectionFilterings>
+               
+                       <quer:filterings>
+                        <quer:filtering>
+                            <quer:likeIgnoreCase>
+                                <quer:field path="Number"></quer:field>
+                                <quer:string>438718</quer:string>
+                             </quer:likeIgnoreCase>
+                          </quer:filtering>
+                       </quer:filterings>
+                   </quer:query>
+            </find:query>
+            <find:attributes></find:attributes>
+        </find:findPartialEntities>
+    </soapenv:Body>

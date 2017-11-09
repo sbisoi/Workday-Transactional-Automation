@@ -1,0 +1,97 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.intuit.ebs.wft.WorkforceHRApps.tests</groupId>
+        <artifactId>WorkforceHRApps-test-parent-pom</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../WorkforceHRApps-test-parent-pom</relativePath>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>WorkforceHRApps-test-library</artifactId>
+    <name>WorkforceHRApps-test-library</name>
+    
+    <dependencies>
+	  <dependency>
+    	<groupId>xmlunit</groupId>
+    	<artifactId>xmlunit</artifactId>
+    	<version>1.4</version>
+	  </dependency>
+	  
+	  <dependency>
+	    <groupId>com.jcabi</groupId>
+	    <artifactId>jcabi-xml</artifactId>
+	    <version>0.17.2</version>
+	  </dependency>
+	
+	  <dependency>
+	    <groupId>net.sourceforge.javacsv</groupId>
+	    <artifactId>javacsv</artifactId>
+	    <version>2.0</version>
+	  </dependency>
+	  <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>3.7</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.tika</groupId>
+        <artifactId>tika-app</artifactId>
+        <version>0.6</version>
+    </dependency>
+
+
+
+     <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.5-beta4</version>
+  </dependency>
+
+
+    <dependency>
+        <groupId>org.apache.xmlbeans</groupId>
+        <artifactId>xmlbeans</artifactId>
+        <version>2.3.0</version>
+    </dependency>
+
+
+
+    <dependency>
+        <groupId>xmlbeans</groupId>
+        <artifactId>xbean</artifactId>
+        <version>2.1.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>xmlbeans</groupId>
+        <artifactId>xbean_xpath</artifactId>
+        <version>2.1.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.xmlbeans</groupId>
+        <artifactId>xmlbeans-qname</artifactId>
+        <version>2.3.0</version>
+    </dependency> 
+       <dependency>
+             <groupId>com.googlecode.json-simple</groupId>
+             <artifactId>json-simple</artifactId>
+             <version>1.1</version>
+            </dependency> 
+            
+                <dependency>
+                <groupId>oracle</groupId>
+                <artifactId>ojdbc14</artifactId>
+                <version>10.2.0.1.0</version>
+           </dependency>
+           <dependency>
+                  <groupId>com.oracle</groupId>
+                 <artifactId>ojdbc14</artifactId>
+                <version>10.2.0.4.0</version>
+           </dependency>       
+	   
+	</dependencies>
+
+</project>
