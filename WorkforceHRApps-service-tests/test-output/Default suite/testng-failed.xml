@@ -8,13 +8,8 @@
         <methods>
           <include name="CreateEMP"/>
           <include name="setUpTestConfig"/>
-          <include name="SFWFChangeWorker"/>
           <include name="WDPBaseWorker"/>
-          <include name="HireCreateEmpVerification"/>
           <include name="setupTestData"/>
-          <include name="SFWFupdate"/>
-          <include name="deleteCWFs"/>
-          <include name="updateCWFs"/>
         </methods>
       </class> <!-- com.intuit.ebs.wft.WorkforceHRApps.tests.service.BoomiTest -->
     </classes>
