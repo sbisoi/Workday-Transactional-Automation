@@ -1,0 +1,48 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bsvc="urn:com.workday/bsvc">
+   <soapenv:Header>
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" soapenv:mustUnderstand="1">
+     <wsse:UsernameToken wsu:Id="UsernameToken-8E4CE59C40223F9A41140909783822714">
+              <wsse:Username>intuitintegrationadmin@intuit_preview</wsse:Username>
+             <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">!DKtyTdn7cbCTNP</wsse:Password>
+              <wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">SE9hU4Yhe9LEDl0niri1yQ==</wsse:Nonce>
+             <wsu:Created>2014-08-27T00:03:58.227Z</wsu:Created>
+      </wsse:UsernameToken>                                     
+     </wsse:Security>
+      <bsvc:Workday_Common_Header>
+         <!--Optional:-->
+         <bsvc:Include_Reference_Descriptors_In_Response>true</bsvc:Include_Reference_Descriptors_In_Response>
+      </bsvc:Workday_Common_Header>
+
+   </soapenv:Header>
+   <soapenv:Body>
+      <bsvc:Launch_EIB_Request bsvc:version="v27.2">
+         <bsvc:Integration_System_Reference bsvc:Descriptor="?">
+            <!--Zero or more repetitions:-->
+            <bsvc:ID bsvc:type="Integration_System_ID">IntuitCCMSIOutbound EIB</bsvc:ID>
+         </bsvc:Integration_System_Reference>
+         <!--Zero or more repetitions:-->
+         
+         <bsvc:Service_Component_Data>
+            <!--You have a CHOICE of the next 4 items at this level-->
+            <bsvc:Data_Source>true</bsvc:Data_Source>
+               <bsvc:Field_Override_Data>
+               <bsvc:Field_Name>Term Date greater than</bsvc:Field_Name>          
+               <bsvc:Specify_Value_Data>
+                 <bsvc:Date>2017-04-01</bsvc:Date>
+               </bsvc:Specify_Value_Data>
+            </bsvc:Field_Override_Data>            
+         </bsvc:Service_Component_Data>
+
+         <bsvc:Service_Component_Data>
+          <bsvc:File_Utility>true</bsvc:File_Utility>
+           <bsvc:Field_Override_Data>
+              <bsvc:Field_Name>File Name</bsvc:Field_Name>
+               <bsvc:Specify_Value_Data>
+                 <bsvc:Text>IntuitCCMSIOutbound EIB_SK</bsvc:Text>
+               </bsvc:Specify_Value_Data>
+           </bsvc:Field_Override_Data>
+        </bsvc:Service_Component_Data>
+         
+      </bsvc:Launch_EIB_Request>
+   </soapenv:Body>
+</soapenv:Envelope>

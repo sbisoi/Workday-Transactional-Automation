@@ -1,0 +1,23 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.intuit.sbg</groupId>
+        <artifactId>SBG-Parent-pom</artifactId>
+        <version>1.0.2</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.intuit.ebs.wft.WorkforceHRApps.tests</groupId>
+    <artifactId>WorkforceHRApps-tests</artifactId>
+    <version>1.0.0</version>
+    <name>WorkforceHRApps-tests</name>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>WorkforceHRApps-test-parent-pom</module>
+        <module>WorkforceHRApps-test-library</module>
+        <module>WorkforceHRApps-service-tests</module>
+        <module>WorkforceHRApps-perf-tests</module>
+        <module>WorkforceHRApps-production-tests</module>
+    </modules>
+</project>
