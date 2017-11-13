@@ -320,7 +320,7 @@ public void b2btokenAndData(String paramName,String query) throws Exception{
         logger.info("===========B2C Get Data call completed===============");
     }
     
-    @Test (priority=0,groups= {"smoke"}, enabled=false)
+    @Test (priority=0,groups= {"smoke"}, enabled=true)
      public void CreateEMP() throws Exception{
     	logger.info("==================Info Create EMP========================");
     	logger.info("=====Call Restassured config method=========");
@@ -335,11 +335,16 @@ public void b2btokenAndData(String paramName,String query) throws Exception{
     	logger.info("Response= "+resPost.asString());
     	logger.info("==================completed Create Emp========================"); 
     	
-    	 Thread.sleep(5000);
+    	 Thread.sleep(15000);
+    }
+    
+    @Test (priority=1,groups = {"smoke"}, enabled =true)
+    
+    public void createempValidation(){
+    	
     }
 
-
-  @Test (priority=1,groups = {"smoke"}, enabled =true)
+  @Test (priority=1,groups = {"smoke"}, enabled =false)
     
     public  void upsertOIMTest() throws Exception{
     logger.info("==================Info OIM Upsert========================");
@@ -395,7 +400,7 @@ public void b2btokenAndData(String paramName,String query) throws Exception{
     }
     
     
-@Test (priority=2,groups = {"smoke"}, enabled =true)
+@Test (priority=2,groups = {"smoke"}, enabled =false)
     
     public  void OboardingTest() throws Exception{
     logger.info("==================Info OboardingTest========================");
@@ -467,7 +472,7 @@ public void b2btokenAndData(String paramName,String query) throws Exception{
     }
     
 
-@Test(priority=3,groups = { "Smoke" },enabled=true)
+@Test(priority=3,groups = { "Smoke" },enabled=false)
 	public void UpdateCorpInfoE2E() throws Exception {
 		logger.info("=====Call Restassured config method=========");
 		PostSetRestAssuredConfig(Constant.AUTH_TOKEN_VPCE2E, Constant.VPCE2E_URL);
@@ -518,7 +523,7 @@ public void b2btokenAndData(String paramName,String query) throws Exception{
 }
  
     
-    @Test(priority=4,groups = { "Smoke" },enabled=true)
+    @Test(priority=4,groups = { "Smoke" },enabled=false)
     
 	public void UpdateContactinfo() throws Exception {
     	logger.info("=====Call Restassured config method=========");
@@ -555,7 +560,7 @@ public void b2btokenAndData(String paramName,String query) throws Exception{
 		
 	}
     
-    @Test(priority=5 , groups = { "Smoke" },enabled=true)
+    @Test(priority=5 , groups = { "Smoke" },enabled=false)
    	public void  updateApplicant() throws Exception {
     	logger.info("=====Call Restassured config method=========");
 		PostSetRestAssuredConfig(Constant.AUTH_TOKEN_VPCE2E, Constant.VPCE2E_URL);
@@ -799,7 +804,7 @@ logger.info("===================== WDP Passed========================");
 
 }
 
-@Test (priority=13,groups = {"smoke"}, enabled =true)
+@Test (priority=13,groups = {"smoke"}, enabled =false)
 
 public  void SFWFChangeWorker() throws IOException{
 logger.info("==================Info WDP Base Worker========================");
@@ -816,7 +821,7 @@ logger.info("==================completed WDP Base Worker========================
 
 }
 
-@Test (priority=14,groups = {"smoke"}, enabled =true)
+@Test (priority=14,groups = {"smoke"}, enabled =false)
 
 public  void SFWFupdate() throws Exception{
 
@@ -838,7 +843,7 @@ logger.info("==================completed SFWFupdate Base Worker Post Call=======
 
 }
 
-@Test (priority=15,groups = {"smoke"}, enabled =true)
+@Test (priority=15,groups = {"smoke"}, enabled =false)
 
 public  void HireCreateEmpVerification() throws Exception{
 
